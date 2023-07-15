@@ -271,6 +271,71 @@ public class Level_0 {
 		
 		
 		
+		/*
+		 * 12. 정수 배열 arr와 2차원 정수 배열 queries이 주어집니다. queries의 원소는 각각 하나의 query를 나타내며, [s,
+		 * e, k] 꼴입니다.
+		 * 
+		 * 각 query마다 순서대로 s ≤ i ≤ e인 모든 i에 대해 i가 k의 배수이면 arr[i]에 1을 더합니다.
+		 * 
+		 * 위 규칙에 따라 queries를 처리한 이후의 arr를 return 하는 solution 함수를 완성해 주세요.
+		 */
+		
+//		int[] arr = {0, 1, 2, 4, 3}; 
+//		int[][] queries = {
+//				{0,4,1}, {0,3,2}, {0,3,3}
+//				};
+//		
+//		int[] res = lm.solution(arr,queries);
+//		
+//		for (int is : res) {
+//			System.out.println(is);
+//		}
+
+		
+		
+		
+		
+		
+		//---------------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+		/*
+		 * 13. 정수 l과 r이 주어졌을 때, l 이상 r이하의 정수 중에서 숫자 "0"과 "5"로만 이루어진 모든 정수를 오름차순으로 저장한
+		 * 배열을 return 하는 solution 함수를 완성해 주세요.
+		 * 
+		 * 만약 그러한 정수가 없다면, -1이 담긴 배열을 return 합니다.
+		 */
+		
+//		int[] arr = lm.solution(5,555);
+//		
+//		for (int i : arr) {
+//			System.out.println(i);
+//		}
+
+		
+		
+		
+		
+		
+		//---------------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+		/*
+		 * 14. boolean 변수 x1, x2, x3, x4가 매개변수로 주어질 때, 다음의 식의 true/false를 return 하는
+		 * solution 함수를 작성해 주세요.
+		 * 
+		 * (x1 ∨ x2) ∧ (x3 ∨ x4)
+		 */
+		
+		//System.out.println(lm.solution(true, false, true, false));
 		
 		
 		

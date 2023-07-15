@@ -297,7 +297,100 @@ public class Level_0_Method {
 	
 	
 	
-		
+		//12번
+//		public int[] solution(int[] arr, int[][] queries) {
+//			
+//			int s, e, k;
+//			
+//			for(int i = 0; i < queries.length; i++) {
+//				s = queries[i][0]; //arr[]의 시작인덱스
+//				e = queries[i][1]; //arr[]의 끝인덱스
+//				k = queries[i][2]; //배수 비교값
+//				for(int j = s; j <= e; j++) {
+//					if(j % k == 0) { //나눈 값이 0이라면 배열이라는 뜻
+//						arr[j]+=1; //해당arr의 인덱스 값을 1 더해준다.
+//					}
+//				}
+//			}
+//			return arr;
+//		}
+
+	
+	
+	
+	
+	//---------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+		//13번
+//		public int[] solution(int l, int r) {
+//	        
+//			 String su; 
+//			 String storage = "";
+//			
+//			w:for(int i = l; i <= r; i++) { //받은 파라미터 l부터 r까지 1씩 증가시키는 반복문
+//				su = Integer.toString(i); // 숫자 i를 문자열로 바꾼다.
+//				for(int j = 0; j < su.length(); j++) { // su의 자릿수를 알기위한 반복문
+//					if(su.charAt(j) == '5' || su.charAt(j) == '0') { // su가 100단위이든 1000단위이든 앞에서부터 하나씩 가져와서
+//						if(j == (su.length()-1)) {					 // 5나 0인지 확인한다.
+//							storage += i + ","; //값 5나 0으로만 이루어져있다면 문자열 변수에 ,와 같이 담아준다.
+//						}else {
+//							continue; //값이 5나 0으로만 이루어져있는지 확인하기 위함. 
+//						}
+//					}else {
+//						continue w; //값이 5나 0이 아닌 다른 숫자가 들어갔다면 다음 값으로 넘어간다.
+//					}
+//				}
+//			}
+//			 if(storage == "") { // 만약 5나 0으로만 이루어진 값이 없다면
+//				 storage = -1 + ","; // -1과 ,를 변수에 담는다.
+//			 }
+//			 
+//			 String[] StrArr = storage.split(","); // , 를 변수에 같이 담은이유 : split메서드를 이용해 ,를 기준으로 배열에 담기위해
+//			 
+//			 int[] arr = new int[StrArr.length];
+//			 
+//			 for(int i = 0; i < StrArr.length; i++) { // 값이 담긴 문자열 배열을 숫자배열로 바꿈
+//				 arr[i] = Integer.parseInt(StrArr[i]);
+//			 }
+//			 
+//			 return arr;
+//			
+//	    }
+
+	
+	
+	
+	
+	//---------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+		//14번
+//		public boolean solution(boolean x1, boolean x2, boolean x3, boolean x4) {
+//		
+//			if((x1 || x2) && (x3 || x4)) {
+//				return true;
+//			}else {
+//				return false;
+//			}
+//		
+//		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 
