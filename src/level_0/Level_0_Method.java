@@ -1,23 +1,26 @@
 package level_0;
 
+import java.util.Arrays;
+
 public class Level_0_Method {
 	
 		//4번
-		//수정중
-		  public String solution(String my_string, String overwrite_string, int s) {
-			  
-			  StringBuffer my_string_Buf = new StringBuffer(my_string);
-			  int idx = 0;
-			  for(int i = s; i < i + overwrite_string.length(); i++) {
-				  my_string_Buf.setCharAt(i, overwrite_string.charAt(idx));
-				  idx++;
-			  }
-			  
-			  my_string = my_string_Buf.toString();
-			  
-			  return my_string;
-		  
-		  }
+//		  public String solution(String my_string, String overwrite_string, int s) {
+//			  
+//			  StringBuffer my_string_Buf = new StringBuffer(my_string); //setCharAt()사용하기 위해 StringBuffer로 변환
+//			  int idx = 0; //overwrite_string 앞에서부터 문자 가져올 인덱스변수
+//			  
+//			  //s인덱스부터 시작해서 overwrite_string의 길이만큼 문자열을 바꿔줘야하기 때문
+//			  for(int i = s; i < s + overwrite_string.length(); i++) {
+//				  my_string_Buf.setCharAt(i, overwrite_string.charAt(idx));
+//				  idx++;
+//			  }
+//			  
+//			  my_string = my_string_Buf.toString(); //StringBuffer를 String으로 변환하여 my_string값 재설정
+//			  
+//			  return my_string;
+//		  
+//		  }
 		 
 
 
@@ -503,6 +506,152 @@ public class Level_0_Method {
 	
 	
 	//---------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+		//17번
+//		public int[] solution(String[] intStrs, int k, int s, int l) {
+//			
+//			String res = "";
+//			
+//			for(int i = 0; i < intStrs.length; i++) {
+//				int subStr = Integer.parseInt(intStrs[i].substring(s, s+l)); //int로 형변환 하는이유는 k값이랑 비교하기 위해서
+//				if(subStr > k) { //k값보다 클때
+//					res += (subStr + ","); //rse변수에 담는다.
+//				}
+//			}			
+//			String[] resArr = res.split(","); // ,를 기준으로 짤라서 배열에 담는다.
+//			
+//			int[] answer = new int[resArr.length];
+//			
+//			for(int i = 0; i < resArr.length; i++) {
+//				answer[i] = Integer.parseInt(resArr[i]); //앞에서부터 하나씩 꺼내와 int로 형변환하고 int배열에 담는다.
+//			} //처음부터 int배열에 안담는 이유는 배열을 생성할 때 방의 갯수를 정해줘야하는데 방의 갯수를 정확히 모른다.
+			  //intStrs배열의 갯수만큼 만들어도 되지만 그렇게 하면 빈방이 생길수도 있다.
+			  //빈방이 있다고 오류가 나는건 아니지만 마음에 안들기 때문..
+//			return answer;
+//		}
+
+	
+	
+	
+	
+	//---------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+		//18번
+//		public String[] solution(String my_string) {
+//			
+//			String[] arr = new String[my_string.length()];
+//			
+//			for(int i = 0; i < my_string.length(); i++) {
+//				arr[i] = my_string.substring(i,my_string.length());
+//			}
+//			
+//			Arrays.sort(arr); //배열을 오름차순으로 정렬
+//			
+//			return arr; //정렬된 배열 반환
+//		}
+
+	
+	
+	
+	
+	//---------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+		//19번
+//		public String solution(String my_string, int m, int c) {
+//			
+//			String width = ""; //m글자씩 담는 변수
+//			String height = ""; //c번째 적은 글자들을 모으는 변수
+//			
+//			for(int i = 0; i < my_string.length(); i++) {
+//				if(i % m == 0) {//m글자 담았으면
+//					width = ""; //초기화해서
+//					width += my_string.charAt(i); //다시 담기
+//				}else {
+//					width += my_string.charAt(i); //m글자 안담았으면 계속담기
+//				}
+//				
+//				if(width.length() == c ) { //담은 글자갯수가 c와 같다면
+//					height += width.charAt(c-1); //c번째에 있는 값을 height변수에 담는다.
+//				}
+//			}
+//			
+//			return height;
+//			//배열을 사용했더라면 좀 더 편하게 했을거같긴한데 배열을 사용하지 않고
+//			//코드를 짜보고싶었기 때문에 이런 방식으로 했다.
+//		}
+
+	
+	
+	
+	
+	//---------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+		
+		//20번
+//		public int[] solution(String my_string) {
+//			
+//			int[] res = new int[52]; //대소문자 포함 알파벳이 총 52개이다.
+//			int upper = 65; //대문자 A의 아스키코드
+//			int lower = 97; //소문자 a의 아스키코드
+//			
+//			for(int i = 0; i < 52; i++) { //52개의 알파벳을 학인하기 위함.
+//				res[i] = 0; //각각의 방에 0으로 초기값을 준다.
+//				for(int j = 0; j < my_string.length(); j++) {//my_string의 문자를 하나씩 확인하기 위해 길이만큼 돌린다.
+//					if( i < 26 ) { // res배열의 0~25인덱스까지가 대문자
+//						if( upper == my_string.charAt(j)) { //문자열을 하나씩 알파벳과 비교하여
+//							res[i]++; //맞는게 있다면 그 대문자가 속해있는 배열방의 값을 1씩 올린다.
+//						}
+//					}else { // res배열의 26~52인덱스까지가 소문자
+//						if(lower == my_string.charAt(j)) { //문자열을 하나씩 알파벳과 비교하여
+//							res[i]++; //맞는게 있다면 그 대문자가 속해있는 배열방의 값을 1씩 올린다.
+//						}
+//					}
+//				} //문자열 확인 반복문
+//				//하나의 알파벳 갯수확인이 끝났다면 다음알파벳을 확인하기 위해 아스키코드가 담긴 변수값을 올려야하는데
+//				if( i < 26 ) { //i가 26미만이라면 대문자알파벳
+//					upper++; //값을 1증가시킴으로써 다음 알파벳의 아스키코드를 의미한다.
+//				}else { //i가 26이상이라면 소문자알파벳
+//					lower++; //값을 1증가시킴으로써 다음 알파벳의 아스키코드를 의미한다.
+//				}
+//			}
+//			return res;
+//		}
+
+	
+	
+	
+	
+	//---------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

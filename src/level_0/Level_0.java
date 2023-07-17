@@ -1,5 +1,7 @@
 package level_0;
 
+import java.util.Arrays;
+
 public class Level_0 {
 	
 	public static void main(String[] args) {
@@ -85,7 +87,7 @@ public class Level_0 {
 		//문자열 my_string의 인덱스 s부터 overwrite_string의 길이만큼을 문자열 overwrite_string으로 바꾼 
 		//문자열을 return 하는 solution 함수를 작성해 주세요.
 
-		System.out.println(lm.solution("He11oWor1d", "lloWorl", 2));
+//		System.out.println(lm.solution("Program29b8UYP", "merS123", 7));
 		
 
 		
@@ -399,6 +401,51 @@ public class Level_0 {
 		
 		
 		
+		/*
+		 * 17. 문자열 배열 intStrs와 정수 k, s, l가 주어집니다. intStrs의 원소는 숫자로 이루어져 있습니다.
+		 * 
+		 * 배열 intStrs의 각 원소마다 s번 인덱스에서 시작하는 길이 l짜리 부분 문자열을 잘라내 정수로 변환합니다. 이때 변환한 정수값이
+		 * k보다 큰 값들을 담은 배열을 return 하는 solution 함수를 완성해 주세요.
+		 */
+		
+//		String[] intStrs = {"0123456789","9876543210","9999999999999"};
+//		
+//		int[] arr = lm.solution(intStrs, 50000, 5, 5);
+//		
+//		for (int i : arr) {
+//			System.out.println(i);
+//		}
+
+		 
+		
+		
+		 
+		
+		//---------------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+		/*
+		 * 18. 어떤 문자열에 대해서 접미사는 특정 인덱스부터 시작하는 문자열을 의미합니다. 예를 들어, "banana"의 모든 접미사는
+		 * "banana", "anana", "nana", "ana", "na", "a"입니다. 문자열 my_string이 매개변수로 주어질 때,
+		 * my_string의 모든 접미사를 사전순으로 정렬한 문자열 배열을 return 하는 solution 함수를 작성해 주세요.
+		 */
+		
+//		String[] arr = lm.solution("programmers");
+//		
+//		for (String i : arr) {
+//			System.out.println(i);
+//		}
+
+		 
+		
+		
+		 
+		
+		//---------------------------------------------------------------------------------
 		
 		
 		
@@ -406,8 +453,43 @@ public class Level_0 {
 		
 		
 		
+		/*
+		 * 19. 문자열 my_string과 두 정수 m, c가 주어집니다. my_string을 한 줄에 m 글자씩 가로로 적었을 때 왼쪽부터 세로로
+		 * c번째 열에 적힌 글자들을 문자열로 return 하는 solution 함수를 작성해 주세요.
+		 */
+
+//		System.out.println(lm.solution("programmers", 1, 1));
+
+		 
 		
 		
+		 
+		
+		//---------------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+		/*
+		 * 20. 알파벳 대소문자로만 이루어진 문자열 my_string이 주어질 때, my_string에서 'A'의 개수, my_string에서
+		 * 'B'의 개수,..., my_string에서 'Z'의 개수, my_string에서 'a'의 개수, my_string에서 'b'의
+		 * 개수,..., my_string에서 'z'의 개수를 순서대로 담은 길이 52의 정수 배열을 return 하는 solution 함수를 작성해
+		 * 주세요.
+		 */
+		
+//		int[] res = lm.solution("Programmers");
+//		System.out.println(Arrays.toString(res));
+
+		 
+		
+		
+		 
+		
+		//---------------------------------------------------------------------------------
+		
+	
 		
 		
 		
