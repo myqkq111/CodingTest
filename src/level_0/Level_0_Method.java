@@ -3,14 +3,22 @@ package level_0;
 public class Level_0_Method {
 	
 		//4번
-		/*
-		 * public String solution(String my_string, String overwrite_string, int s) {
-		 * 
-		 * String a = my_string.substring(s, s+overwrite_string.length()); String[] b =
-		 * my_string.split(a);
-		 * 
-		 * }
-		 */
+		//수정중
+		  public String solution(String my_string, String overwrite_string, int s) {
+			  
+			  StringBuffer my_string_Buf = new StringBuffer(my_string);
+			  int idx = 0;
+			  for(int i = s; i < i + overwrite_string.length(); i++) {
+				  my_string_Buf.setCharAt(i, overwrite_string.charAt(idx));
+				  idx++;
+			  }
+			  
+			  my_string = my_string_Buf.toString();
+			  
+			  return my_string;
+		  
+		  }
+		 
 
 
 		//---------------------------------------------------------------------------------
@@ -382,8 +390,119 @@ public class Level_0_Method {
 //			}
 //		
 //		}
+
 	
 	
+	
+	
+	//---------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+		//15번
+//		public String solution(String my_string, int[][] queries) {
+//			
+//			int start; //queries의 s
+//			int end; //queries의 e
+//			String subStr; //substring()로 인덱스 범위 만큼 짜른 문자열 담는곳 
+//			StringBuffer my_stringBuf = new StringBuffer(my_string); //setCharAt()를 사용하기 위함
+//			
+//			for(int i = 0; i < queries.length; i++) {
+//				
+//				String turnStr = ""; //뒤집은 문자열
+//				
+//				start = queries[i][0];
+//				end = queries[i][1];
+//		
+//				subStr = my_stringBuf.substring(start, end+1);
+//			
+//				for(int j = (subStr.length()-1); j >= 0; j--) {
+//					turnStr += subStr.charAt(j);
+//				}
+//				
+//				for(int j = start; j <= end; j++) {
+//					my_stringBuf.setCharAt(j, turnStr.charAt(j-start));
+//				}				
+//				
+//			}
+//			
+//			my_string = my_stringBuf.toString();
+//			return my_string;
+//			
+//		}
+
+	
+	
+	
+	
+	//---------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+		//16번
+//		public int solution(int a, int b, int c, int d) {
+//			
+//			int answer = 0;
+//			
+//			if(a == b && b == c && c == d) {
+//				answer = 1111 * 2; 
+//			} else if(a == b && b == c && c != d) {
+//				answer = (10 * a + d) * (10 * a + d);
+//			} else if(a == b && b == d && b != c) {
+//				answer = (10 * a + c) * (10 * a + c);
+//			} else if(a == c && c == d && c != b) {
+//				answer = (10 * a + b) * (10 * a + b);
+//			} else if(b == c && c == d && c != a) {
+//				answer = (10 * c + a) * (10 * c + a);
+//			} else if(a == b && c == d && b != c) {
+//				answer = (b + c) * (b - c);
+//			} else if(a == c && b == d && a != b) {
+//				answer = (a + b) * (a - b);
+//			} else if(a == d && b == c && a != b) {
+//				answer = (a + b) * (a - b);
+//			} else if(a == b && c != d && b != c && b != d) {
+//				answer = c * d;
+//			} else if(a == c && b != d && a != b && a != d) {
+//				answer = b * d;
+//			} else if(a == d && b != c && a != b && a != c) {
+//				answer = b * c;
+//			} else if(b == c && a != d && b != a && b != d) {
+//				answer = a * d;
+//			} else if(b == d && a != c && b != a && b != c) {
+//				answer = a * c;
+//			} else if(c == d && a != b && c != a && c != b) {
+//				answer = a * b;
+//			} else {
+//				int min = 6;
+//				if(min > a) {
+//					min = a;
+//				}
+//				if(min > b) {
+//					min = b;
+//				}
+//				if(min > c) {
+//					min = c;
+//				}
+//				if(min > d) {
+//					min = d;
+//				}
+//				answer = min;
+//			}
+//			
+//			return answer;
+//			
+//		}
+
+	
+	
+	
+	
+	//---------------------------------------------------------------------------------
 	
 	
 	
