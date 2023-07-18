@@ -1,6 +1,7 @@
 package level_0;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Level_0_Method {
 	
@@ -644,20 +645,220 @@ public class Level_0_Method {
 	//---------------------------------------------------------------------------------
 	
 	
+
+			
+
+	
+	
+		//21번
+//		public int[] solution(int n, int k) {
+//		
+//			//배열은 선언할 때 방의 갯수를 지정해줘야하는데 처음에는 방의 갯수를 모른다.
+//			//이럴때 list를 이용하면 편리하다.
+//			//list는 방의 갯수를 지정해주지않고 값이 추가되면 방의 갯수가 늘어나고 값이 삭제되면 방의 갯수도 줄어드는
+//			//유동적인 모습을 보인다.
+//			List<Integer> list = new ArrayList<>(); 
+//		
+//			for(int i = 1; i <= n; i++) { //1이상 n이하의 값을 순서대로
+//				if(i % k == 0) { //k와 나누어 나머지가 0이면 k의 배수.
+//					list.add(i); //i값이 배수일경우 list에 담아주기.
+//				}
+//			}
+//		
+//			int[] mul = new int[list.size()]; //list에 담겨있는 갯수만큼 배열 방 생성
+//		
+//			for(int i = 0; i < mul.length; i++) {
+//				mul[i] = list.get(i); //list에 담겨있는 값 배열로 옮기기
+//			}
+//		
+//			Arrays.sort(mul); //배열 오름차순 정렬
+//		
+//			return mul;
+//		
+//		}
+
+	
+
+
+
+	
+
+	//---------------------------------------------------------------
+
+	
+
+
+	
+
+	
+
+		//22번
+//	 	public String solution(String my_string, int[] indices) {
+//		 
+//		 	StringBuffer sb = new StringBuffer(my_string); //deleteCharAt()를 사용하기 위함.
+//			 Integer[] it = new Integer[indices.length];//Arrays.sort()내림차순으로 정렬을 할려면 int로는 안되고 Integer같은 객체로 해야한다.
+//		 
+//			 for(int i = 0; i < it.length; i++) {//int배열을 Integer배열로 바꿈
+//				 it[i] = indices[i];
+//			 }
+//		 
+//			 Arrays.sort(it,Collections.reverseOrder()); //Collections.reverseOrder() : 내림차순으로 정렬
+//		  
+//			 for(int i = 0; i < indices.length; i++) {
+//				 sb.deleteCharAt(it[i]); //인덱스값 지우기
+//			 }
+//		 
+//			 return sb.toString();
+//			 //문자열의 중간값을 지우게 되면 뒤에 있던 인덱스들이 한칸씩 앞으로 당겨지게 되서 인덱스 순서가 엉망이된다.
+//			 //이러한 상황을 방지하기 위해 내림차순으로 정렬해주고 인덱스값이 큰애들부터 지우면 앞에 있는 문자들의 인덱스에는 영향을 
+//			 //끼치지 않기 때문에 원하는 결과값을 만들 수 있다.
+//		 }
+
+
+	
+
+
+	
+
+	//---------------------------------------------------------------
+
+	
+		
+
+	
+	
+
+		//23번
+//		public int solution(int[] arr, int idx) {
+//		
+//			int res = 0; //초기값을 0으로 설정
+//		
+//			for(int i = idx+1; i < arr.length; i++) { //idx + 1 을 하는이유는 idx의 값보다 커야하기 때문이다.
+//				if(arr[i] == 1) { //값이 1이라면
+//					res = i; //res변수에 현재 인덱스를 넣는다.
+//					break; //그리고는 반복문 탈출
+//						   //값이 1인 가장작은 인덱스 값을 찾는문제이기 때문에 탈출해야한다.
+//						   //탈출안하면 반복문이 계속돌면서 값이 1인 인덱스를 res에 계속 넣어주게되고
+//						   //결국엔 값이 1인 가장 큰 인덱스가 res변수에 들어가게 된다.
+//				}			
+//			}
+//			//idx보다 커야하기 때문에 res에 0값이 들어갈 일이 없다.
+//			if(res == 0) { //만약 res가 0이라면(일치하는 인덱스가 없을 경우)
+//				res = -1; //-1을 넣는다.
+//			}
+//			return res;
+//		}
+
+
+	
+
+
+	
+
+	//---------------------------------------------------------------
 	
 	
 	
 	
 	
 	
+		//24번
+//		public int[] solution(int n, int[] slicer, int[] num_list) {
+//			
+//			//배열은 선언할 때 방의 갯수를 지정해줘야하는데 처음에는 방의 갯수를 모른다.
+//			//이럴때 list를 이용하면 편리하다.
+//			//list는 방의 갯수를 지정해주지않고 값이 추가되면 방의 갯수가 늘어나고 값이 삭제되면 방의 갯수도 줄어드는
+//			//유동적인 모습을 보인다.
+//			List<Integer> list = new ArrayList<Integer>();
+//			
+//			if(n == 1) {
+//				for(int i = 0; i < slicer[1]; i++) {
+//					list.add(num_list[i]); 
+//				}
+//			} else if(n == 2) {
+//				for(int i = slicer[0]; i < num_list.length; i++) {
+//					list.add(num_list[i]);
+//				}
+//			} else if(n == 3) {
+//				for(int i = slicer[0]; i <= slicer[1]; i++) {
+//					list.add(num_list[i]);
+//				}
+//			} else if(n == 4) {
+//				for(int i = slicer[0]; i <= slicer[1]; i+=slicer[2]) {
+//					list.add(num_list[i]);
+//				}
+//			}
+//			
+//			int[] res = new int[list.size()];
+//			//list에 있는 값을 배열에 담기
+//			for(int i = 0; i < list.size(); i++) {
+//				res[i] = list.get(i);
+//			}
+//			
+//			return res;
+//			
+//		}
+
+
+	
+
+	
+
+	//---------------------------------------------------------------
 	
 	
 	
 	
 	
 	
+		//25번
+//		public int[] solution(int[] arr, int[][] intervals) {
+//			
+//			List<Integer> list = new ArrayList<Integer>();
+//			
+//			for(int i = 0; i < intervals.length; i++) { //2차원 배열의 모든 배열을 돌기위한 반복문
+//				for(int j = intervals[i][0]; j <= intervals[i][1]; j++) {//닫힌구간을 돌기 위한 반복문 
+//					list.add(arr[j]); //값을 list에 담아주고
+//				}
+//			}
+//			
+//			int[] res = new int[list.size()];
+//			
+//			for(int i = 0; i < res.length; i++) {
+//				res[i] = list.get(i); //list의 값을 순서대로 배열에 담는다.
+//			}
+//			
+//			return res;
+//		}
+
+
+	
+
+	
+
+	//---------------------------------------------------------------
 	
 	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	
 	
 	
