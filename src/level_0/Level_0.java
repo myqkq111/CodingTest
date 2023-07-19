@@ -616,16 +616,134 @@ public class Level_0 {
 		
 		
 		
+	
+		
+		/*
+		 * 26. 정수 배열 arr가 주어집니다.
+		 * 
+		 * 배열 안의 2가 모두 포함된 가장 작은 연속된 부분 배열을 return 하는 solution 함수를 완성해 주세요.
+		 * 
+		 * 단, arr에 2가 없는 경우 [-1]을 return 합니다.
+		 */	
+//		int[] arr = {1,2,1};
+//		
+//		System.out.println(Arrays.toString(lm.solution(arr)));
+
+
+		
+
+		
+
+		//--------------------------------------------------------
+
+		
+
+
+		
+
+		/*
+		 * 27. 정수 배열 arr와 query가 주어집니다.
+		 * 
+		 * query를 순회하면서 다음 작업을 반복합니다.
+		 * 
+		 * 짝수 인덱스에서는 arr에서 query[i]번 인덱스를 제외하고 배열의 query[i]번 인덱스 뒷부분을 잘라서 버립니다. 홀수
+		 * 인덱스에서는 arr에서 query[i]번 인덱스는 제외하고 배열의 query[i]번 인덱스 앞부분을 잘라서 버립니다. 위 작업을 마친 후
+		 * 남은 arr의 부분 배열을 return 하는 solution 함수를 완성해 주세요.
+		 */
+//		int[] arr = {0,1,2,3,4,5};
+//		int[] query = {4,1,2};
+//		
+//		System.out.println(Arrays.toString(lm.solution(arr, query)));
+
+
+
+		
+
+		//--------------------------------------------------------
+
+		
+		
+
+		
+
+		/*
+		 * 28. 정수 리스트 num_list와 정수 n이 주어질 때, num_list를 n 번째 원소 이후의 원소들과 n 번째까지의 원소들로 나눠
+		 * n 번째 원소 이후의 원소들을 n 번째까지의 원소들 앞에 붙인 리스트를 return하도록 solution 함수를 완성해주세요.
+		 */	
+//		int[] num_list = {5,2,1,7,5};
+//		int n = 3; 
+//		
+//		System.out.println(Arrays.toString(lm.solution(num_list,n)));
+
+
+
+		
+
+		//--------------------------------------------------------
+	
+
+		
+
+		
+
+		/*
+		 * 29. 문자열 리스트 str_list에는 "u", "d", "l", "r" 네 개의 문자열이 여러 개 저장되어 있습니다.
+		 * str_list에서 "l"과 "r" 중 먼저 나오는 문자열이 "l"이라면 해당 문자열을 기준으로 왼쪽에 있는 문자열들을 순서대로 담은
+		 * 리스트를, 먼저 나오는 문자열이 "r"이라면 해당 문자열을 기준으로 오른쪽에 있는 문자열들을 순서대로 담은 리스트를 return하도록
+		 * solution 함수를 완성해주세요. "l"이나 "r"이 없다면 빈 리스트를 return합니다.
+		 */
+		
+//		String[] str_list = {"l"};
+//
+//		System.out.println(Arrays.toString(lm.solution(str_list)));
+
+
+
+		
+
+		//--------------------------------------------------------
+		
+		
+		
+		
+		
+		/*
+		 * 30. 최대 5명씩 탑승가능한 놀이기구를 타기 위해 줄을 서있는 사람들의 이름이 담긴 문자열 리스트 names가 주어질 때, 앞에서 부터
+		 * 5명씩 묶은 그룹의 가장 앞에 서있는 사람들의 이름을 담은 리스트를 return하도록 solution 함수를 완성해주세요. 마지막 그룹이
+		 * 5명이 되지 않더라도 가장 앞에 있는 사람의 이름을 포함합니다.
+		 */
+		
+//		String[] names = {"nami", "ahri", "jayce", "garen", "ivern", "jinx", "vex"};
+//		
+//		System.out.println(Arrays.toString(lm.solution(names)));
+
+
+
+		
+
+		//--------------------------------------------------------
 		
 		
 		
 		
 		
 		
+		/*
+		 * 31. 오늘 해야 할 일이 담긴 문자열 배열 todo_list와 각각의 일을 지금 마쳤는지를 나타내는 boolean 배열 finished가
+		 * 매개변수로 주어질 때, todo_list에서 아직 마치지 못한 일들을 순서대로 담은 문자열 배열을 return 하는 solution 함수를
+		 * 작성해 주세요.
+		 */
 		
+//		String[] todo_list = {"problemsolving", "practiceguitar", "swim", "studygraph"};
+//		boolean[] finished = {true, true, true, false};
+//		
+//		System.out.println(Arrays.toString(lm.solution(todo_list, finished)));
+
+
+
 		
-		
-		
+
+		//--------------------------------------------------------
 		
 		
 		

@@ -843,6 +843,202 @@ public class Level_0_Method {
 	
 		
 		
+		//26번
+//		public int[] solution(int[] arr) {
+//		
+//			List<Integer> list1 = new ArrayList<>(); //arr배열에 값이 2인 인덱스들을 담을 list
+//			List<Integer> list2 = new ArrayList<>(); //부분배열을 담을 list
+//		
+//			for(int i = 0; i < arr.length; i++) {
+//				if(arr[i] == 2) { //값이 2인 인덱스를
+//					list1.add(i); //list에 담는다
+//				}
+//			}
+//		
+//			if(list1.size() >= 2) { //값이 2인 인덱스가 2개 이상일 경우
+//				for(int i = list1.get(0); i <= list1.get(list1.size()-1); i++) {
+//					list2.add(arr[i]); //list1에 담긴 첫번째와 마지막 인덱스의 부분배열을 list2에 담는다.
+//				}
+//			} else if(list1.size() == 1) { //값이 2인 인덱스가 1개일 경우
+//				list2.add(arr[list1.get(0)]); //list1의 담긴 인덱스와 일치하는 arr배열의 값을 list2에 담는다(어쩌피 2가 담긴다)
+//			} else if(list1.size() == 0) { //값이 2인 인덱스가 하나도 없을경우
+//				list2.add(-1); //-1을 담는다.
+//			}
+//		
+//			int[] res = new int[list2.size()]; //list2의 갯수만큼 배열의 방의갯수를 만들어준다.
+//		
+//			for(int i = 0; i < list2.size(); i++) {
+//				res[i] = list2.get(i); //list2의 값들을 순서대로 res배열에 담는다.
+//			}
+//		
+//			return res;
+//		
+//	}
+
+	
+
+	
+	
+	
+	
+
+	//---------------------------------------------------------------------------------------
+
+	
+
+	
+
+	
+
+	
+
+	 	//27번
+//		public int[] solution(int[] arr, int[] query) {	
+//			List<Integer> list = new ArrayList<>(); //arr배열을 list에 담는다 
+//												//조건에 맞는 인덱스를 지우기 위해
+//			for(int i = 0; i < arr.length; i++) {
+//				list.add(arr[i]);
+//			}
+//		
+//			for(int i = 0; i < query.length; i++) {
+//				if(i % 2 == 0) { //인덱스가 짝수일때
+//					//내림차순으로 값을 자른이유는 오름차순으로 하면 인덱스 4번을 지우고 5번을 지워야하는데
+//					//4번을 지우는순간 뒤에 있는 인덱스들이 하나씩 당겨지기 때문에 내림차순으로 잘라야 문제없다.	
+//					for(int j = list.size()-1; j > query[i]; j--) { //인덱스 뒷부분을 잘라버린다.
+//						list.remove(j); //remove()를 사용하기 위해 배열을 list에 담았다.
+//					}
+//				} else if(i % 2 == 1) { //인덱스가 홀수일때
+//					for(int j = query[i]-1; j >= 0; j--) { //인덱스 앞부분을 잘라버린다.
+//						list.remove(j);
+//					}
+//				}
+//			}
+//		
+//			int[] res = new int[list.size()]; //작업을 마치고 남은 값들을 배열에 담는다.
+//		
+//			for(int i = 0; i < list.size(); i++) { 
+//				res[i] = list.get(i);
+//			}
+//		
+//			return res;
+//		}
+
+
+
+	
+
+	
+
+	//---------------------------------------------------------------------------------------
+
+	
+
+	
+
+	
+
+		//28번
+//		public int[] solution(int[] num_list, int n) {
+//		
+//			List<Integer> list = new ArrayList<>(); //조건에 맞게 원소들을 담을 list
+//		
+//			for(int i = n; i < num_list.length; i++) {
+//				list.add(num_list[i]); //먼저 n번째 원소 이후의 원소를 list에 담는다.
+//			}
+//		
+//			for(int i = 0; i < n; i++) {
+//				list.add(num_list[i]); // 그 다음 n번째까지의 원소들을 담으면
+//			}		//n번째 원소 이후의 원소가 앞에붙고 n번째까지의 원소들이 뒤에 붙게 된다.
+//		
+//			int[] res = new int[list.size()];
+//		
+//			for(int i = 0; i < list.size(); i++) { //list를 배열로 바꿈.
+//				res[i] = list.get(i);
+//			}
+//	
+//			return res;
+//		}
+
+
+
+
+	
+
+	//---------------------------------------------------------------------------------------
+
+	
+
+	
+
+		
+		//29번
+//		public String[] solution(String[] str_list) {
+//			
+//			List<String> list = new ArrayList<>(); //기준에 맞는 문자열들을 담을 list
+//		 
+//			for(int i = 0; i < str_list.length; i++) { //str_list를 순서대로 돌리면서 가장 먼저 나오는 l이나 r을 찾는다
+//				if(str_list[i].equals("l")) { //가장 먼저 나온 문자열이 l이라면
+//					for(int j = 0; j < i; j++) { //왼쪽 문자열을
+//						list.add(str_list[j]); //list에 담는다
+//					}
+//					break; //그리고 반복문 탈출
+//				}else if(str_list[i].equals("r")) { //가장 먼저 나온 문자열이 r이라면
+//					for(int j = i+1; j < str_list.length; j++) { //오른쪽 문자열을
+//						list.add(str_list[j]); //list에 담는다
+//					}
+//					break; //그리고 반복문 탈출
+//				}	 											
+//			}
+//			String[] res = new String[list.size()];
+//			//list를 배열에 담고 반환한다
+//			//만약 문자열에 l이나 r이 없을경우 list는 비어있고 배열의 방도 생성되지않는다
+//			//비어있는 배열이 반환되는것
+//			for(int i = 0; i < list.size(); i++) {
+//				res[i] = list.get(i);
+//			}		
+//			
+//			return res;
+//	
+//		}
+
+
+
+
+	
+
+	//---------------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+		 //30번
+//		 public String[] solution(String[] names) {
+//			 
+//			 List<String> list = new ArrayList<String>();
+//			 
+//			 for(int i =0; i < names.length; i+=5) {
+//				 list.add(names[i]);
+//			 }
+//			 
+//			 String[] res = new String[list.size()];
+//			 
+//			 for(int i = 0; i < list.size(); i++) {
+//				 res[i] = list.get(i);
+//			 }
+//			 return res;
+//		 }
+		 //쉽게 생각해서 결과물이 그룹 가장 앞에있는 사람들의 이름을 담은 리스트이다.
+		 //그렇기 때문에 한그룹에 5명씩이니깐 i의 값을 5씩 증가시키면서 해당인덱스의 있는 사람의 이름을
+		 //담으면 된다.
+
+
+
+			
+
+	
+	//---------------------------------------------------------------------------------------
 		
 		
 		
@@ -850,13 +1046,55 @@ public class Level_0_Method {
 		
 		
 		
+		  //31번
+//		  public String[] solution(String[] todo_list, boolean[] finished) {
+//			  
+//			  List<String> list = new ArrayList<String>();
+//			  
+//			  for(int i = 0; i < todo_list.length; i++) { //순서대로 인덱스를 조회하여 
+//				  if(finished[i] == false) {  //값이 false라면
+//					  list.add(todo_list[i]); //해당 인덱스를 가진 todo_list의 값을 list에 담는다.
+//				  }
+//			  }
+//			  
+//			  String[] res = new String[list.size()];
+//			  
+//			  for(int i = 0; i < list.size(); i++) {
+//				  res[i] = list.get(i);
+//			  }
+//			  return res;
+//		  }
+
+
+
+			
+
+			
+	//---------------------------------------------------------------------------------------
 		
 		
-		
-		
-		
-		
-		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 		
 		
 	
