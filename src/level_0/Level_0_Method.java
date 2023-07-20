@@ -1,6 +1,7 @@
 package level_0;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Level_0_Method {
@@ -1077,6 +1078,139 @@ public class Level_0_Method {
 	
 	
 	
+		  //32번
+//		  public int[] solution(int[] arr, int[][] queries) {
+//			  
+//			  for(int i = 0; i < queries.length; i++) { //2차원배열의 조건값을 가져오기 위해 2차원배열의 길이만큼 반복문을 돌린다.
+//				  for(int j = 0; j < arr.length; j++) { //arr배열의 갯수만큼 인덱스를 돌려
+//					  if(queries[i][0] <= j && queries[i][1] >= j) { //조건에 맞는다면
+//						  arr[j]++; //arr배열의 해당 인덱스 값을 올린다.
+//					  }
+//				  }
+//			  }
+//			  
+//			  return arr;
+//			  
+//		  }
+
+
+
+			
+
+			
+	//---------------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+		  //33번
+//		  public int solution(int[] arr) {
+//			  
+//			  int x = 0; //반복횟수
+//			  
+//			  while(true) { //무한반복
+//				  
+//				  int count = 0; //무한반복을 탈출하기위한 조건
+//				  
+//				  for(int i = 0; i < arr.length; i++) {
+//					  if(arr[i] >= 50 && arr[i] % 2 == 0) {
+//						  arr[i]/=2;
+//					  } else if(arr[i] < 50 && arr[i] % 2 == 1) {
+//						  arr[i] = (arr[i] * 2) + 1;
+//					  } else {
+//						count++;  //arr의 값이 안바뀌는 인덱스가 있을때마다 1씩상승
+//					  }
+//				  }  
+//		
+//				  if(count == 6) { //모든 값이 안바뀌면 6이 되고 6이 되었다는건 더이상 반복해봤자
+//					  			   //arr배열의 값은 안바뀐다는 뜻이다.
+//					  break;	   //그렇다면 무한반복을 탈출하고 반복한 횟수를 반환한다.
+//				  }	
+//				  
+//				  x++; //반복횟수를 증가시키는 코드를 맨 마지막에 쓴이유는
+//				  	   //더 이상 모든 값이 바뀌지 않을때 가장 작은 반복값을 반환해야하기 때문에
+//				  	   //탈출문break뒤에다 사용
+//				  	   //한마디로 값이 바뀌었을때 x값은 증가한다.
+//				  
+//			  } //while
+//			  return x;
+//		  }
+
+
+		  
+
+			
+
+			
+	//---------------------------------------------------------------------------------------
+	
+		  
+		  
+		  
+		  
+		  
+		  
+		  //34번
+//		  public int solution(int[] num_list) {
+//			  
+//			  int count = 0; //나누기 연산의 횟수
+//			  
+//			  for(int i = 0; i < num_list.length; i++) { //int배열의 길이만큼 돌린다
+//				  while(true) { //반복문을 몇번 돌려야하는지 명확하지 않기 때문에 무한반복으로 돌린다.
+//					  if(num_list[i] != 1) { //해당 인덱스의 값이 1이 아니라면
+//						  if(num_list[i] % 2 == 0) { //값을 짝수인지 홀수 인지 구별하고
+//							  num_list[i] /= 2;		 //각자 맞는 연산을 해준다.
+//							  count++;				 //그리고 count를 1증가시킨다.
+//						  } else {
+//							  num_list[i] = (num_list[i]-1) / 2;
+//							  count++;
+//						  }
+//					  } else { //인덱스의 값이 1이라면
+//						  break; //무한반복을 탈출하여 다음 인덱스 값으로 넘어간다.
+//					  }
+//				  }
+//			  }		  
+//			  return count;		  
+//		  }
+
+
+		  
+
+			
+
+			
+	//---------------------------------------------------------------------------------------
+		  
+		  
+		  
+		 
+		  
+		   //35번
+//		    public int solution(String myString, String pat) {
+//			  
+//			    String lowMy = myString.toLowerCase(); //대소문자를 구분하지 않는다고 했으니
+//			    String lowPat = pat.toLowerCase();	   //두 문자열을 소문자로 바꿔준다.
+//			    int res;
+//			    
+//			    if(lowMy.contains(lowPat)) { //contains는 대소문자를 구분하기 때문에 두 문자열을 소문자로 바꿔준것이다.(대문자로 해도 된다.)
+//			    	res = 1;				 
+//			    } else {
+//			    	res = 0;
+//			    }
+//			    
+//			    return res;
+//			  
+//		    }
+
+
+			  
+
+			
+
+			
+	//---------------------------------------------------------------------------------------
 	
 	
 	
@@ -1084,12 +1218,75 @@ public class Level_0_Method {
 	
 	
 	
+		  //36번
+//		  public String[] solution(String[] strArr) {
+//			  
+//			  for(int i = 0; i < strArr.length; i++) {
+//				  if(i % 2 == 0) {
+//					  strArr[i] = strArr[i].toLowerCase();
+//				  }else {
+//					  strArr[i] = strArr[i].toUpperCase();
+//				  }
+//			  }
+//			  return strArr;
+//		  }
+		  //인덱스가 짝수인지 홀수인지만 구하면 쉽게 풀수있는 문제다.
+
+		  
+
+			
+
+			
+	//---------------------------------------------------------------------------------------
 	
 	
 	
 	
 	
 	
+	
+		  //37번
+//		  public String solution(String myString) {
+//			  //A를 제외한 모든 알파벳은 소문자로 변환하기 때문에 넘어온 문자열을 소문자로 바꿔주고 Buffer로 변환시켜준다.
+//			  StringBuffer sb = new StringBuffer(myString.toLowerCase());
+//			  
+//			  for(int i = 0; i < myString.length(); i++) { 
+//				  if(sb.charAt(i) == 'a') { //소문자로 바꾼 문자열중 a가 있다면
+//					  sb.setCharAt(i, 'A'); //a를 대문자로 바꿔준다.
+//				  }				  
+//			  }
+//			  String res = sb.toString(); //Buffer을 문자열형태로 다시 변환하고 반환.
+//			  
+//			  return res;
+//		  }
+
+		  
+
+			
+
+			
+	//---------------------------------------------------------------------------------------
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
 	
 	
 	
