@@ -1273,6 +1273,125 @@ public class Level_0_Method {
 		  
 		  
 		  
+		  //38번
+//		  public String solution(String myString, String pat) {
+//			  
+//			  String res = "";
+//			  
+//			  if(myString.contains(pat)) { //myString문자열에 pat이 있는지없는지 확인
+//				  int idx = myString.lastIndexOf(pat); //lastIndexOf() = 해당값의 가장 마지막에 있는 인덱스를 반환
+//				  res = myString.substring(0,idx) + pat; //그렇게 찾은 인덱스를 이용해서 문자열 만들기
+//			  }
+//			  
+//			  return res;
+//			  
+//		  }
+
+		  
+
+			
+
+			
+	//---------------------------------------------------------------------------------------
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  //39번
+//		  public int solution(String myString, String pat) {
+//			  
+//			  StringBuffer sb = new StringBuffer(myString); //deleteCharAt()를 사용하기 위함
+//			  
+//			  int count = 0; //등장하는 횟수 카운트
+//			  
+//			  while(true) {
+//				  if(myString.contains(pat)) { //myString에 pat가 있다면
+//					  int idx = sb.indexOf(pat); //인덱스값을 구해서
+//					  myString = sb.deleteCharAt(idx).toString(); //첫번째 문자만 삭제시킨다.
+//					  //등장하는 횟수를 1카운트하고 해당값의 문자하나를 삭제한다.
+//					  //그러면 다음 반복문때는 또다른 중복 문자열을 찾게된다.
+//					  count++;
+//				  } else {
+//					  break;
+//				  }
+//			  }
+//			  return count;
+//		  }
+
+		  
+
+			
+
+			
+	//---------------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+		  //40번
+//		  public String[] solution(String my_string) {
+//			  // \\s+ = 한개이상의 공백을 한개로 처리하는것
+//			  // 대신 문자열 앞뒤에 공백이 있다면 그 공백도 배열에 담는다
+//			  // 그렇기 때문에 trim()으로 앞뒤 공백을 지운뒤 split()사용
+//			  String[] res = my_string.trim().split("\\s+"); 
+//			  
+//			  return res;
+//			  
+//		  }
+
+		  
+
+			
+
+			
+	//---------------------------------------------------------------------------------------
+	
+		  
+		  
+		  
+		  
+		  
+		  //41번
+//		  public int solution(String binomial) {
+//			  
+//			  int res = 0;			  
+//			  String[] spl = binomial.split(" "); //매개변수를 공백으로 나누어 배열에 담아준다.  
+//			  
+//			  switch(spl[1]) { //1인덱스 값에 따른 계산법
+//			  case "+":
+//				  res = Integer.parseInt(spl[0]) + Integer.parseInt(spl[2]); //문자열이기 때문에 연산을 할려면 int로 바꿔줘야한다.
+//				  break;
+//			  case "-":
+//				  res = Integer.parseInt(spl[0]) - Integer.parseInt(spl[2]);
+//				  break;
+//			  case "*":
+//				  res = Integer.parseInt(spl[0]) * Integer.parseInt(spl[2]);
+//				  break;
+//			  }
+//			  
+//			  return res;
+//			  
+//		  }
+
+		  
+
+			
+
+			
+	//---------------------------------------------------------------------------------------
+		  
+		  
+		 
+		  
+		  
+		  
+		  
+		  
 		  
 		  
 		  

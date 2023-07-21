@@ -893,6 +893,94 @@ public class Level_0 {
 		
 		
 		
+		/*
+		 * 38. 문자열 myString과 pat가 주어집니다. myString의 부분 문자열중 pat로 끝나는 가장 긴 부분 문자열을 찾아서
+		 * return 하는 solution 함수를 완성해 주세요.
+		 */
+		
+//		String myString = "AAAAaaaa";
+//		String pat = "A";
+//		
+//		System.out.println(lm.solution(myString,pat));
+
+
+		
+
+		
+
+		//--------------------------------------------------------
+		
+		
+		
+		
+		
+		
+		/*
+		 * 39. 문자열 myString과 pat이 주어집니다. myString에서 pat이 등장하는 횟수를 return 하는 solution 함수를
+		 * 완성해 주세요.
+		 */
+		
+//		String myString = "aaaaa";
+//		String pat = "aa";
+//		
+//		System.out.println(lm.solution(myString,pat));
+
+
+		
+
+		
+
+		//--------------------------------------------------------
+		
+		
+		
+		
+		
+		
+		/*
+		 * 40. 단어가 공백 한 개 이상으로 구분되어 있는 문자열 my_string이 매개변수로 주어질 때, my_string에 나온 단어를
+		 * 앞에서부터 순서대로 담은 문자열 배열을 return 하는 solution 함수를 작성해 주세요.
+		 */
+		
+//		String my_string = " i    love  you";
+//		
+//		System.out.println(Arrays.toString(lm.solution(my_string)));
+
+
+		
+
+		
+
+		//--------------------------------------------------------
+		
+		
+		
+		
+		
+		
+		  /*
+		   * 41. 문자열 binomial이 매개변수로 주어집니다. binomial은 "a op b" 형태의 이항식이고 a와 b는 음이 아닌 정수,
+		   * op는 '+', '-', '*' 중 하나입니다. 주어진 식을 계산한 정수를 return 하는 solution 함수를 작성해 주세요.
+		   */
+		
+//		 String binomial = "40000 * 40000";
+//		 
+//		 System.out.println(lm.solution(binomial));
+
+
+		
+
+		
+
+		//--------------------------------------------------------
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
