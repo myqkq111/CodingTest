@@ -1391,18 +1391,86 @@ public class Level_0_Method {
 		  
 		  
 		  
+		  //42번
+//		  public int solution(String myString, String pat) {
+//			  
+//			  int res;
+//			  StringBuffer sb = new StringBuffer(myString); //setCharAt() 를 사용하기 위함
+//			  
+//			  for(int i = 0; i < sb.length(); i++) { //문자열의 길이만큼 반복문
+//				  if(sb.charAt(i) == 'A') { //인덱스값이 A라면
+//					  sb.setCharAt(i, 'B'); //B로
+//				  } else { //B라면
+//					  sb.setCharAt(i, 'A'); // A로 바꾼다.
+//				  }				  
+//			  }
+//			  String chString = sb.toString(); //contains() 사용하기 위해 다시 String으로 변환
+//			  if(chString.contains(pat)) { //A와 B를 바꾼 문자열에 pat문자열이 포함되어 있다면 1 아니면 0
+//				  res = 1;
+//			  } else {
+//				  res = 0;
+//			  }			  
+//			  return res;
+//		  }
+		  
+		  
+
+			
+
+			
+	//---------------------------------------------------------------------------------------
 		  
 		  
 		  
 		  
 		  
 		  
+		  //43번
+//		  public String solution(String rny_string) {
+//			  
+//			  String res = rny_string.replace("m", "rn"); //문자열 중에 지정한 문자를 다른 문자로 바꾸는 메서드
+//			  
+//			  return res;
+//		  }
+
 		  
+
+			
+
+			
+	//---------------------------------------------------------------------------------------
 		  
+		 
+	
+	
+	
+	
+	
+		  //44번
+//		  public String[] solution(String myStr) {	
+//			  
+//			  String a = myStr.replaceAll("[a-c]", " "); //문자열의 a,b,c를 공백으로 바꿔준다.
+//			  String[] res;
+//			  
+//			  if(a.trim().isEmpty()) { // 공백으로 바꿔준 문자열이 비어있는지 확인
+//				  res = new String[]{"EMPTY"}; //비어있다면 EMPTY값을 넣어주고
+//			  } else {
+//				  res = a.trim().split(" "); //아니라면 공백제거후 문자열 사이에 있는 공백을 기준으로 배열에 담는다.
+//			  }								
+//			  return res;
+//		  }
+
 		  
-		  
-		  
-		  
+
+			
+
+			
+	//---------------------------------------------------------------------------------------
+	
+	
+	
+	
+	
 		  
 		  
 		  
