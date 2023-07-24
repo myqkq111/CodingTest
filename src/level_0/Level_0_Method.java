@@ -1463,9 +1463,162 @@ public class Level_0_Method {
 		  
 
 			
+	
 
 			
 	//---------------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+		 	//45번
+//			public int[] solution(int[] arr, boolean[] flag) {
+//			
+//			List<Integer> list = new ArrayList<>();
+//			
+//			for(int i = 0; i < flag.length; i++) { //boolean배열의 길이만큼 반복문을 돌린다.
+//				if(flag[i] == true) { //boolean배열의 인덱스 값이 true인지 아닌지 확인한다.
+//					for(int j = 0; j < arr[i]*2; j++) { //true라면 
+//						list.add(arr[i]); //arr[i]의 값을 그 값만큼 list에 담는다.
+//					}
+//				} else { //false라면
+//					int size = list.size(); //else로 왔을때 list에 담긴 갯수
+//					for(int j = list.size()-1; j >= size-arr[i]; j--) { //뒤에서 arr[i]의 값만큼 삭제한다.
+//						list.remove(j);      //처음에는 j >= list.size[]-arr[i]; 로 했었는데 오류가나서 확인해보니깐
+//					}						 //list.remove로 뒤에서 값을 지울때마다 list 사이즈도 1씩 줄어들면서 값이 계속 바뀌고 있었다.
+//				}							 //그렇기 때문에 else문으로 들어왔을때 list에 갯수를 size 변수에 담아준것이다.
+//			}
+//			
+//			int[] res = new int[list.size()]; //list에 담긴 최종값을 배열에 담는과정
+//			
+//			for(int i = 0; i < list.size(); i++) {
+//				res[i] = list.get(i);
+//			}
+//			return res;
+//		}
+
+
+	
+	
+	
+	
+
+
+	//---------------------------------------------------------------------------------------
+
+
+	
+	
+	
+	
+	
+	
+			//46번
+//			public int[] solution(int[] arr) {
+//				
+//				List<Integer> list = new ArrayList<>(); //값을 담을 list
+//				
+//				for(int i = 0; i < arr.length; i++) { //arr배열의 길이만큼 반복문을 돌리면서
+//					if(list.size() == 0 || list.get(list.size()-1) != arr[i]) { //list에 아무것도 안담겨 있거나 list의 마지막값이 arr[i]의 값과 다르다면
+//						list.add(arr[i]); //list에 값을 추가한다.
+//					} else if(list.get(list.size()-1) == arr[i]) { //또는 list의 마지막값이 arr[i]의 값과 같다면
+//						list.remove(list.size()-1); //list의 마지막원소를 삭제한다
+//					}
+//				}
+//				
+//				int[] res; //if문을 사용하여 배열에 값을 넣어주고 반환을 해야하기 때문에 전역변수로 생성한다.
+//				
+//				if(list.size() != 0) { //list의 원소가 하나라도 있다면
+//					res = new int[list.size()]; //배열의 방의 갯수를 정해주고
+//					for(int i = 0; i < list.size(); i++) {
+//						res[i] = list.get(i); //배열에 값을 넣어준다.
+//					}
+//				} else { //list의 원소가 하나도 없다면
+//					res = new int[] {-1}; //배열에 -1원소를 넣는다.
+//				}
+//				return res;
+//			}
+
+
+
+
+
+
+
+	//---------------------------------------------------------------------------------------
+
+	
+	
+	
+	
+	
+	
+			//47번
+//			public int[] solution(int[] arr, int k) {
+//						
+//				List<Integer> list = new ArrayList<>();
+//				
+//				int e = 0; //일단 list에 arr[i]의 값을 넣고 list에 있는 나머지 값들과 비교하여 동일한 값이 있을경우 삭제하는데
+//						   //list의 길이를 1씩 증가하는 i에서 삭제한 갯수만큼 빼줘야 오류가 안난다.
+//				
+//				for(int i = 0; i < arr.length; i++) {
+//					list.add(arr[i]); //일단 list에 arr[i]의 값을 넣어준다.
+//					for(int j = 0; j < list.size()-1; j++) { //list.size()-1을 해준이유는 마지막에 들어있는 원소는 방금 넣었기 때문에 나머지 원소들과 비교를 해야한다.
+//						if(list.get(i-e) == list.get(j)) { //마지막에 들어간 원소와 나머지 원소를 처음부터 순서대로 비교하여 원소 값이 같다면
+//							list.remove(i-e); 			   //마지막원소를 삭제한다.
+//							e++;						   //그리고 e변수의 값을 1올려준다.
+//							break;     					   //삭제후 더는 비교할 값이 없기 때문에 반복문 탈출
+//						}
+//					}
+//				}
+//				
+//				if(list.size() < k) { //위의 코드대로 원소를 list에 담아줬을때 list의 길이가 k보다 작다면
+//					for(int i = list.size(); i < k; i++) { //k길이와 같아지게 남은자리에 -1을 넣어준다.
+//						list.add(-1);
+//					}
+//				}
+//				
+//				int[] res = new int[k]; 
+//				
+//				for(int i = 0; i < k; i++) { //list의 원소를 배열에 담는다.
+//					res[i] = list.get(i);
+//				}
+//				return res;
+//			}
+
+
+
+
+
+
+
+	//---------------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
