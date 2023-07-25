@@ -1673,35 +1673,35 @@ public class Level_0_Method {
 	
 	
 		  //50번
-		  public int solution(int[] rank, boolean[] attendance) {
-			  
-			  List<Integer> list = new ArrayList<Integer>();
-			  
-			  for(int i = 0; i < attendance.length; i++) { 
-				  if(attendance[i] == true) { //원소 값이 true인 인덱스와 같은 rank[] 인덱스의 원소값을 list에 담는다.
-					  list.add(rank[i]);
-				  }
-			  }
-			  
-			  Integer[] att = list.toArray(new Integer[list.size()]);
-			  
-			  Arrays.sort(att);
-			  
-			  int[] high = new int[3];
-			  
-			  for(int i = 0; i < 3; i++) {
-				  for(int j = 0; j < rank.length; j++) {
-					  if(att[i] == rank[j]) {
-						  high[i] = j;
-					  }
-				  }
-			  }
-			  
-			  int res = (10000 * high[0]) + (100 * high[1]) + high[2];
-			  
-			  return res;
-			  
-		  }
+//		  public int solution(int[] rank, boolean[] attendance) {
+//			  
+//			  List<Integer> list = new ArrayList<Integer>();
+//			  
+//			  for(int i = 0; i < attendance.length; i++) { 
+//				  if(attendance[i] == true) { //원소 값이 true인 인덱스와 같은 rank[] 인덱스의 원소값을 list에 담는다.
+//					  list.add(rank[i]);
+//				  }
+//			  }
+//			  
+//			  Integer[] att = list.toArray(new Integer[list.size()]); //값을 담은 list를 배열로 변환한다.
+//			  
+//			  Arrays.sort(att); //배열을 오름차순으로 정렬(대회에 참여하는 학생들의 등수가 높은 순으로 정렬)
+//			  
+//			  int[] high = new int[3]; //대회에 참여하는 등수가 높은 3명의 인덱스값을 담을 배열
+//			  
+//			  for(int i = 0; i < 3; i++) {
+//				  for(int j = 0; j < rank.length; j++) {
+//					  if(att[i] == rank[j]) { //대회에 참여하는 등수가 높은 3명의 원래 인덱스값을 찾는과정
+//						  high[i] = j;
+//					  }
+//				  }
+//			  }
+//			  
+//			  int res = (10000 * high[0]) + (100 * high[1]) + high[2];
+//			  
+//			  return res;
+//			  
+//		  }
 
 
 
@@ -1717,6 +1717,21 @@ public class Level_0_Method {
 	
 	
 	
+		  //51번
+//		  public int solution(double flo) {
+//			  
+//			  int res = (int)flo; //자기보다 작은 타입으로 형변환을 할려면 강제로 형변환을 해줘야한다.
+//			  
+//			  return res;
+//		  }
+
+
+
+
+
+
+
+	//---------------------------------------------------------------------------------------
 	
 	
 	
@@ -1724,14 +1739,83 @@ public class Level_0_Method {
 	
 	
 	
+		  //52번
+//		  public int solution(String num_str) {		  
+//			  
+//			  int res = 0; //문자열의 정수를 하나씩 더해줄 변수
+//			  
+//			  for(int i = 0; i < num_str.length(); i++) {
+//				  String str = ""; //문자열의 각자리수의 정수를 가져올 방법으로 charAt()메서드를 사용하였는데 그러면 반환값이 char이 되기 때문에 
+//				  				   //바로 int변수에 담게 되면 char특성상 아스키코드로 int변수에 담기기 때문에 우리가 원하는 결과를 만들수가없다.
+//				  				   //그렇기 때문에 일단 문자열에 담아주고 문자열을  int로 바꾸는 메서드를 통해 int변수에 담아줄것이다.
+//				  str += num_str.charAt(i);
+//				  res += Integer.parseInt(str);
+//			  }
+//			  return res;
+//		  }
+
+
+
+
+
+
+
+	//---------------------------------------------------------------------------------------
 	
 	
 	
 	
 	
-	
-	
-	
+		  
+		  
+		  //53번
+//		  public String solution(String n_str) {
+//			  
+//			  StringBuffer sb = new StringBuffer(n_str); //deleteCharAt()를 사용하기 위한 형변환
+//			  
+//			  for(int i = 0; i < sb.length(); i++) {
+//				  if(sb.charAt(0) == '0') { //매개변수 문자열의 첫번째 인덱스의 값이 0이라면 삭제를 한다.
+//					  sb.deleteCharAt(0);   //인덱스 값을 0으로 고정한 이유는 왼쪽부터 값이 0일때 삭제를 하는데 그렇게 되면 다음 인덱스들이 한칸씩 당겨지게 된다.
+//					  						//원래 인덱스가 1이였다면 0번 인덱스가 삭제된 순간 0으로 가게 된다.
+//				  } else { //0이 아니라면 반복문 탈출.
+//					  break;
+//				  }
+//			  }
+//			  
+//			  String res = sb.toString();
+//			  
+//			  return res;
+//			  
+//		  }
+
+
+
+
+
+
+
+	//---------------------------------------------------------------------------------------
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
 		  
 		  
 	
