@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+
 public class Level_0_Method {
 	
 		//4번
@@ -1604,6 +1605,33 @@ public class Level_0_Method {
 	
 	
 	
+		  //48번
+//		  public int solution(String[] strArr) {
+//			  
+//			  int[] su = new int[30]; //strArr[] 원소의 길이는 1부터 최대 30이기 때문에 방의 갯수가 30개인 배열을 생성한다.
+//			  
+//			  for(int i = 0; i < strArr.length; i++) {
+//				  int r = strArr[i].length(); //strArr[]해당인덱스의 문자열의 길이를 변수에 담아주고
+//				  su[r-1]++; //문자열의 길이가 해당되는 배열의 인덱스 값을 1올려준다.
+//			  }
+//			  
+//			  int res = su[0]; //su[]의 첫번째 인덱스값을 변수에 담아주고
+//			  
+//			  for(int i = 1; i < su.length; i++) { //su[]의 모든 인덱스를 돌면서
+//				  if(su[i] > res ) {  //크기비교를 하여
+//					  res = su[i]; //큰 원소를 변수에 담아주면 마지막에 가장큰 원소가 담기게 된다.
+//				  }
+//			  }
+//			  return res;
+//		  }
+
+
+
+
+
+
+
+	//---------------------------------------------------------------------------------------
 	
 	
 	
@@ -1611,6 +1639,32 @@ public class Level_0_Method {
 	
 	
 	
+		  //49번
+//		  public int[] solution(int[] num_list) {
+//			  
+//			  Arrays.sort(num_list); //매개변수로 받은 파라미터를 오름차순으로 정렬해준다.
+//			  
+//			  List<Integer> list = new ArrayList<Integer>();
+//			  
+//			  for(int i = 5; i < num_list.length; i++) { //오름차순으로 정렬된 num_list[]의 작은수 5개를 뺀 나머지를 list에 담는다.
+//				  list.add(num_list[i]);
+//			  }
+//			  
+//			  int[] res = new int[list.size()];
+//			 
+//			  for(int i = 0; i < list.size(); i++) { //작은 수 5개를 뺀 나머지를 담은 list를 배열로 바꿔준다.
+//				  res[i] = list.get(i);
+//			  }
+//			  return res;	  
+//		  }
+
+
+
+
+
+
+
+	//---------------------------------------------------------------------------------------
 	
 	
 	
@@ -1618,13 +1672,66 @@ public class Level_0_Method {
 	
 	
 	
-	
-	
-	
-	
-	
-	
+		  //50번
+		  public int solution(int[] rank, boolean[] attendance) {
+			  
+			  List<Integer> list = new ArrayList<Integer>();
+			  
+			  for(int i = 0; i < attendance.length; i++) { 
+				  if(attendance[i] == true) { //원소 값이 true인 인덱스와 같은 rank[] 인덱스의 원소값을 list에 담는다.
+					  list.add(rank[i]);
+				  }
+			  }
+			  
+			  Integer[] att = list.toArray(new Integer[list.size()]);
+			  
+			  Arrays.sort(att);
+			  
+			  int[] high = new int[3];
+			  
+			  for(int i = 0; i < 3; i++) {
+				  for(int j = 0; j < rank.length; j++) {
+					  if(att[i] == rank[j]) {
+						  high[i] = j;
+					  }
+				  }
+			  }
+			  
+			  int res = (10000 * high[0]) + (100 * high[1]) + high[2];
+			  
+			  return res;
+			  
+		  }
+
+
+
+
+
+
+
+	//---------------------------------------------------------------------------------------
 		  
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 		  
 		  
 	
