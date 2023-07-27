@@ -1257,11 +1257,67 @@ public class Level_0 {
 		
 		
 		
+				
+		
+		
+//		54. 0 이상의 두 정수가 문자열 a, b로 주어질 때, 
+//		a + b의 값을 문자열로 return 하는 solution 함수를 작성해 주세요.
+
+//		String a = "18446744073709551615";
+//		String b = "287346502836570928366";
+//		
+//		System.out.println(lm.solution(a, b));
 		
 		
 		
 		
 		
+		
+		//------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+//		55. 정수 배열 arr과 delete_list가 있습니다. 
+//		arr의 원소 중 delete_list의 원소를 모두 삭제하고 남은 원소들은 기존의 arr에 있던 
+//		순서를 유지한 배열을 return 하는 solution 함수를 작성해 주세요.
+		
+//		int[] arr = {110, 66, 439, 785, 1};
+//		int[] delete_list = {377, 823, 119, 43};
+//		
+//		System.out.println(Arrays.toString(lm.solution(arr, delete_list)));
+
+		
+		
+		
+		
+		
+		//------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+//		56. 부분 문자열이란 문자열에서 연속된 일부분에 해당하는 문자열을 의미합니다. 
+//		예를 들어, 문자열 "ana", "ban", "anana", "banana", "n"는 모두 문자열 "banana"의 부분 문자열이지만, "aaa", "bnana", "wxyz"는 모두 "banana"의 부분 문자열이 아닙니다.
+//
+//		문자열 my_string과 target이 매개변수로 주어질 때, target이 문자열 my_string의 부분 문자열이라면 1을, 
+//		아니라면 0을 return 하는 solution 함수를 작성해 주세요.
+		
+//		String my_string = "banana";
+//		String target = "wxyz";
+//		
+//		System.out.println(lm.solution(my_string, target));
+
+		
+		
+		
+		
+		
+		//------------------------------------------------------------------------
 		
 		
 		

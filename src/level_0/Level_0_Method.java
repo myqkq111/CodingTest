@@ -1801,8 +1801,80 @@ public class Level_0_Method {
 		  
 		  
 		  
-		  
-		  
+		  //54번
+//			public String solution(String a, String b) {
+//		
+//			//정수타입인 int와 long을 사용해도 되지만 int와 long이 담을수없는 크기의 매개변수가 들어오게 되면 오류가 난다.
+//			//그렇기 때문에 가장 높은 타입인 BigInteger을 사용하면 된다.
+//		
+//			BigInteger ab = new BigInteger(a); //생성자에 문자열을 담아주면 정수로 변환된다.
+//			BigInteger bb = new BigInteger(b);
+//		
+//			String res = ab.add(bb).toString(); //ab와 bb를 더하고 문자열로 변환한다.
+//		
+//			return res;
+//		}
+	
+	
+	
+	
+	
+	//------------------------------------------------------------------------
+	
+	
+	
+	
+		//55번
+//		public int[] solution(int[] arr, int[] delete_list) {
+//		
+//			List<Integer> list = new ArrayList<Integer>(); //매개변수인 두 배열의 중복되지 않은 원소값을 저장하는 list
+//		
+//			w:for(int i = 0; i < arr.length; i++) { //arr[] 처음부터 끝까지 순차적으로 돌리면서
+//				for(int j = 0; j < delete_list.length; j++) { //delete_list[]의 원소값과 비교하여
+//					if(arr[i] == delete_list[j]) { //두 배열의 원소값이 중복된다면 
+//						continue w;				   //반복문을 탈출하여 arr[]의 다음 원소값을 비교하러 간다.
+//					}
+//				}
+//				list.add(arr[i]); //만약 arr[]의 i인덱스 값이 delete_list[]과 중복되지 않는 값이라면 list에 담는다.
+//			}
+//			int[] res = new int[list.size()];
+//		
+//			for(int i = 0; i < list.size(); i++) {
+//				res[i] = list.get(i);
+//			}
+//		
+//			return res;
+//		
+//		}
+	
+	
+	
+	
+	
+	//------------------------------------------------------------------------
+	
+	
+	
+	
+		//56번
+//		public int solution(String my_string, String target) {
+//		
+//			int res;
+//		
+//			if(my_string.contains(target)) { //contains()메서드는 문자열안에 매개변수 문자가 포함되어 있는지 true, false로 반환해준다.
+//				res = 1;
+//			} else {
+//				res = 0;
+//			}
+//			return res;
+//		}
+	
+	
+	
+	
+	
+	//------------------------------------------------------------------------
+
 		  
 		  
 		  
