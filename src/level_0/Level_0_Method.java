@@ -1,5 +1,6 @@
 package level_0;
 
+import java.sql.Date;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -1873,12 +1874,124 @@ public class Level_0_Method {
 	
 	
 	
+	
 	//------------------------------------------------------------------------
 
+	
 		  
 		  
 		  
 		  
+		  //57번
+//		  public String solution(String[] str_list, String ex) {
+//			  
+//			  String res = "";
+//			  
+//			  for(int i = 0; i < str_list.length; i++) { // str_list[]의 인덱스값을 하나씩 가져와서
+//				  if(str_list[i].contains(ex)) {  //ex변수값이 포함되어 있다면
+//					  continue; 				  //문자열에 담지않고 다음 인덱스로 넘어간다.
+//				  } else {
+//					  res += str_list[i]; //ex변수값이 포함되어 있지 않다면 res문자열 끝에 붙인다.
+//				  }
+//			  }			  
+//			  	return res;		  
+//		  }
+
+			
+			
+			
+			
+			
+	//------------------------------------------------------------------------  
+		  
+		  
+		  
+		  
+		  
+		  
+		  //58번
+//		  public int solution(int[] date1, int[] date2) {
+//			  
+//			  String str1 = ""; //매개변수 int배열 두개를 문자열로 바꿔줄것이다.
+//			  String str2 = "";
+//			  int res;
+//			  
+//			  for(int i = 0; i < 3; i++) {  
+//				 str1 += date1[i];
+//				 str2 += date2[i];
+//			  }
+//			  
+//			  if(Integer.parseInt(str1) < Integer.parseInt(str2) ) { //문자열로 바꾼 배열을 int로 변환하여 두개의 값을 비교한다.
+//				  res = 1;
+//			  } else {
+//				  res = 0;
+//			  }
+//			  return res;
+//		  }
+
+			
+			
+			
+			
+			
+	//------------------------------------------------------------------------   
+		  
+		  
+		  
+		  
+		  
+		  
+		  //59번
+//		  public int solution(String[] order) {
+//			  
+//			  int res = 0; //커피 가격 합
+//			  
+//			  //차가운것과 뜨거운것 상관없이 아메리카노냐 카페 라테냐만 구하면 쉽게 풀 수 있는 문제다.
+//			  for(int i = 0; i < order.length; i++) {
+//				  if(order[i].contains("americano") || order[i].contains("anything")) {
+//					  res += 4500;
+//				  } else {
+//					  res += 5000;
+//				  }
+//			  }
+//			  return res;
+//		  }
+
+			
+			
+			
+			
+			
+	//------------------------------------------------------------------------
+		  
+		  
+		  
+		
+		  
+		  
+		  //60번
+//		  public int[][] solution(int n){
+//			  
+//			  int[][] res = new int[n][n];
+//			  
+//			  for(int i = 0; i < res.length; i++) {
+//				  for(int j = 0; j < res[i].length; j++) { //2중반복문을 이용해
+//					  if( i == j ) { //i와j가 같다면 해당 인덱스에 값은 1이고 다르다면 0으로 담아준다.
+//						  res[i][j] = 1;
+//					  } else {
+//						  res[i][j] = 0;
+//					  }
+//				  }
+//			  }
+//			  return res;
+//		  }
+
+			
+			
+			
+			
+			
+	//------------------------------------------------------------------------
 		  
 		  
 		  

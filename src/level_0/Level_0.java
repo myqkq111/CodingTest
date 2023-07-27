@@ -1,5 +1,6 @@
 package level_0;
 
+import java.sql.Date;
 import java.util.Arrays;
 
 public class Level_0 {
@@ -1318,6 +1319,112 @@ public class Level_0 {
 		
 		
 		//------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+//		57. 문자열들이 담긴 리스트가 주어졌을 때, 모든 문자열들을 순서대로 합친 문자열을 꼬리 문자열이라고 합니다. 
+//		꼬리 문자열을 만들 때 특정 문자열을 포함한 문자열은 제외시키려고 합니다. 
+//		예를 들어 문자열 리스트 ["abc", "def", "ghi"]가 있고 문자열 "ef"를 포함한 문자열은 제외하고 꼬리 문자열을 만들면 "abcghi"가 됩니다.
+//
+//		문자열 리스트 str_list와 제외하려는 문자열 ex가 주어질 때, 
+//		str_list에서 ex를 포함한 문자열을 제외하고 만든 꼬리 문자열을 return하도록 solution 함수를 완성해주세요.
+		
+//		String[] str_list = {"abc", "bbc", "cbc"};
+//		String ex = "c";
+//		
+//		System.out.println(lm.solution(str_list, ex));
+
+		
+		
+		
+		
+		
+		//------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+//		58. 정수 배열 date1과 date2가 주어집니다. 
+//		두 배열은 각각 날짜를 나타내며 [year, month, day] 꼴로 주어집니다. 각 배열에서 year는 연도를, month는 월을, day는 날짜를 나타냅니다.
+//
+//		만약 date1이 date2보다 앞서는 날짜라면 1을, 아니면 0을 return 하는 solution 함수를 완성해 주세요.
+		
+//		int[] date1 = {2021, 12, 28};
+//		int[] date2 = {2021, 12, 28};
+//		
+//		System.out.println(lm.solution(date1, date2));
+
+		
+		
+		
+		
+		
+		//------------------------------------------------------------------------
+		
+		
+		
+	
+		
+		
+		
+//		59. 팀의 막내인 철수는 아메리카노와 카페 라테만 판매하는 카페에서 팀원들의 커피를 사려고 합니다. 
+//		아메리카노와 카페 라테의 가격은 차가운 것과 뜨거운 것 상관없이 각각 4500, 5000원입니다. 
+//		각 팀원에게 마실 메뉴를 적어달라고 하였고, 그 중에서 메뉴만 적은 팀원의 것은 차가운 것으로 통일하고 "아무거나"를 적은 팀원의 것은 차가운 아메리카노로 통일하기로 하였습니다.
+//
+//		각 직원이 적은 메뉴가 문자열 배열 order로 주어질 때, 카페에서 결제하게 될 금액을 return 하는 solution 함수를 작성해주세요. 
+//		order의 원소는 아래의 것들만 들어오고, 각각의 의미는 다음과 같습니다.
+//		
+//		order의 원소	의미
+//		"iceamericano", "americanoice"	차가운 아메리카노
+//		"hotamericano", "americanohot"	따뜻한 아메리카노
+//		"icecafelatte", "cafelatteice"	차가운 카페 라테
+//		"hotcafelatte", "cafelattehot"	따뜻한 카페 라테
+//		"americano"	아메리카노
+//		"cafelatte"	카페 라테
+//		"anything"	아무거나
+		
+//		String[] order = {"americanoice", "americano", "iceamericano"};
+//		
+//		System.out.println(lm.solution(order));
+
+		
+		
+		
+		
+		
+		//------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+//		60. 정수 n이 매개변수로 주어질 때, 다음과 같은 n × n 크기의 이차원 배열 arr를 return 하는 solution 함수를 작성해 주세요.
+//
+//		arr[i][j] (0 ≤ i, j < n)의 값은 i = j라면 1, 아니라면 0입니다.
+						
+//		int n = 1;
+//		
+//		System.out.println(Arrays.deepToString(lm.solution(n)));
+
+		
+		
+		
+		
+		
+		//------------------------------------------------------------------------
+		
+	
+		
+		
+		
+		
+		
 		
 		
 		
