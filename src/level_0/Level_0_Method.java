@@ -1997,6 +1997,104 @@ public class Level_0_Method {
 		  
 		  
 		  
+	
+		  //61번
+//		  public String[] solution(String[] picture, int k) {
+//			  
+//			  List<String> list = new ArrayList<String>();
+//			  
+//			  for(int i = 0; i < picture.length; i++) {	//picture[]의 모든 원소에 접근
+//				  for(int j = 0; j < k; j++) {
+//					  String pic = "";
+//					  for(int g = 0; g < picture[i].length(); g++) { //각 원소의 문자에 하나하나 접근하여 k번만큼 문자열에 담아주고
+//						  for(int f = 0; f < k; f++) {
+//							  pic += picture[i].charAt(g);
+//						  }
+//					  }  
+//					  list.add(pic); //k번만큼 문자를 추가한 문자열을 list에 담는다.(가로)
+//				  } //위 문자열과 같은 문자열을 k번만큼 list에 담는다(세로)
+//			  }
+//			  String[] res = list.toArray(new String[picture.length * k]); //모든 값을 담은 list를 배열로 변환한다.
+//			  
+//			  return res;
+//		  }
+
+			
+			
+			
+			
+			
+	//------------------------------------------------------------------------	  
+	
+	
+	
+	
+	
+	
+		  //62번
+//		  public int solution(int[][] arr){
+//			  
+//			  int res = 1; //반환할 변수의 기본값을 1로 해놓고
+//			  
+//			  w:for(int i = 0; i < arr.length; i++) {
+//				  for(int j = 0; j < arr[i].length; j++) {
+//					  if(arr[i][j] != arr[j][i]) { //조건을 비교 해봤을 때
+//						  res = 0; //두 배열의 특정인덱스 값이 같지않다면 변수의 값을 0으로 바꾸고 
+//						  break w; //반복문 탈출
+//					  }
+//				  }
+//			  }
+//			  return res; //만약 조건을 비교 해봤을 때 값이 같다면 그대로 1값을 반환한다.
+//		  }
+
+			
+			
+			
+			
+			
+	//------------------------------------------------------------------------	 
+	
+	
+		  
+		  
+		  
+		  
+		  //63번
+//		  public int[][] solution(int[][] arr){
+//			  
+//			  int[][] res;
+//			  
+//			  if(arr.length > arr[0].length) {
+//				  res = new int[arr.length][arr.length];
+//			  } else {
+//				  res = new int[arr[0].length][arr[0].length];
+//			  }
+//			  
+//			  for(int i = 0; i < arr.length; i++) {
+//				  for(int j = 0; j < arr[i].length; j++) {
+//					  res[i][j] = arr[i][j];
+//				  }
+//			  }
+//			  return res;
+//		  }
+		  //2중배열의 방 갯수를 정사각형으로 생성해주고 매개변수인 arr[][]의 원소를 그대로 옮기면 값이 채워지지않은
+		  //빈자리는 int의 기본값인 0으로 자동으로 채워진다.
+			
+			  
+		  
+			
+
+
+	//------------------------------------------------------------------------
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
 		  
 		  
 		  
