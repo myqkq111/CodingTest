@@ -2092,6 +2092,80 @@ public class Level_0_Method {
 		  
 		  
 		  
+		  //64번
+//		  public int solution(int[][] board, int k) {
+//			  
+//			  int res = 0;
+//			  
+//			  for(int i = 0; i < board.length; i++) { //i와j를 순회하는 반복문을 만들어
+//				  for(int j = 0; j < board[i].length; j++) {
+//					  if(i+j <= k) { //조건을 만족하면
+//						  res += board[i][j]; //i와j의 해당하는 인덱스값을 더해준다.
+//					  }
+//				  }
+//			  }
+//			  return res;
+//		  }
+			
+		  
+		  
+			
+
+
+	//------------------------------------------------------------------------ 
+		  
+	
+		  
+		  
+		  
+		  
+		  //65번
+//		  public int[][] solution(int n){
+//			  
+//			  int[][] res = new int[n][n]; //n*n크기의 배열생성
+//			  
+//			  int val = 1; //배열의 원소값
+//			  int right = 0; 
+//			  int bottom = 1;
+//			  int left = n-2;
+//			  int top = n-2;
+//			  
+//			  while(val <= n*n) { //배열의 원소값으로 n*n이 마지막으로 들어가야하기 때문에 val의 값이 그보다 크다면 반복문 종료
+//				  for(int i = right; i < n-right; i++) {
+//					  res[right][i] =  val++;
+//				  }
+//				  right++;
+//				  
+//				  for(int i = bottom; i <= n-bottom; i++) {
+//					  res[i][n-bottom] = val++; 
+//				  }
+//				  bottom++;
+//				  
+//				  for(int i = left; i >= (n-2)-left; i--) {
+//					  res[left+1][i] = val++;
+//				  }
+//				  left--;
+//				  
+//				  for(int i = top; i > (n-2)-top; i--) {
+//					  res[i][(n-2)-top] = val++;
+//				  }
+//				  top--;  
+//			  }
+//			  
+//			  return res;
+//		  }
+			
+		  
+		  
+			
+
+
+	//------------------------------------------------------------------------ 
+		  
+		  
+		  
+		  
+		  
 		  
 		  
 		  
