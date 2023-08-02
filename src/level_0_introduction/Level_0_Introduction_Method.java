@@ -146,13 +146,49 @@ public class Level_0_Introduction_Method {
 	
 	
 	//5번
-	public String[] solution(String my_str, int n) {
-		
-		String[] res;
-		
-		
-		
-	}
+//	public String[] solution(String my_str, int n) {
+//		
+//		List<String> list = new ArrayList<String>(); //배열에 담기전 list
+//		String a = ""; //n개씩 문자열을 담을 객체
+//		
+//		for(int i = 0; i < my_str.length(); i++) { //my_str의 길이만큼 반복문을 돌려
+//			
+//			a += my_str.charAt(i); //처음부터 하나씩 a객체에 문자를 담고
+//			
+//			if(a.length() == n) { //담은 문자가 n개가 되었을때
+//				list.add(a); //list에 담고
+//				a = ""; //a객체는 초기화한다.
+//			} else if(i == my_str.length()-1) { //n개는 아니지만 더이상 담을 문자가 없다면 지금 담긴 문자를 list에 담는다.
+//				list.add(a);
+//			}		
+//		}
+//		
+//		String[] res = list.toArray(new String[list.size()]); //list를 배열로 변환시킨다.
+//		
+//		return res;
+//		
+//	}
+
+	
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
