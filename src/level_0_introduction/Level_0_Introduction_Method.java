@@ -1,6 +1,7 @@
 package level_0_introduction;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Level_0_Introduction_Method {
@@ -183,10 +184,85 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//6번
+//	public int solution(int[] array) {
+//		
+//		int res = 0; //7의 갯수를 담을 변수
+//		
+//		for(int i = 0; i < array.length; i++) {
+//			String num = Integer.toString(array[i]); //배열의 원소값을 문자열로 바꾸고
+//			
+//			for(int j = 0; j < num.length(); j++ )  { //문자열의 문자 하나하나 비교하여 7이 있다면 개수만큼 res변수값을 증가시킨다.
+//				if(num.charAt(j) == '7') {
+//					res++; 
+//				}
+//			}
+//		}
+//		return res;
+//	}
+
 	
 	
 	
 	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	//7번
+//	public String solution(String my_string) {
+//		
+//		my_string = my_string.toLowerCase(); //대소문자 문자열을 소문자로 만들고		
+//		
+//		char[] array = my_string.toCharArray(); //문자열을 문자배열로 만들어준다.
+//		
+//		Arrays.sort(array); //배열을 오름차순으로 설정해주고
+//		
+//		String res = "";
+//		
+//		for(int i = 0; i < array.length; i++) { //배열을 처음부터 순서대로 문자열의 끝에 붙혀서 문자열로 만들어준다.
+//			res += array[i];
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//8번
+//	public int solution(int n, int t) {
+//		
+//		int res = n;
+//		
+//		for(int i = 0; i < t; i++) { //1시간에 두배씩 늘어나니깐 t값만큼 반복문을 돌리면서 곱하기 2를 해주면 된다.
+//			res *= 2;
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
