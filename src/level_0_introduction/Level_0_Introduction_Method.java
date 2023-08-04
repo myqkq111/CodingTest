@@ -270,6 +270,85 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//9번
+//	public int solution(String str1, String str2) {
+//		
+//		int res;
+//		
+//		if(str1.contains(str2)) { //contains : 문자열 안에 매개변수 문자열이 포함되어있는지 확인하는 메서드
+//			res = 1;
+//		} else {
+//			res = 2;
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//10번
+//	public int solution(int n) {
+//		
+//		int res = 2; //값이 2인 변수 생성
+//		
+//		for(int i = 1; i <= 1000; i++) { //1000까지 돌린이유는 n의 최대치인 1000000이 1000의 제곱이기 때문이다.
+//			if(i * i == n) {
+//				res = 1;
+//				break;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//11번
+//	public int solution(int n) {
+//		int answer = 0;
+//		String [] arr = Integer.toString(n).split(""); //매개변수 n을 문자열로 바꾸고 각자리의 문자를 배열에 담는다.
+//		
+//		for(String a : arr) { //배열에 담긴 원소를 하나씩
+//			answer += Integer.parseInt(a); //int로 형변환 후 변수에 값을 더해준다.
+//		}
+//		return answer;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
