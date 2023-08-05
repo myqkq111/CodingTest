@@ -345,6 +345,146 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//12번
+//	public int[] solution(int n, int[] numlist) {
+//		
+//		List<Integer> list = new ArrayList<Integer>(); //값을 담을 list
+//		
+//		for(int i = 0; i < numlist.length; i++) {
+//			if(numlist[i] % n == 0) { //numlist의 원소가 n의 배수 일때
+//				list.add(numlist[i]); //원소를 list에 담고
+//			}
+//		}
+//		int[] res = new int[list.size()]; 
+//		
+//		for(int i = 0; i < list.size(); i++) { //list에 담긴 원소를 배열에 담는다.
+//			res[i] = list.get(i);
+//		}
+//		
+//		return res;
+//		
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//13번
+//	public int solution(int num, int k) {
+//		
+//		int res;
+//		
+//		String strnum = Integer.toString(num); //매개변수 두개를 문자열로 형변환 해주고
+//		String strk = Integer.toString(k);
+//		
+//		if(strnum.contains(strk)) { //num안에 k가 포함이 되어있다면
+//			res = strnum.indexOf(strk) + 1; //k가 있는 자리수를 반환하고
+//		} else { //없다면
+//			res = -1; //-1을 반환한다.
+//		}
+//		
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//14번
+//	public int solution(String[] s1, String[] s2) {
+//		
+//		int res = 0;
+//		
+//		for(int i = 0; i < s1.length; i++) {
+//			for(int j = 0; j < s2.length; j++) {
+//				if(s1[i].equals(s2[j])) {
+//					res++;
+//				}
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//15번
+//	public String[] solution(String[] quiz) {
+//		
+//		String[] res = new String[quiz.length];
+//		
+//		for(int i = 0; i < quiz.length; i++) { //quiz배열의 원소를 하나씩 가져온다.
+//			
+//			String[] arr = quiz[i].split(" "); //원소를 split메서드를 이용해 배열에 담아주면 arr배열의 길이는 언제나 5가 된다.
+//			
+//			int x = Integer.parseInt(arr[0]); //숫자 문자열들을 int로 형변환 해준다.
+//			int y = Integer.parseInt(arr[2]);
+//			int z = Integer.parseInt(arr[4]);
+//			
+//			switch(arr[1]) { //[연산자]가 + 인지 - 인지 구분하고
+//			case "+":
+//				if(x + y == z) { //연산값이 맞다면 res배열에 O를 아니라면 X를 넣는다.
+//					res[i] = "O";
+//				} else {
+//					res[i] = "X";
+//				}
+//				break;
+//			case "-":
+//				if(x - y == z) {
+//					res[i] = "O";
+//				} else {
+//					res[i] = "X";
+//				}
+//				break;
+//			}		
+//		}
+//		
+//		return res;
+//		
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
