@@ -481,6 +481,103 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//16번
+//	public int solution(String my_string) {
+//		
+//		String[] arr = my_string.split(" "); //문자열을 띄어쓰기 기준으로 배열에 담는다.
+//		
+//		int res = Integer.parseInt(arr[0]); //배열의 첫번째는 무조건 숫자이기 때문에 변수에 담아준다.
+//		
+//		String pm = ""; //연산기호를 담을 객체
+//		
+//		for(int i = 1; i < arr.length; i++) {
+//			if(i % 2 == 1) { //인덱스가 홀수일때
+//				pm = arr[i]; //pm객체에 원소를 담아준다.(홀수 원소는 연산기호)
+//			} else { //인덱스가 짝수라면
+//				switch(pm) { //pm객체에 저장되어있는 연산기호가 +인지 -인지 파악한 후 계산해준다.
+//				case "+":
+//					res += Integer.parseInt(arr[i]);
+//					break;
+//				case "-":
+//					res -= Integer.parseInt(arr[i]);
+//					break;
+//				}
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//17번
+//	public int[] solution(int[] array) {
+//		
+//		int[] res = {array[0], 0}; //매개변수 배열의 0번째 인덱스의 원소와 0인덱스를 배열에 담고
+//		
+//		for(int i = 0; i < array.length; i++) {
+//			if(res[0] < array[i]) { //매개변수 배열의 원소를 비교하여 
+//				res[0] = array[i]; //큰값을 새롭게 res배열에 담아준다.
+//				res[1] = i;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//18번
+//	public int[] solution(int n) {
+//		
+//		List<Integer> list = new ArrayList<Integer>();
+//		
+//		for(int i = 1; i <= n; i++) { //1부터 n까지 숫자를 차례대로 나누어 나머지가 0이면 n의 약수이기 때문에 list에 담아준다.
+//			if(n % i == 0) { 
+//				list.add(i);
+//			}
+//		}		
+//		int[] res = new int[list.size()];
+//		
+//		for(int i = 0; i < list.size(); i++) { //list의 원소를 배열에 담는 과정
+//			res[i] = list.get(i);
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
