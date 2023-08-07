@@ -397,6 +397,76 @@ public class Level_0_Introduction {
 		
 		
 		
+//		19. 문자열 s가 매개변수로 주어집니다.
+//		s에서 한 번만 등장하는 문자를 사전 순으로 정렬한 문자열을 return 하도록 solution 함수를 완성해보세요.
+//		한 번만 등장하는 문자가 없을 경우 빈 문자열을 return 합니다.
+		
+//		String s = "hello";
+//		
+//		System.out.println(am.solution(s));
+		
+		
+		
+		
+		
+		
+		//----------------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+//		20. 문자열 my_string과 정수 num1, num2가 매개변수로 주어질 때,
+//		my_string에서 인덱스 num1과 인덱스 num2에 해당하는 문자를 바꾼 문자열을 return 하도록 solution 함수를 완성해보세요.
+		
+//		String my_string = "I love you";
+//		int num1 = 3;
+//		int num2 = 6;
+//		
+//		System.out.println(am.solution(my_string, num1, num2));
+
+		
+		
+		
+		
+		
+		//----------------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+		
+//		21. 영어가 싫은 머쓱이는 영어로 표기되어있는 숫자를 수로 바꾸려고 합니다.
+//		문자열 numbers가 매개변수로 주어질 때, numbers를 정수로 바꿔 return 하도록 solution 함수를 완성해 주세요.
+//
+//		제한사항
+//		numbers는 소문자로만 구성되어 있습니다.
+//		numbers는 "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" 들이 공백 없이 조합되어 있습니다.
+//		1 ≤ numbers의 길이 ≤ 50
+//		"zero"는 numbers의 맨 앞에 올 수 없습니다.
+		
+//		String numbers = "onefourzerosixseven"	;
+//		
+//		System.out.println(am.solution(numbers));
+
+		
+		
+		
+		
+		
+		//----------------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		

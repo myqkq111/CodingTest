@@ -575,6 +575,144 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//19번
+//    public String solution(String s) {
+//	    String answer = "";
+//	    
+//	    w:for(int i = 0; i < s.length(); i ++){ //s의 문자를 다른 문자들과 비교한다
+//	        for(int j = 0; j < s.length(); j++){
+//	            if(i == j){ //같은 인덱스 일땐 건너뛰도록 한다.
+//	                continue;
+//	            }
+//	            if(s.charAt(i) == s.charAt(j)){ //만약 동일한 문자가 있을경우
+//	                continue w; //다음 인덱스로 넘어간다
+//	            }
+//	        }
+//	        answer += s.charAt(i); //같은 인덱스가 없을경우 객체에 담아준다.
+//	    }
+//	    String[] arr = answer.split(""); //배열로 만든후
+//	    Arrays.sort(arr); //오름차순으로 정렬한다
+//	    
+//	    answer = ""; //비어주는 이유는 오름차순으로 정렬된 문자열을 새롭게 받기 위해서이다.
+//	    
+//	    for(int i = 0; i < arr.length; i++){
+//	        answer += arr[i];
+//	    }
+//	    
+//	    return answer;
+//	}
+
+
+
+
+
+
+	//----------------------------------------------------------------------------------
+
+
+
+
+
+
+	//20번
+//	public String solution(String my_string, int num1, int num2) {
+//		
+//		char ch1 = my_string.charAt(num1); //num1,2 인덱스에 해당하는 문자를 미리 받아둔다.
+//		char ch2 = my_string.charAt(num2);
+//		
+//		StringBuffer sb = new StringBuffer(my_string); //setCharAt()를 사용하기 위함
+//		
+//		sb.setCharAt(num1, ch2); //num1,2인덱스에 해당하는 문자의 위치를 서로 바꾼다.
+//		sb.setCharAt(num2, ch1);
+//		
+//		String res = sb.toString();
+//		
+//		return res;
+//		
+//	}
+
+
+
+
+
+
+	//----------------------------------------------------------------------------------
+
+
+
+
+
+	
+	//21번
+//	public long solution(String numbers) {
+//		
+//		String str = ""; //numbers의 문자를 하나씩 담을 객체
+//		String resStr = ""; //numbers의 알파벳에 맞는 숫자를 일단 문자열에 담는다.
+//		
+//		for(int i = 0; i < numbers.length(); i++) {			
+//			str += numbers.charAt(i); //문자를 하나씩 객체에 추가하다가
+//	
+//			switch(str) { //맞는 영어단어가 있다면
+//			case "zero":
+//				resStr += 0; //그에 맞는 숫자를 담고
+//				str = ""; //객체를 다시 비운다.
+//				break;
+//			case "one":
+//				resStr += 1;
+//				str = "";
+//				break;
+//			case "two":
+//				resStr += 2;
+//				str = "";
+//				break;
+//			case "three":
+//				resStr += 3;
+//				str = "";
+//				break;
+//			case "four":
+//				resStr += 4;
+//				str = "";
+//				break;
+//			case "five":
+//				resStr += 5;
+//				str = "";
+//				break;
+//			case "six":
+//				resStr += 6;
+//				str = "";
+//				break;
+//			case "seven":
+//				resStr += 7;
+//				str = "";
+//				break;
+//			case "eight":
+//				resStr += 8;
+//				str = "";
+//				break;
+//			case "nine":
+//				resStr += 9;
+//				str = "";
+//				break;				
+//			}
+//		}
+//		long res = Integer.parseInt(resStr); //문자열을 숫자로 바꿔담는다.
+//		
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
