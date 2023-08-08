@@ -712,7 +712,80 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//22번
+//	public String solution(String my_string) {
+//		
+//		String res = ""; //결과값을 담을 객체
+//		
+//		for(int i = 0; i < my_string.length(); i++) {
+//			String tocase = ""; //문자를 하나씩 담아서 대소문자로 변경을 해주기위한 용도
+//			tocase += my_string.charAt(i);
+//			if(my_string.charAt(i) >= 'a' && my_string.charAt(i) <= 'z') { //소문자일경우 대문자로
+//				res += tocase.toUpperCase(); 
+//			} else { //대문자일경우 소문자로 바꾼다.
+//				res += tocase.toLowerCase();
+//			}
+//		}
+//		return res;
+//	}
+
 	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//23번
+//	public String solution(String cipher, int code) {
+//		
+//		String res = "";
+//		
+//		for(int i = code; i <= cipher.length(); i += code) { //code부터 시작해서 code배수만 객체에 담는다.
+//			res += cipher.charAt(i-1); //code는 자릿수이고 charAt()는 인덱스를 적어야하기 때문에 -1을 해준다.
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//24번
+//	public int solution(int order) {
+//		
+//		int res = 0;
+//		
+//		String str = Integer.toString(order); //매개변수 int를 String으로 바꿔주고
+//		String[] arr = str.split(""); //문자열을 문자마다 배열로 나눠준다.
+//		
+//		for(int i = 0; i < arr.length; i++) {
+//			if(arr[i].equals("3") || arr[i].equals("6") || arr[i].equals("9")) {
+//				res++; //문자가 3,6,9라면 res변수의 값을 상승시킨다.
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
 	
 	
 	
