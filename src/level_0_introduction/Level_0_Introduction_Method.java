@@ -792,6 +792,135 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//25번
+//	public int solution(int[] array, int n) {
+//		
+//		int res = array[0]; //array의 첫번째 원소와
+//		int x; //첫번째원소와 n을 뺀 값을 담는다.
+//		
+//		if(array[0] > n) { //첫번째원소와 n값을 뺄때 큰값에서 작은값을 빼도록 한다. 그래야 음수가 안나오기 때문이다.
+//			x = array[0] - n;
+//		} else {
+//			x = n - array[0];
+//		}
+//		
+//		for(int i = 1; i < array.length; i++) {
+//			int y; //i인덱스에 해당하는 원소와 n을 뺀 값을 담을 변수
+//			if(array[i] > n) { //음수값이 안나오게 하기위한 조건문
+//				y = array[i] - n;
+//			} else {
+//				y = n - array[i];
+//			}
+//			
+//			if(x == y) { //x와y를 비교하여 두값이 같다면
+//				if(res > array[i]) { //더작은 원소를 res변수에 담는다.
+//					res = array[i];
+//				}
+//			} else if(x > y) { //y가 더 작다면 x보다 가까운 수이기 때문에
+//				res = array[i]; //res에 해당 인덱스의 원소를 넣어주고
+//				x = y; //그 원소와 n의 차이값을 x에 담아준다.
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//26번
+//	public int solution(int[] sides) {
+//		
+//		int res; //1또는2 결과값을 담을 변수
+//		int max = sides[0]; //가장큰 원소의 값을 담은 변수
+//		int maxidx = 0; //가장큰 원소의 인덱스
+//		int sum = 0; //가장큰 원소를 제외한 나머지 원소의 합계
+//		
+//		if(max < sides[1]) {
+//			max = sides[1];
+//			maxidx = 1;
+//		}
+//		if(max < sides[2]) {
+//			max = sides[2];
+//			maxidx = 2;
+//		}
+//		
+//		for(int i = 0; i < 3; i++) {
+//			if(i != maxidx) {
+//				sum += sides[i];
+//			}
+//		}
+//		
+//		if(max < sum) {
+//			res = 1;
+//		} else {
+//			res = 2;
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//27번
+//	 public String solution(String my_string) {
+//		 
+//		 String[] arr = my_string.split(""); //매개변수 문자열을 배열로 나눠준후
+//		 List<String> list = new ArrayList<String>(Arrays.asList(arr)); //list로 변환한다.
+//		 
+//		 for(int i = 0; i < list.size()-1; i++) {		 
+//			 for(int j = list.size()-1; j > i; j--) {			 
+//				 if(list.get(i).equals(list.get(j))) { //모든 문자를 비교하여 같은 문자가 있을경우 뒤에 있는 문자를 지운다.
+//					list.remove(j);
+//				 }			 
+//			 }		 
+//		 }
+//		 
+//		 String res = "";
+//		 for(int i = 0; i < list.size(); i++) { //중복문자를 제거한 후 남은 list의 원소를 문자열로 바꾼다.
+//			 res += list.get(i);
+//		 }	 
+//		 return res;
+//	 }
+
+		
+		
+		
+		
+		
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	
 	
 	
 	
