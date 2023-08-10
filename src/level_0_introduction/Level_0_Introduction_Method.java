@@ -912,14 +912,114 @@ public class Level_0_Introduction_Method {
 	 
 	 
 	 
+	 //28번
+//	 public int solution(int i, int j, int k) {
+//		 
+//		 int res = 0; //값을 담을 변수
+//		 
+//		 for(int q = i; q <= j; q++) {
+//			 String str = Integer.toString(q); //i부터 j만큼 반복문을 돌리면서 숫자를 문자열로 변환시킨다.
+//			 for(int w = 0; w < str.length(); w++) {
+//				 if(Character.getNumericValue(str.charAt(w)) == k) { //문자열의 문자 하나씩 꺼내와 k와 비교하여 같다면
+//					 res++; //변수값 상승
+//				 }
+//			 }
+//		 }
+//		 return res;
+//	 }
+
+		
+		
+		
+		
+		
+	//----------------------------------------------------------------------------------
 	 
 	 
 	 
 	 
 	 
 	 
-	 
-	 
+	//29번
+//	public int solution(String before, String after) {
+//		
+//		String str = ""; //before의 문자열을 거꾸로 담을 객체
+//		int res;
+//		
+//		for(int i = before.length()-1; i >= 0; i--) { //문자열을 거꾸로 담는과정
+//			str += before.charAt(i);
+//		}
+//
+//		if(str.equals(after)) { //거꾸로 담은 문자열이 after과 같다면
+//			res = 1; //1을
+//		} else { //아니라면
+//			res = 0; //0을 넣는다.
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//30번
+	public int solution(int chicken) {
+		
+		int res = chicken / 10; //결과값을 담을 변수(쿠폰으로 시킨 치킨의 수)
+		int a = chicken / 10; //쿠폰으로 치킨을 시키고 또 받은 쿠폰수
+		int b = chicken % 10; //쿠폰으로 치킨을 시키고 남은 쿠폰들
+		
+		while(true) { 
+			if(a + b >= 10) { 
+				res += a / 10; 
+				
+				if(a == 10) { 
+					b += 1;
+				} else {
+					b += (a % 10);
+				}
+				
+				a /= 10;
+				
+				if(a < 10 && b >= 10) {
+					res += b / 10;
+					b /= 10;
+				}			
+			} else {
+				break;
+			}
+		}		
+		return res;
+	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
