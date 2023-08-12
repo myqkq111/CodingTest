@@ -971,34 +971,34 @@ public class Level_0_Introduction_Method {
 	
 	
 	//30번
-	public int solution(int chicken) {
-		
-		int res = chicken / 10; //결과값을 담을 변수(쿠폰으로 시킨 치킨의 수)
-		int a = chicken / 10; //쿠폰으로 치킨을 시키고 또 받은 쿠폰수
-		int b = chicken % 10; //쿠폰으로 치킨을 시키고 남은 쿠폰들
-		
-		while(true) { 
-			if(a + b >= 10) { 
-				res += a / 10; 
-				
-				if(a == 10) { 
-					b += 1;
-				} else {
-					b += (a % 10);
-				}
-				
-				a /= 10;
-				
-				if(a < 10 && b >= 10) {
-					res += b / 10;
-					b /= 10;
-				}			
-			} else {
-				break;
-			}
-		}		
-		return res;
-	}
+//	public int solution(int chicken) {
+//		
+//		int res = chicken / 10; //결과값을 담을 변수(쿠폰으로 시킨 치킨의 수)
+//		int a = chicken / 10; //쿠폰으로 치킨을 시키고 또 받은 쿠폰수
+//		int b = chicken % 10; //쿠폰으로 치킨을 시키고 남은 쿠폰들
+//		
+//		while(true) { 
+//			if(a + b >= 10) { 
+//				res += a / 10; 
+//				
+//				if(a == 10) { 
+//					b += 1;
+//				} else {
+//					b += (a % 10);
+//				}
+//				
+//				a /= 10;
+//				
+//				if(a < 10 && b >= 10) {
+//					res += b / 10;
+//					b /= 10;
+//				}			
+//			} else {
+//				break;
+//			}
+//		}		
+//		return res;
+//	}
 
 	
 	
@@ -1013,7 +1013,77 @@ public class Level_0_Introduction_Method {
 	
 	
 	
-	
+//	public String solution(String[] id_pw, String[][] db) {
+//	
+//	String res = "";
+//	
+//	for(int i = 0; i < db.length; i++) {
+//		if(id_pw[0].equals(db[i][0])) { //id먼저 확인한다.
+//			if(id_pw[1].equals(db[i][1])) { //일치하는 id의 비밀번호도 일치한다면
+//				res = "login"; //login을 담고 반복문 탈출
+//				break;
+//			} else { //id만 일치하고 비밀번호는 일치하지 않는다면
+//				res = "wrong pw"; //wrong pw를 담고 반복문 탈출
+//				break;
+//			}
+//		}
+//	}
+//	
+//	if(res.isEmpty()) { //모든 id를 비교했음에도 일치하는 id가 없다면 fail을 담는다.
+//		res = "fail";
+//	}
+//	
+//	return res;
+//}
+
+
+
+
+
+
+//----------------------------------------------------------------------------------
+
+
+
+
+
+//public int[] solution(int[][] score) {
+//	
+//	int[] res = new int[score.length]; //등수를 담을 배열
+//	
+//	List<Integer> list = new ArrayList<Integer>(); //매개변수 2차원 배열의 각원소 평균을 담을 list
+//	
+//	for(int i = 0; i < score.length; i++) {
+//		int ave = (score[i][0] + score[i][1]) / 2; //평균을 구해 list에 담는다
+//		list.add(ave);
+//	}
+//	
+//	Collections.sort(list, Collections.reverseOrder()); //평균이 높은 원소가 앞으로 나오도록 정렬
+//	
+//	int count; //평균이 같을때 동일한 등수를 주고 그 인원만큼 다음등수에 영향이 가기 때문에 몇명인지 카운트한다.
+//	
+//	for(int i = 1; i <= list.size(); i += count) {
+//		List<Integer> ov = new ArrayList<Integer>(); //등수별로 정렬된 list의 원소를 순서대로 비교하여 같은 평균을 가진 2차원배열 원소의 인덱스를 담을 list
+//		count = 0;
+//		for(int j = 0; j < score.length; j++) {
+//			if(list.get(i-1) == (score[j][0] + score[j][1]) / 2) {
+//				ov.add(j); //list의 해당 인덱스의 원소와 같은 평균을 가진 2차원배열의 인덱스를 담는다.
+//			}
+//		}
+//		for(int j = 0; j < ov.size(); j++) {
+//			res[ov.get(j)] = i; //res배열에 각 인덱스의 등수를 입력해주고
+//			count++; //해당등수가 몇명인지 카운트한다.
+//		}
+//	}
+//		return res;
+//}
+
+
+
+
+
+
+//----------------------------------------------------------------------------------
 	
 	
 	
