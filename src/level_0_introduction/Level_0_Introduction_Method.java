@@ -1012,78 +1012,166 @@ public class Level_0_Introduction_Method {
 	
 	
 	
-	
+	//31번
 //	public String solution(String[] id_pw, String[][] db) {
 //	
-//	String res = "";
-//	
-//	for(int i = 0; i < db.length; i++) {
-//		if(id_pw[0].equals(db[i][0])) { //id먼저 확인한다.
-//			if(id_pw[1].equals(db[i][1])) { //일치하는 id의 비밀번호도 일치한다면
-//				res = "login"; //login을 담고 반복문 탈출
-//				break;
-//			} else { //id만 일치하고 비밀번호는 일치하지 않는다면
-//				res = "wrong pw"; //wrong pw를 담고 반복문 탈출
-//				break;
+//		String res = "";
+//		
+//		for(int i = 0; i < db.length; i++) {
+//			if(id_pw[0].equals(db[i][0])) { //id먼저 확인한다.
+//				if(id_pw[1].equals(db[i][1])) { //일치하는 id의 비밀번호도 일치한다면
+//					res = "login"; //login을 담고 반복문 탈출
+//					break;
+//				} else { //id만 일치하고 비밀번호는 일치하지 않는다면
+//					res = "wrong pw"; //wrong pw를 담고 반복문 탈출
+//					break;
+//				}
 //			}
 //		}
-//	}
-//	
-//	if(res.isEmpty()) { //모든 id를 비교했음에도 일치하는 id가 없다면 fail을 담는다.
-//		res = "fail";
-//	}
-//	
-//	return res;
-//}
-
-
-
-
-
-
-//----------------------------------------------------------------------------------
-
-
-
-
-
-//public int[] solution(int[][] score) {
-//	
-//	int[] res = new int[score.length]; //등수를 담을 배열
-//	
-//	List<Integer> list = new ArrayList<Integer>(); //매개변수 2차원 배열의 각원소 평균을 담을 list
-//	
-//	for(int i = 0; i < score.length; i++) {
-//		int ave = (score[i][0] + score[i][1]) / 2; //평균을 구해 list에 담는다
-//		list.add(ave);
-//	}
-//	
-//	Collections.sort(list, Collections.reverseOrder()); //평균이 높은 원소가 앞으로 나오도록 정렬
-//	
-//	int count; //평균이 같을때 동일한 등수를 주고 그 인원만큼 다음등수에 영향이 가기 때문에 몇명인지 카운트한다.
-//	
-//	for(int i = 1; i <= list.size(); i += count) {
-//		List<Integer> ov = new ArrayList<Integer>(); //등수별로 정렬된 list의 원소를 순서대로 비교하여 같은 평균을 가진 2차원배열 원소의 인덱스를 담을 list
-//		count = 0;
-//		for(int j = 0; j < score.length; j++) {
-//			if(list.get(i-1) == (score[j][0] + score[j][1]) / 2) {
-//				ov.add(j); //list의 해당 인덱스의 원소와 같은 평균을 가진 2차원배열의 인덱스를 담는다.
-//			}
+//		
+//		if(res.isEmpty()) { //모든 id를 비교했음에도 일치하는 id가 없다면 fail을 담는다.
+//			res = "fail";
 //		}
-//		for(int j = 0; j < ov.size(); j++) {
-//			res[ov.get(j)] = i; //res배열에 각 인덱스의 등수를 입력해주고
-//			count++; //해당등수가 몇명인지 카운트한다.
-//		}
-//	}
+//		
 //		return res;
-//}
+//	}
 
 
 
 
 
 
-//----------------------------------------------------------------------------------
+	//----------------------------------------------------------------------------------
+
+
+
+
+	
+	
+	//32번
+//	public int[] solution(int[][] score) {
+//		
+//		int[] res = new int[score.length]; //등수를 담을 배열
+//		
+//		List<Integer> list = new ArrayList<Integer>(); //매개변수 2차원 배열의 각원소 평균을 담을 list
+//		
+//		for(int i = 0; i < score.length; i++) {
+//			int ave = (score[i][0] + score[i][1]) / 2; //평균을 구해 list에 담는다
+//			list.add(ave);
+//		}
+//		
+//		Collections.sort(list, Collections.reverseOrder()); //평균이 높은 원소가 앞으로 나오도록 정렬
+//		
+//		int count; //평균이 같을때 동일한 등수를 주고 그 인원만큼 다음등수에 영향이 가기 때문에 몇명인지 카운트한다.
+//		
+//		for(int i = 1; i <= list.size(); i += count) {
+//			List<Integer> ov = new ArrayList<Integer>(); //등수별로 정렬된 list의 원소를 순서대로 비교하여 같은 평균을 가진 2차원배열 원소의 인덱스를 담을 list
+//			count = 0;
+//			for(int j = 0; j < score.length; j++) {
+//				if(list.get(i-1) == (score[j][0] + score[j][1]) / 2) {
+//					ov.add(j); //list의 해당 인덱스의 원소와 같은 평균을 가진 2차원배열의 인덱스를 담는다.
+//				}
+//			}
+//			for(int j = 0; j < ov.size(); j++) {
+//				res[ov.get(j)] = i; //res배열에 각 인덱스의 등수를 입력해주고
+//				count++; //해당등수가 몇명인지 카운트한다.
+//			}
+//		}
+//			return res;
+//	}
+
+
+
+
+
+
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//33번
+//	public int[] solution(int[] numlist, int n) {
+//		
+//		int[] res = new int[numlist.length]; //결과를 담을 배열
+//		int[] ch = new int[numlist.length]; //n과 numlist배열 원소의 거리
+//		
+//		for(int i = 0; i < numlist.length; i++) {
+//			int a = numlist[i] - n;
+//			if(a < 0) { //numlist 원소 - n이 음수라면
+//				a = -(a);	//양수로 바꿔준다.
+//			}
+//			ch[i] = a;
+//		}
+//		
+//		Arrays.sort(ch); //오름차순으로 정렬
+//		
+//		int count; 
+//		
+//		for(int i = 0; i < ch.length; i += count) {
+//			List<Integer> list = new ArrayList<Integer>(); //결과값이 ch원소가 일치하는 원소를 담을 list
+//			for(int j = 0; j < numlist.length; j++) {
+//				int a = numlist[j] - n;
+//				if(a < 0) {
+//					a = -(a);
+//				}
+//				if(a == ch[i]) {
+//					list.add(numlist[j]);
+//				}
+//			}
+//			if(list.size() == 2) { //list의 size가 2라는건 거리가 같은 원소가 있다는 뚯
+//				count = 2;
+//				if(list.get(0) > list.get(1)) { //큰원소가 앞에 작은 원소가 뒤에 오도록 배치한다.
+//					res[i] = list.get(0);
+//					res[i+1] = list.get(1);
+//				} else {
+//					res[i] = list.get(1);
+//					res[i+1] = list.get(0);
+//				}
+//			} else { //list의 size가 1일때
+//				count = 1;
+//				res[i] = list.get(0);
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+
+	
+	//34번
+//	public String solution(String bin1, String bin2) {
+//		
+//		int a = Integer.parseInt(bin1, 2); //매개변수 문자열을 2진수로 읽어 10진수 int로 형변환한다.
+//		int b = Integer.parseInt(bin2, 2);
+//		
+//		int c = a + b; //10진수로 바뀐 매개변수 두개를 더해준후
+//		
+//		String res = Integer.toBinaryString(c); //10진수를 2진수 문자열로 바꿔준다.
+//		
+//		return res;	
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
 	
 	
 	
