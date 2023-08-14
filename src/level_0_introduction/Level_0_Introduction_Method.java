@@ -1175,6 +1175,72 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//35번
+//	public int solution(int a, int b) {
+//		
+//		int res = 1;
+//		
+//		List<Integer> alist = new ArrayList<Integer>(); //a의 약수 구하기
+//		for(int i = 1; i <= a; i++) {
+//			if(a % i == 0) {
+//				alist.add(i);
+//			}
+//		}
+//		
+//		List<Integer> blist = new ArrayList<Integer>(); //b의 약수 구하기
+//		for(int i = 1; i <= b; i++) {
+//			if(b % i == 0) {
+//				blist.add(i);
+//			}
+//		}
+//	
+//		int max = 0; //a와b의 최대공약수 구하기
+//		for(int i = 0; i < alist.size(); i++) {
+//			for(int j = 0; j < blist.size(); j++) {
+//				if(alist.get(i) == blist.get(j)) {
+//					max = alist.get(i); 
+//				}
+//			}
+//		}
+//		
+//		int fraction = b / max; //기약분수로 나타내었을때 분모
+//		List<Integer> list = new ArrayList<Integer>();//기약분수 분모의 소인수를 담을 list
+//		w:for(int i = 2; i <= fraction; i++) {
+//			if(fraction % i == 0) {
+//				for(int j = 2; j < i; j++) {
+//					if(i % j == 0) {
+//						continue w;
+//					}
+//				}
+//				list.add(i);
+//			}
+//		}
+//		
+//		for(int i = 0; i < list.size(); i++) { //분모의 소인수가 2와 5만 있는지 확인
+//			if(list.get(i) != 2 && list.get(i) != 5) {
+//				res = 2;
+//				break;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
