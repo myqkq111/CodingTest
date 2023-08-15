@@ -1,8 +1,8 @@
 package level_0_introduction;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
+import java.util.Collection;
+import java.util.Collections;
 
 public class Level_0_Introduction_Method {
 	
@@ -1232,6 +1232,60 @@ public class Level_0_Introduction_Method {
 	
 	//----------------------------------------------------------------------------------
 	
+	
+	
+	
+	
+	
+	//36번
+//	public int solution(int[][] lines) {		
+//
+//		int res = 0; //결과값을 저장할 변수
+//		
+//		Map<Integer, Integer> map = new HashMap<Integer, Integer>(); 
+//		
+//		for(int i = 0; i < lines.length; i++) {
+//			for(int j = lines[i][0]; j < lines[i][1]; j++) { //2차원배열의 모든 원소를 map에 담을것이다.
+//				if(map.get(j) == null) { 			//담을 때 0~2라고 치면 01 , 12 이런식으로 담아줄것이다.
+//					map.put(j, j+1); //해당 키값이 없는경우 선분이 겹치는 부분이 없기 때문에 새로 원소를 넣어주고
+//				} else { //키값이 있을경우
+//					res++; //겹치는 부분이기 때문에 res변수 1증가시켜준다.
+//					map.remove(j); //그리고 키를 삭제하는 이유는 2차원배열 선분이 3개 이기 때문에 겹치는 부분이 3개에 다 포함되어 있을경우 반복문으로 조회할때마다
+//				}					//res변수의 값이 올라간다. 그렇기 때문에 처음에 겹칠때 삭제를 시켜주면 다음에 겹칠땐 키 값이 없기 때문에
+//			}						//res변수값을 상승시키지않고 map원소만 추가하게된다.
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//37번
+//	public int solution(int[] numbers) {
+//		
+//		Arrays.sort(numbers); //매개변수 int배열을 오름차순으로 정렬한다
+//		
+//		int res = numbers[numbers.length-1] * numbers[numbers.length-2]; //int배열의 맨뒤에 두개의 원소를 곱한다.
+//		
+//		return res;
+//		
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
 	
 	
 	
