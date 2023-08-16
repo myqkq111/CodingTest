@@ -1292,6 +1292,68 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//38번
+//	public int solution(int n) {
+//		
+//		int res = 0; //결과를 담을 변수
+//		
+//		for(int i = 10; i > 0; i-- ) { //최대 정수인 10부터 곱한값을 n과 비교하여 n이 크거나 같아질때까지 돌린다.
+//			
+//			int su = 1;
+//			
+//			for(int j = i; j > 0; j--) {
+//				su *= j;
+//			}
+//			
+//			if(su <= n) {
+//				res = i;
+//				break;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//39번
+//	public String solution(String my_string) {
+//		
+//		String[] arr = {"a","e","i","o","u"}; //다섯가지 알파벳을 배열에 담아준다
+//		int idx;
+//		
+//		StringBuffer sb = new StringBuffer(my_string); //deleteCharAt()를 사용하기 위한 형변환
+//		
+//		for(int i = 0; i < arr.length; i++) {
+//			while(sb.indexOf(arr[i]) != -1){ //-1이 아니라는건 매개변수에 해당 알파벳이 있다는 뜻
+//				idx = sb.indexOf(arr[i]); //해당 알파벳의 index를 찾고
+//				sb.deleteCharAt(idx); //그 부분을 삭제한다.
+//			}
+//		}
+//		return sb.toString(); 
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
 	
 	
 	
