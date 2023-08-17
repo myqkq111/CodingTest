@@ -1354,6 +1354,72 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//40번
+//	public int solution(int[][] dots) {
+//		//평행의 조건은 두 선분의 기울기가 같다는 것.
+//		//이것만 알면 간단하게 풀 수 있다.
+//		int res = 0;
+//		
+//		if(slope(dots[0],dots[1]) == slope(dots[2],dots[3])) {
+//			res = 1;
+//		}else if (slope(dots[0], dots[2])==slope(dots[1],dots[3])) {
+//        	res = 1;
+//        } else if (slope(dots[0], dots[3])==slope(dots[1],dots[2])) {
+//        	res = 1;
+//        }
+//		return res;
+//	}
+//	
+//	
+//	 public double slope(int[] a, int[] b) { //기울기를 구하는 메서드 생성
+//	    	return (a[0]-b[0])*1.0/(a[1]-b[1]);
+//	    }
+
+		
+		
+		
+		
+		
+	//----------------------------------------------------------------------------------
+	
+	
+	 
+	 
+	 
+	 
+	 //41번
+//	public int solution(int n) {
+//		
+//		int res = 0;
+//
+//		for(int i = 1; i <= n; i++) {
+//			res++;
+//			String str = Integer.toString(res);
+//			while(str.contains("3") || res % 3 == 0) { 
+//				res++; 
+//				str = Integer.toString(res);
+//			}
+//		}
+//		return res;
+//	}
+	//res는 i값을 따라가면서 3이 사용되거나 3의 배수 일때 값을 상승 시킨다.
+	//그런데 값을 상승 시켜도 3이 사용되거나 3의 배수 일때
+	//3을 사용하지않고 3의 배수가 아닐때까지 res값을 상승시킨다.
+	
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
 	
 	
 	
@@ -1361,9 +1427,9 @@ public class Level_0_Introduction_Method {
 	
 	
 	
-	
-	
-	
+	 
+	 
+	 
 	
 	
 	
