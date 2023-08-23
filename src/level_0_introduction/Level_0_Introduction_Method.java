@@ -1418,6 +1418,70 @@ public class Level_0_Introduction_Method {
 	 
 	 
 	 
+	 //42번
+//	public int solution(String[] spell, String[] dic) {
+//		
+//		int res = 2; //기본값을 2로 설정
+//		
+//		w:for(int i = 0; i < dic.length; i++) {
+//			for(int j = 0; j < spell.length; j++) {
+//				if(dic[i].contains(spell[j])) { //spell[]의 해당 인덱스값이 dic[]의 인덱스값에 속해있다면 spell[]의 다음 인덱스값도 확인해본다.
+//					if(spell.length-1 == j) { //spell[]을 다 돌았다면 spell에 담긴 알파벳을 모두 사용한 dic가 존재한다는 뜻이므로
+//						res = 1; //1값을 넣어주고
+//						break w; //모든 반복문을 탈출후 결과를 반환한다
+//					} else { //아직 spell[]을 다 안돌았다면 밑으로 안내려가고 증감식으로 넘어가 다음 인덱스값을 확인한다.
+//						continue;
+//					}
+//				}
+//				break; //알파벳이 포함되어있는지 확인하던중 포함되지않은 알파벳이 있다면 dic의 다음 원소로 이동한다.
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//43번
+//	public int solution(int[] sides) {
+//		
+//		int res = 0;
+//		int max; //두 원소중 큰값
+//		int min; //두 원소중 작은값
+//		
+//		if(sides[0] > sides[1]) {
+//			max = sides[0];
+//			min = sides[1];
+//		}else {
+//			max = sides[1];
+//			min = sides[0];
+//		}
+//			
+//		res += (sides[0] + sides[1]) - max -1; //나머지 한변이 가장 긴 변인 경우 개수
+//		
+//		for(int i = 1; i <= max; i++) { //두 원소중 가장 긴 변이 있을 경우 개수
+//			if(i + min > max && i <= max) {
+//				res++;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
 	 
 	 
 	
@@ -1427,9 +1491,14 @@ public class Level_0_Introduction_Method {
 	
 	
 	
-	 
-	 
-	 
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
