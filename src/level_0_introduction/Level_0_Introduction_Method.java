@@ -1488,6 +1488,38 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//44번
+//	public int solution(String my_string) {
+//		
+//		int res = 0; //결과값을 담을 변수
+//		String su = ""; //자연수를 담을 문자열
+//		
+//		for(int i = 0; i < my_string.length(); i++) { //문자열을 한글자씩 가져와
+//			if(my_string.charAt(i) >= 'a' && my_string.charAt(i) <= 'z' || my_string.charAt(i) >= 'A' && my_string.charAt(i) <= 'Z') { //숫자가 아닌 문자라면
+//				if(!su.isEmpty()) { //su문자열에 뭔가 담겨 있다면
+//					res += Integer.parseInt(su); //int로 변환후 res변수에 더해주고
+//					su = ""; //su문자열을 비워준다.
+//				} //만약 su문자열이 비어있다면 아무런 이벤트없이 넘어간다.
+//				
+//			} else { //숫자라면 su문자열에 담는다. 문자열에 담는이유는 한자리 자연수가 아닌 두자리이상의 자연수일 수도 있기 때문에 문자열에 담아 놓는다.
+//				su += my_string.charAt(i);
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
 	
 	
 	
