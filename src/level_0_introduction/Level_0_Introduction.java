@@ -1046,6 +1046,56 @@ public class Level_0_Introduction {
 		
 		
 		
+//		45. 정수 배열 numbers가 매개변수로 주어집니다. numbers의 원소 중 두 개를 곱해 만들 수 있는 최댓값을 return하도록 solution 함수를 완성해주세요.
+//
+//		제한사항
+//		-10,000 ≤ numbers의 원소 ≤ 10,000
+//		2 ≤ numbers 의 길이 ≤ 100
+		
+//		int[] numbers = {10, 20, 30, 5, 5, 20, 5};
+//		
+//		System.out.println(lim.solution(numbers));
+
+		
+		
+		
+		
+		
+		//----------------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+//		46. 문자열 배열 strlist가 매개변수로 주어집니다. strlist 각 원소의 길이를 담은 배열을 retrun하도록 solution 함수를 완성해주세요.
+//
+//		제한사항
+//		1 ≤ strlist 원소의 길이 ≤ 100
+//		strlist는 알파벳 소문자, 대문자, 특수문자로 구성되어 있습니다.
+		
+//		String[] strlist = {"We", "are", "the", "world!"};
+//		
+//		System.out.println(Arrays.toString(lim.solution(strlist)));
+
+		
+		
+		
+		
+		
+		//----------------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		

@@ -1520,6 +1520,64 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//45번
+//	public int solution(int[] numbers) {
+//		
+//		Arrays.sort(numbers); //오름차순으로 정렬
+//		
+//		int res;
+//		
+//		//음수와 음수를 곱하면 양수가 되기 때문에 음수 두개르 곱했을때 가장큰값으로 나올 수도 있다.
+//		//그렇기 때문에 오름차순으로 정렬된 배열의 앞에서 두원소를 곱한 값과 뒤에서 두원소를 곱한값을 비교하여 더 큰값을 반환한다.
+//		int su1 = numbers[numbers.length-1] * numbers[numbers.length-2]; 
+//		int su2 = numbers[0] * numbers[1];
+//		
+//		if(su1 > su2) {
+//			res = su1;
+//		}else {
+//			res = su2;
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//46번
+//	public int[] solution(String[] strlist) {
+//		
+//		int[] res = new int[strlist.length];
+//		
+//		for(int i = 0; i < strlist.length; i++) {
+//			res[i] = strlist[i].length();
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
