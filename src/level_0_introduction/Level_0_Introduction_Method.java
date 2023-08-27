@@ -1575,6 +1575,99 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//47번
+//	public String solution(String polynomial) {
+//		
+//		String[] arr = polynomial.split(" "); //매개변수 문자열을 공백을 기준으로 배열에 담는다
+//		
+//		int su1 = 0; //일차 항의 총합
+//		int su2 = 0; //상수항의 총합
+//		
+//		for(int i = 0; i < arr.length; i+=2) { //배열에 홀수는 +만 있고 짝수에 일차항과 상수항이 있기 때문에 2씩 증가시켜준다
+//			if(arr[i].charAt(arr[i].length()-1) == 'x') { //원소에 x를 포함하고 있다면(일차항)
+//				if(arr[i].length() == 1) { //x하나만 있는 일차항 이라면 1x이기 때문에
+//					su1 += 1; //1을 더해준다
+//				} else { //x하나만 있는게 아니라면
+//					arr[i] = arr[i].replace('x', '0'); //x를 0으로 바꿔주고
+//					su1 += Integer.parseInt(arr[i]) / 10; //문자열을 int로 형변환후 10을 나눠주면 x를 제외한 원래 숫자가 나오게 된다.
+//				}
+//			}else { //원소에 x를 포함하지 않는다면(상수항)
+//				su2 += Integer.parseInt(arr[i]);
+//			}
+//		}
+//		
+//		String res; //su1이나 su2의 값이 0이라면 다항식에 일차항이나 상수항은 없는 경우이기 때문에 결과값이 밑에와 같이 조건에 따라 달라진다.
+//		
+//		if(su1 > 0 && su2 > 0) {
+//			res = su1 + "x " + "+ " + su2;
+//		} else if(su1 > 0 && su2 == 0) {
+//			res = su1 + "x";
+//		} else {
+//			res = Integer.toString(su2);
+//		}
+//		
+//		return res; 
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//48번
+//	public int[] solution(String[] keyinput, int[] board) {
+//		
+//		int[] res = {0,0}; //시작은 0,0에서 시작하기 때문에 초기값으로 준다.
+//		int upMax = board[1] / 2; //각방향의 최대크기
+//		int downMax = (board[1] / 2) * -1;
+//		int rightMax = board[0] / 2;
+//		int leftMax = (board[0] / 2) * -1;
+//		
+//		for(int i = 0; i < keyinput.length; i++) { 
+//			switch(keyinput[i]) { //keyinput배열의 각 원소를 가져와 조건이 true라면 원소마다 다른 연산을 하여 값을 조정한다.
+//			case "up":
+//				if(res[1] < upMax) {
+//					res[1] += 1;
+//				}
+//				break;
+//			case "down":
+//				if(res[1] > downMax) {
+//					res[1] += -1;
+//				}
+//				break;
+//			case "right":
+//				if(res[0] < rightMax) {
+//					res[0] += 1;
+//				}
+//				break;
+//			case "left":
+//				if(res[0] > leftMax) {
+//					res[0] += -1;
+//				}
+//				break;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
 	
 	
 	
