@@ -1669,6 +1669,35 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//49번
+//	public int solution(String s) {
+//		
+//		String[] arr = s.split(" "); //공백을 기준으로 배열에 담는다.
+//		
+//		int res = 0; //s의 숫자원소의 값을 담을 변수
+//		
+//		for(int i = 0; i < arr.length; i++) { //배열의 길이만큼 반복문을 돌려
+//			if(arr[i].equals("Z")) { //해당 인덱스의 원소가 "Z"라면
+//				res -= Integer.parseInt(arr[i-1]); //전에 더했던 숫자를 빼고
+//			} else { //"해당 인덱스의 원소가 "Z"가 아니라면
+//				res += Integer.parseInt(arr[i]); //해당 원소를 더해준다.
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
 	
 	
 	
