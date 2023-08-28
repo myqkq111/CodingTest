@@ -1,8 +1,8 @@
 package level_0_introduction;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Level_0_Introduction_Method {
 	
@@ -1698,8 +1698,34 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//50번
+//	public int[] solution(int n) {
+//		
+//		List<Integer> list = new ArrayList<Integer>(); 
+//		
+//		for(int i = 2; i <= n; i++) { 
+//			while(n % i == 0) { //n 나누기 i 가 0이라면
+//				list.add(i); //i를 list에 담고
+//				n /= i; //n값 변경해준후 0이 안될때까지 반복한다.
+//			} //0이 안된다면 다음 수로 넘어간다.
+//		}
+//		//스트림을 이용해 list에 중복값을 제거해주고 오름차순으로 정렬까지 간편하게 할 수 있다.
+//		list = list.stream().distinct().sorted().collect(Collectors.toList());
+//		
+//		int[] res = new int[list.size()];
+//		
+//		for(int i = 0; i < res.length; i++) {
+//			res[i] = list.get(i);
+//		}
+//		return res;
+//	}
+
 	
 	
+	
+	
+	
+	//----------------------------------------------------------------------------------
 	
 	
 	
