@@ -1,6 +1,7 @@
 package level_0_introduction;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -1726,6 +1727,75 @@ public class Level_0_Introduction_Method {
 	
 	
 	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//51번
+//	public int[] solution(String my_string) {
+//		
+//		List<Integer> list = new ArrayList<Integer>(); //숫자를 담을 list
+//		
+//		for(int i = 0; i < my_string.length(); i++) {
+//			if(!(my_string.charAt(i) >= 'a' && my_string.charAt(i) <= 'z')) { //문자열의 글씨를 하나씩 가져와 숫자라면
+//				list.add(Character.getNumericValue(my_string.charAt(i))); //list에 담는다
+//			}
+//		}
+//		int[] res = new int[list.size()]; //list에 담긴 숫자를 int배열에 담아주고
+//		
+//		for(int i = 0; i < res.length; i++) {
+//			res[i] = list.get(i);
+//		}
+//		
+//		Arrays.sort(res); //오름차순으로 정렬해준다.
+//		
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//52번
+//	public int solution(int n) {
+//		
+//		int res = 0; //합성수의 개수
+//		
+//		for(int i = 4; i <= n; i++) { //1,2,3은 합성수가 될수 없기 때문에 4부터 시작
+//			 int x = 0; //약수의 갯수
+//			 for(int j = 1; j <= i; j++) { //약수가 몇개인지 찾는다.
+//				 if(i % j == 0) {
+//					 x++;
+//				 }
+//			 }
+//			 if(x >= 3) { //현재 i가 합성수라면
+//				 res++; //변수값 1상승
+//			 }
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
 	
 	
 	
