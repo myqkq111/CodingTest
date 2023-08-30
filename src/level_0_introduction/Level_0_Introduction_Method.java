@@ -1797,6 +1797,58 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//53번
+//	public int solution(int[] box, int n) {
+//		
+//		int res = 1;
+//		
+//		for(int i = 0; i < 3; i++) {
+//			res *= box[i] / n; 
+//		}
+//		return res;
+//	}
+	//가로,세로,높이를 n으로 나눈값을 곱하면 된다.
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//54번
+//	public int[] solution(int[] numbers, String direction) {
+//		
+//		int[] res = new int[numbers.length];
+//		
+//		for(int i = 1; i < numbers.length; i++) {
+//			if(direction.equals("right")) { //right라면
+//				res[0] = numbers[numbers.length-1]; //배열의 첫번째 원소로 매개변수 배열의 마지막원소를 넣고
+//				res[i] = numbers[i-1]; //두번째부터 매개변수 배열의 원소를 순서대로 넣는다.
+//			} else { //left라면
+//				res[numbers.length-1] = numbers[0]; //배열의 마지막 원소로 매개변수 배열의 첫번째 원소를 넣고
+//				res[i-1] = numbers[i]; //매개변수 배열의 두번째 원소부터 순서대로 넣는다.
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
