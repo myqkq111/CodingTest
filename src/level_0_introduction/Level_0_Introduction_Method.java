@@ -1848,6 +1848,62 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//55번
+//	public int solution(int[] numbers, int k) {
+//		
+//		int idx = 1; //초기값을 1로 주고 두번째공을 던질때부터 +2를 해준다.
+//		
+//		for(int i = 1; i < k; i++) {
+//			idx += 2;
+//		}
+//		
+//		int res = idx % numbers.length; //idx변수 나누기 사람의 수의 나머지가 k번째로 공을 던질는 사람의 번호다. 
+//		if(res == 0) { //idx변수와 사람의 수가 같을 경우 나머지가 0이 된다. 원래 의도는 마지막 사람이 공을 던진 사람이므로 마지막 사람을 idx변수 담아준다.
+//			res = numbers.length;
+//		}
+//		
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//56번
+//	public int[][] solution(int[] num_list, int n){
+//		
+//		int[][] res = new int[num_list.length / n][n];; //결과값을 담을 2차원 배열
+//	
+//		int idx = 0; //매개변수 배열의 원소를 순서대로 가져오게 할려는 변수
+//		for(int i = 0; i < res.length; i++) {
+//			for(int j = 0; j < n; j++) {
+//				res[i][j] = num_list[idx];
+//				idx++;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
 	
 	
 	
