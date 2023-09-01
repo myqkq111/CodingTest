@@ -1904,6 +1904,66 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//57번
+//	public int solution(int[] dot) {
+//		
+//		int res;
+//		
+//		if(dot[0] > 0 && dot[1] > 0) {
+//			res = 1;
+//		} else if(dot[0] < 0 && dot[1] > 0){
+//			res = 2;
+//		} else if(dot[0] < 0 && dot[1] < 0){
+//			res = 3;
+//		} else {
+//			res = 4;
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//58번
+//	public String solution(String rsp) {
+//		
+//		String res = "";
+//		
+//		//매개변수 문자열을 한글자씩 가져와 일치하는 경우의 값을 res문자열에 담는다.
+//		for(int i = 0; i < rsp.length(); i++) {
+//			switch(rsp.charAt(i)) {
+//			case '2':
+//				res += "0";
+//				break;
+//			case '0':
+//				res += "5";
+//				break;
+//			case '5':
+//				res += "2";
+//				break;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
 	
 	
 	
