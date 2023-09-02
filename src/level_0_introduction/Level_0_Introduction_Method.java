@@ -1967,6 +1967,75 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//59번
+//	public String solution(String letter) {
+//		
+//		String morse = "'.-':'a','-...':'b','-.-.':'c','-..':'d','.':'e','..-.':'f','--.':'g','....':'h','..':'i','.---':'j','-.-':'k','.-..':'l','--':'m','-.':'n','---':'o','.--.':'p','--.-':'q','.-.':'r','...':'s','-':'t','..-':'u','...-':'v','.--':'w','-..-':'x','-.--':'y','--..':'z'";
+//		morse = morse.replace("'", ""); //morse문자열의 '를 제거
+//		
+//		String[] arrMorse = morse.split("[:,]"); //morse문자열을 :과 ,를 기준으로 배열에 담는다
+//		String[] arrLetter = letter.split(" "); //매개변수 letter문자열을 공백을 기준으로 배열에 담는다.
+//		String res = "";
+//		
+//		for(int i = 0; i < arrLetter.length; i++) {
+//			for(int j = 0; j < arrMorse.length; j+=2) { //arrMorse배열의 짝수는 모스부호 홀수는 영어
+//				if(arrMorse[j].equals(arrLetter[i])) { //모스부호가 같다면
+//					res += arrMorse[j+1]; //모스부호의 영어를 문자열에 담는다.
+//				}
+//			}
+//		}
+//		
+//		return res;		
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//60번
+//	public int solution(int hp) {
+//		
+//		int res = 0; //개미의 수
+//		int[] at = {5,3,1}; //개미의 공격력을 배열에 담는다.
+//		
+//		for(int i = 0; i < 3; i++) {
+//			res += hp / at[i];
+//			hp %= at[i];
+//			if(hp == 0) {
+//				break;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
