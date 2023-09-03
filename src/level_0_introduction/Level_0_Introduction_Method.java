@@ -2027,6 +2027,60 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//61번
+//	public int solution(int n) {
+//		
+//		int res = 0; //순서쌍의 개수
+//		
+//		for(int i = 1; i <= n; i++) { //이중반복문으로 a와 b에 1부터 n까지 값을주고 곱한값이 n일때 개수를 1 상승시킨다. 
+//			for(int j = 1; j <= n; j++) {
+//				if(i * j == n) {
+//					res++;
+//				}
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//62번
+//	public int[] solution(int[] emergency) {
+//		
+//		int[] res = new int[emergency.length]; //결과값을 담을 배열
+//		
+//		for(int i = 0; i < res.length; i++) { //모든 환자를 순서대로 다른환자의 응급도와 비교하여 등수를 매길것이다. 
+//			int rank = emergency.length; //처음엔 가장 낮은 순서를 주고 다른환자들과 비교하여 현재환자보다 낮은 응급도를 갖고있는 환자가 있을때마다 진료순서를 앞당겨 줄것이다.
+//			for(int j = 0; j < res.length; j++) {
+//				if(j == i) { 
+//					continue;
+//				} else { 
+//					if(emergency[i] > emergency[j]) { 
+//						rank--;
+//					}
+//				}
+//			}
+//			res[i] = rank;
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
 	
 	
 	
