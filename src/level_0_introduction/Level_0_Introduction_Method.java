@@ -2086,6 +2086,59 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//63번
+//	public String solution(int age) {
+//		
+//		String[] arr = Integer.toString(age).split(""); //매개변수 int를 문자열로 형변환 시킨 후 배열에 담는다.
+//		
+//		String res = ""; //나이를 담을 문자열
+//		char ch = 'a'; //arr의 원소를 가져와 ch변수와 더해줄것이다. 
+//					   //문자에 숫자를 더하면 아스키코드가 적용된다. ex) 'a' + 1 = 'b'가 된다.
+//					   //이 방식을 이용해 나이를 표현할것이다.
+//		
+//		for(int i = 0; i < arr.length; i++) {
+//			res += (char)(ch + Integer.parseInt(arr[i])); //문자에 숫자를 더하면 숫자가 되버려서 다시 문자로 변환시켜준다.
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//64번
+//	public int[] solution(int[] numbers, int num1, int num2) {
+//		
+//		int[] res = new int[num2-num1+1];
+//		int idx = 0;
+//		
+//		for(int i = num1; i <= num2; i++) {
+//			res[idx] = numbers[i];
+//			idx++;
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
 	
 	
 	
