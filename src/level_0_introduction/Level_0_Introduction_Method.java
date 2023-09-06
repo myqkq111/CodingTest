@@ -2183,6 +2183,50 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//67번
+//	public int solution(int angle) {
+//		
+//		int res;
+//		
+//		if(angle < 90) {
+//			res = 1;
+//		} else if(angle == 90) {
+//			res = 2;
+//		} else if(angle > 90 && angle < 180) {
+//			res = 3;
+//		} else {
+//			res = 4;
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//68번
+//	public String solution(String my_string, String letter) {
+//		
+//		return my_string.replace(letter, ""); //replace메서드를 이용해 매개변수 letter의 문자를 찾아 제거해준다.
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
 	
 	
 	
