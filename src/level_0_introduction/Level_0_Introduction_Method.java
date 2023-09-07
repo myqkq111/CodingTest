@@ -2230,6 +2230,59 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//69번
+//	public String solution(String my_string, int n) {
+//		
+//		String res = "";
+//		
+//		for(int i = 0; i < my_string.length(); i++) { //매개변수 문자열의 문자를 순서대로 가져와 n만큼 반복하여 붙여넣는다.
+//			for(int j = 0; j < n; j++) {
+//				res += my_string.charAt(i);
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//70번
+//	public int[] solution(int[] num_list) {
+//		
+//		int[] res = {0,0}; //짝수,홀수의 초기 값을 0으로 설정 해둔다.
+//		
+//		for(int i = 0; i < num_list.length; i++) {
+//			if(num_list[i] % 2 == 0) { //원소가 짝수인지 홀수인지 구분하고 값을 올려준다.
+//				res[0]++; 
+//			}else {
+//				res[1]++;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
