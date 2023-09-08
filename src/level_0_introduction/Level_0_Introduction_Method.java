@@ -2282,6 +2282,27 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//72번
+//	public String solution(String my_string) {
+//		String res = "";
+//		
+//		for(int i = my_string.length()-1; i >= 0; i--) {
+//			res += my_string.charAt(i); //매개변수 문자열의 뒤에서부터 문자를 가져와 붙여넣는다.
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
 	
 	
 	
