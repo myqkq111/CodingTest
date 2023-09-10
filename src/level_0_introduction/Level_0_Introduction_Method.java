@@ -2374,6 +2374,52 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//76번
+//	public int solution(int price) {
+//		
+//		if(price >= 500000) {
+//			price = (int) (price - (price * 0.2)); 
+//		} else if(price >= 300000) {
+//			price = (int) (price - (price * 0.1));
+//		} else if(price >= 100000) {
+//			price = (int) (price - (price * 0.05));
+//		}
+//		return price;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//77번
+//	public double solution(int[] numbers) {
+//		
+//		double su = 0; //총합을 int가 아닌 double로 받아줘야 평균구할때 소수점까지 구해진다.
+//		
+//		for(int i = 0; i < numbers.length; i++) {
+//			su += numbers[i];
+//		}
+//		double res = su / numbers.length;
+//		
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
 	
 	
 	
