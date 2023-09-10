@@ -2,6 +2,7 @@ package level_0_introduction;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -2298,6 +2299,77 @@ public class Level_0_Introduction_Method {
 	
 	
 	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//73¹ø
+//	public int[] solution(int[] num_list) {
+//			
+//		int[] res = new int[num_list.length];
+//		int idx = num_list.length - 1 ;
+//		
+//		for(int i = 0; i < num_list.length; i++) {
+//			res[i] = num_list[idx];
+//			idx--;
+//		}
+//		
+//		return res;	
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//74¹ø
+//	public int solution(int age) {
+//		
+//		int res = 2022 - (age-1);
+//		
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//75¹ø
+//	public int[] solution(int money) {
+//		
+//		int su = money / 5500; //ÀÜ ¼ö 
+//		int change = money % 5500; //ÀÜ µ·
+//		
+//		int[] res = {su, change};
+//		
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
 	
 	
 	
