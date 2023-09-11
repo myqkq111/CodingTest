@@ -2424,9 +2424,54 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//78¹ø
+//	public int solution(int slice, int n) {
+//		
+//		int res = 1;
+//		
+//		while(true) {
+//			if(slice * res >= n) {
+//				break;
+//			} else {
+//				res++;
+//			}
+//		}
+//		return res;
+//	}
+
 	
 	
 	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//79¹ø
+//	public int solution(int n) {
+//		
+//		int res = 1;
+//		
+//		while(true) {
+//			if((6 * res) % n == 0) {
+//				break;
+//			} else {
+//				res++;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
 	
 	
 	
