@@ -2477,6 +2477,72 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//80¹ø
+//	public int solution(int n) {
+//		
+//		int res = 1;
+//		
+//		while(true) {
+//			if(7 * res >= n) {
+//				break;
+//			} else {
+//				res++;
+//			}
+//		}
+//		return res;		
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//81¹ø
+//	public int[] solution(int n) {
+//		
+//		List<Integer> list = new ArrayList<Integer>();
+//		
+//		for(int i = 1; i <= n; i++) {
+//			if(i % 2 == 1) {
+//				list.add(i);
+//			}
+//		}
+//		int[] res = new int[list.size()];
+//		
+//		for(int i = 0; i < res.length; i++) {
+//			res[i] = list.get(i);
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
