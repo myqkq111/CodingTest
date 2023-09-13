@@ -3,6 +3,7 @@ package level_0_introduction;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -2528,6 +2529,57 @@ public class Level_0_Introduction_Method {
 	
 	
 	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//82번
+//	public int solution(int[] array) {
+//		
+//		int res; //결과 값을 담을 변수
+//		
+//		if(array.length == 1) { //매개변수의 원소가 하나라면
+//			res = array[0]; //결과 값에 원소를 바로 담아준다.
+//		} else {
+//			List<Integer> list = new ArrayList<Integer>();
+//			
+//			for (int arr : array) {
+//				if(!list.contains(arr)) { //list에 중복된 값이 없을경우에만 넣는다.
+//					list.add(arr);
+//				}
+//			}
+//			
+//			int[] su = new int[list.size()]; //매개변수에 담긴 숫자의 수
+//			
+//			for(int i = 0; i < array.length; i++) { //같은 원소가 몇번 나오는지 카운트
+//				int idx = list.indexOf(array[i]);
+//				su[idx]++; //int의 기본값은 0인것을 이용하여 배열의 방만 생성해준 후 1씩증가
+//			}
+//			
+//			Arrays.sort(su); //가장 자주 나오는 원소를 찾기위해 오름차순	
+//			
+//			if(su[su.length-1] == su[su.length-2]) { //오름차순한 배열의 맨뒤와 뒤에서 2번째 원소를 비교하여 같다면
+//				res = -1; //-1을 담고
+//			} else { //같지 않다면 가장 자주나오는 값이 하나라는 소리니깐
+//				int idx = su.length - 1; 
+//				res = array[idx]; //가장 자주 나오는 원소를 넣어준다.
+//			}
+//		}	
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
 	
 	
 	
