@@ -2583,12 +2583,51 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//83번
+//	public int solution(int[] array) {
+//		
+//		Arrays.sort(array); //오름차순으로 정렬
+//		
+//		int idx = array.length / 2;
+//		
+//		int res = array[idx];
+//		
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
 	
 	
 	
 	
 	
 	
+	//84번
+//	public int solution(int num1, int num2) {
+//		
+//		int res = num1 % num2;
+//		
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//85번
 	
 	
 	
