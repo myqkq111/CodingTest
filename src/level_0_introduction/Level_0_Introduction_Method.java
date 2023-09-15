@@ -2628,6 +2628,57 @@ public class Level_0_Introduction_Method {
 	
 	
 	//85¹ø
+//	public int[] solution(int[] numbers) {
+//		
+//		int[] res = new int[numbers.length];
+//		
+//		for(int i = 0; i < res.length; i++) {
+//			res[i] = numbers[i] * 2;
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//86¹ø
+//	public int solution(int num1, int num2) {
+//		
+//		int res;
+//		
+//		if(num1 == num2) {
+//			res = 1;
+//		} else {
+//			res = -1;
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
