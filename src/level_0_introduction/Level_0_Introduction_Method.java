@@ -2675,6 +2675,53 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//87¹ø
+//	public int[] solution(int numer1, int denom1, int numer2, int denom2) {
+//
+//		int num = (numer1 * denom2) + (denom1 * numer2);
+//		int den = denom1 * denom2;
+//		
+//		for(int i = num; i > 1; i--) {
+//			if(num % i == 0 && den % i == 0) {
+//				num /= i;
+//				den /= i;
+//			}
+//		}	
+//		int[] res = {num, den};
+//		
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//88¹ø
+//	public int solution(int num1, int num2) {
+//		
+//		double su = (double)num1 / (double)num2;
+//		int res = (int)(su * 1000);
+//		
+//		return res;	
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
 	
 	
 	
