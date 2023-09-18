@@ -2767,6 +2767,77 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//91번
+//	public int solution(int[][] board) {
+//		
+//		int[][] arr = new int[board.length][board.length];
+////		int[][] arr = board;
+//		
+//		for(int i = 0; i < board.length; i++) {
+//			for(int j = 0; j < board[i].length; j++) {
+//				if(board[i][j] == 1) { //매개변수 원소 중 1이 있다면
+//					//1을 기준으로 주변 1칸 이내는 위험지역이 된다.
+//					//1과 인접한 위, 아래, 좌, 우, 대각선 칸에 공간이 없을 수 도 있기 때문에
+//					//조건을 주어 공간이 있는지 확인한다.
+//					
+//					arr[i][j] = 1;
+//					
+//					if(i != 0) { //위
+//						arr[i-1][j] = 1;
+//						if(j < board[i].length - 1) { //1시방향
+//							arr[i-1][j+1] = 1;
+//						}
+//					}
+//				
+//					if(j != 0) { //좌
+//						arr[i][j-1] = 1;
+//						if(i != 0) { //11시방향
+//							arr[i-1][j-1] = 1;
+//						}
+//					}
+//					
+//					if(i < board.length - 1) { //아래
+//						arr[i+1][j] = 1;
+//						if(j != 0) { //7시방향
+//							arr[i+1][j-1] = 1;
+//						}
+//					}
+//					
+//					if(j < board[i].length - 1) { //우
+//						arr[i][j+1] = 1;
+//						if(i < board.length - 1) { //5시방향
+//							arr[i+1][j+1] = 1; 
+//						}
+//					}					
+//				}
+//			}
+//		}
+//	
+//		int res = 0;
+//
+//		//0의 개수
+//		for(int i = 0; i < arr.length; i++) {
+//			for(int j = 0; j < arr[i].length; j++) {
+//				if(arr[i][j] == 0) {
+//					res++;
+//				}
+//			}
+//		}
+//		
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
 	
 	
 	
