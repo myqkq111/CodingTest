@@ -2879,6 +2879,54 @@ public class Level_0_Introduction_Method {
 	
 	
 	
+	//94¹ø
+//	public int solution(int[] array, int height) {
+//		
+//		int res = 0;
+//		
+//		for(int i = 0; i < array.length; i++) {
+//			if(array[i] > height) {
+//				res++;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//95¹ø
+//	public int solution(int[] array, int n) {
+//		
+//		int res = 0;
+//		
+//		for(int i = 0; i < array.length; i++) {
+//			if(array[i] == n) {
+//				res++;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//----------------------------------------------------------------------------------
+	
+	
+	
+	
 	
 	
 	
