@@ -1,5 +1,7 @@
 package level_1;
 
+import java.util.Arrays;
+
 public class Level_1_Method {
 	
 	//1. 달리기 경주 
@@ -56,6 +58,103 @@ public class Level_1_Method {
 	
 	
 	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//3. 공원 산책
+//	public int[] solution(String[] park, String[] routes) {
+//		
+//		int[] res = new int[2];
+//
+//		for(int i = 0; i < park.length; i++) { //시작 지점 구하기
+//			if(park[i].contains("S")) {
+//				int idx = park[i].indexOf("S");
+//				res[0] = i; 
+//				res[1] = idx;
+//			}
+//		}
+//		
+//		w:for(int i = 0; i < routes.length; i++) { //이동
+//			String[] way = routes[i].split(" ");
+//			int y;
+//			
+//			switch(way[0]) {
+//			case "N":
+//				y = res[0] - Integer.parseInt(way[1]);
+//				
+//				if(y >= 0) {
+//					for(int j = res[0]-1; j >= y; j--) {
+//						if('X' == park[j].charAt(res[1])) {
+//							continue w;
+//						}
+//					}
+//				} else {
+//					continue w;
+//				}				
+//				res[0] = y;	
+//				break;
+//				
+//			case "S":
+//				y = res[0] + Integer.parseInt(way[1]);
+//				
+//				if(y < park.length) {
+//					for(int j = res[0]+1; j <= y; j++) {
+//						if('X' == park[j].charAt(res[1])) {
+//							continue w;
+//						}
+//					}
+//				} else {
+//					continue w;
+//				}				
+//				res[0] = y;	
+//				break;
+//				
+//			case "W":
+//				y = res[1] - Integer.parseInt(way[1]);
+//				
+//				if(y >= 0) {
+//					for(int j = res[1]-1; j >= y; j--) {
+//						if('X' == park[res[0]].charAt(j)) {
+//							continue w;
+//						}
+//					}
+//				} else {
+//					continue w;
+//				}				
+//				res[1] = y;	
+//				break;
+//				
+//			case "E":
+//				y = res[1] + Integer.parseInt(way[1]);
+//				
+//				if(y < park[0].length()) {
+//					for(int j = res[1]+1; j <= y; j++) {
+//						if('X' == park[res[0]].charAt(j)) {
+//							continue w;
+//						}
+//					}
+//				} else {
+//					continue w;
+//				}				
+//				res[1] = y;	
+//				break;
+//			}		
+//		}
+//		return res;
+//	}
+
+	//시작 지점의 index부터 구하고 switch문을 사용해 각각의 방향에 대한 조건을 충족한다면 이동을 시키는 방식으로 작성했다.
+	//각각의 방향에 대한 조건은 공통적으로 가고싶은 칸만큼 공간이 있는지부터 확인하고 가는길에 장애물이 있는지 확인한다.
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
 	
 	
 	
