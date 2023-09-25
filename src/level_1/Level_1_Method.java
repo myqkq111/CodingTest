@@ -158,8 +158,43 @@ public class Level_1_Method {
 	
 	
 	
+	//4. 바탕화면 정리
+//	public int[] solution(String[] wallpaper) {
+//			
+//		int lux = wallpaper.length;
+//		int luy = wallpaper[0].length();
+//		int rdx = 0;
+//		int rdy = 0;
+//		
+//		for(int i = 0; i < wallpaper.length; i++) {
+//			for(int j = 0; j < wallpaper[i].length(); j++) {
+//				if(wallpaper[i].charAt(j) == '#') {
+//					if(lux > i) {
+//						lux = i;
+//					}
+//					if(luy > j) {
+//						luy = j;
+//					}
+//					if(rdx < i+1) {
+//						rdx = i+1;
+//					}
+//					if(rdy < j+1) {
+//						rdy = j+1;
+//					}
+//				}
+//			}
+//		}	
+//		int[] res = {lux, luy, rdx, rdy};
+//		
+//		return res;
+//	}
+
+	//복잡해 보이지만 가장 위,아래,왼쪽,오른쪽에 있는 파일의 index를 구하면 되는 간단한 문제다.
+	//끝점인 아래와 오른쪽 index는 +1을 해줘야한다.
 	
 	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
