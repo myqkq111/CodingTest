@@ -1,6 +1,8 @@
 package level_1;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Level_1_Method {
 	
@@ -195,6 +197,50 @@ public class Level_1_Method {
 	
 	
 	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//5. 덧칠하기
+//	public int solution(int n, int m, int[] section) {
+//		
+//		List<Integer> list = new ArrayList<Integer>();
+//		
+//		for(int i = 0; i < section.length; i++) {
+//			list.add(section[i]);
+//		}
+//		
+//		int res = 0;
+//		
+//		while(list.size() != 0) {
+//			int min = list.get(0);
+//			int size = list.size();
+//			w:for(int i = size-1; i >= 0; i--) {
+//				for(int j = min; j < min + m; j++) {
+//					if(list.get(i) == j) {
+//						list.remove(i);
+//						continue w;
+//					}
+//				}
+//			}
+//			res++;
+//		}
+//		return res;
+//	}
+
+	//배열의 원소중에 가장 작은 수부터 m개의 숫자가 배열에 있다면 해당 원소를 삭제하고 몇변을 반복했는지를 통해 결과값을 가져왔다.
+	//해당되는 원소를 삭제한뒤 continue를 사용해주지 않으면 index문제로 오류가 뜬다.
+	//그리고 배열 뒤 원소부터 삭제를 해줘야 index문제로 오류가 뜨지 않는다.
+	
+	
+	//--------------------------------------------------------------------------
+
+	
+	
+	
+	
 	
 	
 	
