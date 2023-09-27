@@ -242,7 +242,40 @@ public class Level_1_Method {
 	
 	
 	
+	//6. 대충 만든 자판
+//	public int[] solution(String[] keymap, String[] targets) {
+//		
+//		int[] res = new int[targets.length];
+//		
+//		w:for(int i = 0; i < targets.length; i++) {
+//			int click = 0;
+//			for(int j = 0; j < targets[i].length(); j++) {
+//				int su1 = 0;
+//				for(int f = 0; f < keymap.length; f++) {
+//					if(keymap[f].contains(Character.toString(targets[i].charAt(j) ))) {
+//						int su2 = keymap[f].indexOf(targets[i].charAt(j))+1;
+//						if(su1 == 0 || su1 > su2) {
+//							su1 = su2;
+//						}
+//					}
+//				}
+//				if(su1 == 0) {
+//					res[i] = -1;
+//					continue w;
+//				} else {
+//					res[i] += su1;
+//				}
+//			}
+//		}
+//		return res;
+//	}
+
+	//3중 for문을 사용해 targets배열의 원소를 한글자씩 가져와 비교하여 작성할 수 있는 가장 적은 수를 찾아내는 방식으로 작성했다. 
+	//만약 작성할 수 없는 문자가 있다면 해당 원소는 작성할 수 없으므로 -1값을 준다. 
+	//3중 for문이라 복잡해 보일 수 있지만 간단한 문제였다.
 	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
