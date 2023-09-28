@@ -282,6 +282,47 @@ public class Level_1_Method {
 	
 	
 	
+	//7. 카드 뭉치
+//	public String solution(String[] cards1, String[] cards2, String[] goal) {
+//		
+//		String res = "Yes";
+//		int ca1 = 0;
+//		int ca2 = 0;
+//		
+//		w:for(int i = 0; i < goal.length; i++) {
+//			for(int j = ca1; j < cards1.length; j++) {
+//				if(goal[i].equals(cards1[j])) {
+//					ca1++;
+//					continue w;
+//				}
+//				break;
+//			}
+//			for(int j = ca2; j < cards2.length; j++) {
+//				if(goal[i].equals(cards2[j])) {
+//					ca2++;
+//					continue w;
+//				}
+//				break;
+//			}
+//			res = "No";
+//			break;
+//		}
+//		return res;
+//	}
+
+	//for문 안에 if 조건이 참이라면 continue로 다음 원소로 가고 거짓이라면 break로 한번만 반복할 수 있게 작성했다.
+	//그렇게 for문안에 두개의 for문을 겨쳐 맨밑으로 오게 된다면 일치하는 원소가 없어 문장을 완성시킬 수 없다는 뜻이므로 No값이 들어가게 된다.
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
