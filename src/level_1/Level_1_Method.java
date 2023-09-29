@@ -321,6 +321,51 @@ public class Level_1_Method {
 	
 	
 	
+	//8. 둘만의 암호
+//	public String solution(String s, String skip, int index) {
+//		
+//		StringBuffer sb = new StringBuffer(s);
+//		
+//		for(int i = 0; i < sb.length(); i++) {
+//			for(int j = 0; j < index;) {
+//				
+//				char next = sb.charAt(i);
+//				
+//				if(next + 1 > 'z') {
+//					sb.setCharAt(i, 'a');
+//				} else {
+//					sb.setCharAt(i, ++next);
+//				}
+//				
+//				if(skip.contains(Character.toString(sb.charAt(i)))) {
+//					continue;
+//				}
+//				
+//				j++;
+//			}//for
+//		}//for
+//		String res = sb.toString();
+//		
+//		return res;
+//	}
+
+	//아스키코드를 이용하면 간단하게 풀 수 있는 문제다.
+	//다음 알파벳이 skip문자열에 포함이 되어있으면 반복횟수를 증가시키지 않고 다음 알파벳으로 가도록 작성했다.
+	//주의할 점으로 다음 알파벳을 넣을때 선행증감을 해줘야한다. 후행증감을 사용하면 알파벳이 바뀌지않는다. 
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
