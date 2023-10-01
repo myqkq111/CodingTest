@@ -1,7 +1,10 @@
 package level_1;
 
+import java.sql.Date;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.List;
 
 public class Level_1_Method {
@@ -361,6 +364,54 @@ public class Level_1_Method {
 	
 	
 	
+	//9. 개인정보 수집 유효기간
+	public int[] solution(String today, String[] terms, String[] privacies) {
+		
+		List<Integer> list = new ArrayList<Integer>();
+		
+		for(int i = 0; i < terms.length; i++) {
+			w:for(int j = 0; j < privacies.length; j++) {
+				String[] arr = terms[i].split(" ");
+			
+				if(privacies[j].contains(arr[0])) {
+					String[] array = privacies[j].substring(0, 10).replace('.', ' ').split(" ");
+			
+					int month = Integer.parseInt(arr[1]) + Integer.parseInt(array[1]);
+					
+					if(month > 12) {
+						int year = Integer.parseInt(array[0]);
+						array[0] = Integer.toString(year + 1);
+						array[1] = Integer.toString(month % 12);
+					} else {
+						array[1] = Integer.toString(month);
+					}
+					
+					String[] todayArr = today.replace('.', ' ').split(" ");
+					System.out.println(Arrays.toString(array));
+
+					for(int f = 0; f < 3; f++) {
+						if(Integer.parseInt(todayArr[f]) > Integer.parseInt(array[f]))  {
+							list.add(j);
+							continue w;
+						} else if(Integer.parseInt(todayArr[f]) < Integer.parseInt(array[f])){
+							continue w;
+						} 
+					}//for f
+					list.add(j);
+				}//if	
+				
+			}//for j
+		}//for i
+		
+		int[] res = new int[list.size()]; 
+		
+		for(int i = 0; i < list.size(); i++) {
+			res[i] = list.get(i);
+		}	
+		Arrays.sort(res);
+		
+		return res;
+	}
 	
 	
 	
