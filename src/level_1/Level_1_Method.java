@@ -365,53 +365,89 @@ public class Level_1_Method {
 	
 	
 	//9. 개인정보 수집 유효기간
-	public int[] solution(String today, String[] terms, String[] privacies) {
-		
-		List<Integer> list = new ArrayList<Integer>();
-		
-		for(int i = 0; i < terms.length; i++) {
-			w:for(int j = 0; j < privacies.length; j++) {
-				String[] arr = terms[i].split(" ");
-			
-				if(privacies[j].contains(arr[0])) {
-					String[] array = privacies[j].substring(0, 10).replace('.', ' ').split(" ");
-			
-					int month = Integer.parseInt(arr[1]) + Integer.parseInt(array[1]);
-					
-					if(month > 12) {
-						int year = Integer.parseInt(array[0]);
-						array[0] = Integer.toString(year + 1);
-						array[1] = Integer.toString(month % 12);
-					} else {
-						array[1] = Integer.toString(month);
-					}
-					
-					String[] todayArr = today.replace('.', ' ').split(" ");
-					System.out.println(Arrays.toString(array));
+//	public int[] solution(String today, String[] terms, String[] privacies) {
+//		
+//		List<Integer> list = new ArrayList<Integer>();
+//		
+//		for(int i = 0; i < terms.length; i++) {
+//			w:for(int j = 0; j < privacies.length; j++) {
+//				String[] arr = terms[i].split(" ");
+//			
+//				if(privacies[j].contains(arr[0])) {
+//					String[] array = privacies[j].substring(0, 10).replace('.', ' ').split(" ");
+//			
+//					int month = Integer.parseInt(arr[1]) + Integer.parseInt(array[1]);
+//					
+//					if(month > 12) {
+//						int year = Integer.parseInt(array[0]);
+//						array[0] = Integer.toString(year + 1);
+//						array[1] = Integer.toString(month % 12);
+//					} else {
+//						array[1] = Integer.toString(month);
+//					}
+//					
+//					String[] todayArr = today.replace('.', ' ').split(" ");
+//			
+//					for(int f = 0; f < 3; f++) {
+//						if(Integer.parseInt(todayArr[f]) > Integer.parseInt(array[f]))  {
+//							list.add(j+1);
+//							continue w;
+//						} else if(Integer.parseInt(todayArr[f]) < Integer.parseInt(array[f])){
+//							continue w;
+//						} 
+//					}//for f
+//					list.add(j+1);
+//				}//if	
+//				
+//			}//for j
+//		}//for i
+//		
+//		int[] res = new int[list.size()]; 
+//		
+//		for(int i = 0; i < list.size(); i++) {
+//			res[i] = list.get(i);
+//		}	
+//		Arrays.sort(res);
+//		
+//		return res;
+//	}
 
-					for(int f = 0; f < 3; f++) {
-						if(Integer.parseInt(todayArr[f]) > Integer.parseInt(array[f]))  {
-							list.add(j);
-							continue w;
-						} else if(Integer.parseInt(todayArr[f]) < Integer.parseInt(array[f])){
-							continue w;
-						} 
-					}//for f
-					list.add(j);
-				}//if	
-				
-			}//for j
-		}//for i
-		
-		int[] res = new int[list.size()]; 
-		
-		for(int i = 0; i < list.size(); i++) {
-			res[i] = list.get(i);
-		}	
-		Arrays.sort(res);
-		
-		return res;
-	}
+	//split메서드와 Integer.parseInt를 많이 사용한 거 같다.
+	//날짜 관련 객체와 메서드를 알고있었다면 쉬웠을텐데 어렵게 풀어낸거 같다.
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//10. 크기가 작은 부분문자열
+//	public int solution(String t, String p) {
+//		
+//		int res = 0;
+//		
+//		for(int i = 0; i < t.length()-p.length()+1; i++) {
+//			String sub = t.substring(i, i+p.length());
+//			
+//			if(Integer.parseInt(sub) <= Integer.parseInt(p)) {
+//				res++;
+//			}
+//		} 
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
 	
 	
 	
