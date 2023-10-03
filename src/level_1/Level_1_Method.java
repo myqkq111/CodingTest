@@ -451,8 +451,31 @@ public class Level_1_Method {
 	
 	
 	
+	//11. 가장 가까운 같은 글자
+//	public int[] solution(String s) {
+//		
+//		int[] res = new int[s.length()];
+//		
+//		w:for(int i = 0; i < s.length(); i++) {
+//			for(int j = s.length()-1; j >= 0; j--) {
+//				if(i != j && i > j) {
+//					if(s.charAt(i) == s.charAt(j)) {
+//						res[i] = i-j;
+//						continue w;
+//					}
+//				}
+//			}
+//			res[i] = -1;
+//		}
+//		return res;
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
