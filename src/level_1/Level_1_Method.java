@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.List;
 
 public class Level_1_Method {
@@ -476,6 +477,46 @@ public class Level_1_Method {
 	
 	
 	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//12. 문자열 나누기
+//	public int solution(String s) {
+//		
+//		int res = 0;
+//		int tr = 0;
+//		int fa = 0;
+//		char x = s.charAt(0);
+//		
+//		for(int i = 0; i < s.length(); i++) {
+//			if(x == s.charAt(i)) {
+//				tr++;
+//			}else {
+//				fa++;
+//			}
+//			
+//			if(s.length()-1 > i && tr == fa) {
+//				x = s.charAt(i+1);
+//				res++;
+//			} else if(tr == fa) {
+//				res++;
+//			} else if(s.length()-1 == i) {
+//				res++;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
 	
 	
 	
