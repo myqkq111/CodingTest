@@ -522,6 +522,61 @@ public class Level_1_Method {
 	
 	
 	
+	//13. 명예의 전당(1)
+//	public int[] solution(int k, int[] score) {
+//		
+//		Integer[] rank = new Integer[k];
+//		int[] res = new int[score.length];
+//		
+//		for(int i = 0; i < k; i++) {
+//			rank[i] = 0;
+//		}
+//		
+//		for(int i = 0; i < score.length; i++) {
+//			
+//			if(i < k) {
+//				rank[i] = score[i];
+//				Arrays.sort(rank, Collections.reverseOrder());
+//				res[i] = rank[i];
+//				continue;
+//			}
+//			
+//			Arrays.sort(rank);
+//			
+//			if(rank[0] < score[i]) {
+//				rank[0] = score[i];
+//				Arrays.sort(rank);
+//			}
+//			res[i] = rank[0];
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
