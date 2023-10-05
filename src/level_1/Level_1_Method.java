@@ -564,8 +564,32 @@ public class Level_1_Method {
 	
 	
 	
+	//14. 기사단원의 무기
+//	public int solution(int number, int limit, int power) {
+//		
+//		int res = 0;
+//		
+//		for(int i = 1; i <= number; i++) {
+//			int at = 0;
+//			for(int j = 1; j <= i; j++) {
+//				if(i % j == 0) {
+//					at++;
+//				}
+//			}
+//			if(at > limit) {
+//				at = power;
+//			}
+//			res += at;
+//		}
+//		return res;
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
