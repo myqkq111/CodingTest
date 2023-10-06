@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
 public class Level_1_Method {
 	
@@ -596,8 +597,36 @@ public class Level_1_Method {
 	
 	
 	
+	//15. 과일 장수
+//	public int solution(int k, int m, int[] score) {
+//		
+//		int res = 0;
+//		List<Integer> list = new ArrayList<Integer>();
+//		Arrays.sort(score);
+//		
+//		for(int i = score.length-1; i >= 0; i--) {
+//			list.add(score[i]);
+//			
+//			if(list.size() == m) {
+//				int a = k;
+//				for(int j = 0; j < m; j++) {
+//					if(list.get(j) < a) {
+//						a = list.get(j);
+//					}
+//				}
+//				res += a*m;
+//				list.clear();
+//			}
+//		}
+//		return res;
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
