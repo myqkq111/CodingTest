@@ -633,6 +633,53 @@ public class Level_1_Method {
 	
 	
 	
+	//16. 푸드 파이트 대회
+//	public String solution(int[] food) {
+//		
+//		String res = "";
+//		
+//		for(int i = 1; i < food.length; i++) {
+//			int su = food[i] / 2;
+//	
+//			for(int j = 0; j < su; j++) {
+//				res += i;
+//			}
+//		}
+//		
+//		res += 0;
+//		
+//		for(int i = food.length-1; i > 0; i--) {
+//			int su = food[i] / 2;
+//			
+//			for(int j = 0; j < su; j++) {
+//				res += i;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
