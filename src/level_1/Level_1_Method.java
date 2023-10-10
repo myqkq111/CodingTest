@@ -670,8 +670,41 @@ public class Level_1_Method {
 	
 	
 	
+	//17. 햄버거 만들기
+//	public int solution(int[] ingredient) {
+//		int res = 0;
+//		int material = 1;
+//		
+//		List<Integer> list = new ArrayList<Integer>();
+//		
+//		for(int i = 0; i < ingredient.length; i++) {
+//			list.add(ingredient[i]);
+//		}
+//		
+//		for(int i = 0; i < list.size();) {
+//			if(list.get(i) == material) {
+//				material++;
+//				list.remove(i);
+//				continue;
+//			}
+//			if(material == 4 && list.get(i) == 1) {
+//				list.remove(i);
+//				res++;
+//				material = 1;
+//				i = 0;
+//				continue;
+//			}
+//			i++;
+//		}
+//		return res;
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
