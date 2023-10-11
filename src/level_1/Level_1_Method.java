@@ -712,6 +712,43 @@ public class Level_1_Method {
 	
 	
 	
+	//18. ¿Ë¾ËÀÌ (2)
+	public int solution(String[] babbling) {
+		
+		String sb = "";
+		String[] arr = {"aya", "ye", "woo", "ma"};
+		
+		for(int i = 0; i < babbling.length; i++) {
+			int idx = -1;
+			for(int j = 0; j < babbling[i].length(); j++) {
+				sb += babbling[i].charAt(j);
+				for(int f = 0; f < arr.length; f++) {
+					if(arr[f].equals(sb)) {
+						
+					}
+				}
+			}
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
