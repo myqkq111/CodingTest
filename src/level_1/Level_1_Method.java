@@ -712,25 +712,24 @@ public class Level_1_Method {
 	
 	
 	
-	//18. 옹알이 (2)
-	public int solution(String[] babbling) {
+	//18. 콜라 문제
+	public int solution(int a, int b, int n) {
 		
-		String sb = "";
-		String[] arr = {"aya", "ye", "woo", "ma"};
+		int res = 0;
 		
-		for(int i = 0; i < babbling.length; i++) {
-			int idx = -1;
-			for(int j = 0; j < babbling[i].length(); j++) {
-				sb += babbling[i].charAt(j);
-				for(int f = 0; f < arr.length; f++) {
-					if(arr[f].equals(sb)) {
-						
-					}
-				}
+		while(true) {
+			int su = n / a;
+			if(su <= 0) {
+				break;
 			}
+			n %= a;
+			n += (su * b);
+			
+			
 		}
 		
 	}
+	
 	
 	
 	
