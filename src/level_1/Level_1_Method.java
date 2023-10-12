@@ -713,31 +713,63 @@ public class Level_1_Method {
 	
 	
 	//18. ÄÝ¶ó ¹®Á¦
-	public int solution(int a, int b, int n) {
-		
-		int res = 0;
-		
-		while(true) {
-			int su = n / a;
-			if(su <= 0) {
-				break;
-			}
-			n %= a;
-			n += (su * b);
-			
-			
-		}
-		
-	}
+//	public int solution(int a, int b, int n) {
+//		
+//		int res = 0;
+//		
+//		while(true) {
+//			int su = n / a;
+//			if(su <= 0) {
+//				break;
+//			}
+//			n %= a;
+//			n += (su * b);
+//			res += (su * b);
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
 	
 	
 	
+	//19. »ïÃÑ»ç
+//	public int solution(int[] number) {
+//		
+//		int res = 0;
+//		
+//		for(int i = 0; i < number.length; i++) {
+//			for(int j = 0; j < number.length; j++) {
+//				if(i == j || i > j) {
+//					continue;
+//				}
+//				for(int n = 0; n < number.length; n++) {
+//					if(i == n || j == n || j > n) {
+//						continue;
+//					}				
+//					if(number[i] + number[j] + number[n] == 0) {
+//						res++;
+//					}
+//				}
+//			}
+//		}
+//		return res;
+//	}
+
 	
 	
 	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
