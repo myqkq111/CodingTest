@@ -899,6 +899,48 @@ public class Level_1_Method {
 	
 	
 	
+	//22. 신고 결과 받기 
+//	public int[] solution(String[] id_list, String[] report, int k) {
+//		
+//		int[] res = new int[id_list.length];
+//		int[] sin = new int[id_list.length];
+//		String[] arr;
+//		
+//		for(int i = 0; i < report.length; i++) {
+//			arr = report[i].split(" ");
+//			for(int j = 0; j < id_list.length; j++) {
+//				if(arr[1].equals(id_list[j])) {
+//					sin[j]++;
+//				}
+//			} 
+//		}
+//		
+//		for(int i = 0; i < sin.length; i++) {
+//			if(sin[i] >= k) {
+//				for(int j = 0; j < report.length; j++) {
+//					arr = report[j].split(" ");
+//					if(arr[1].equals(id_list[i])) {
+//						for(int g = 0; g < id_list.length; g++) {
+//							if(arr[0].equals(id_list[g])) {
+//								res[g]++;
+//							}
+//						}
+//					}
+//				}
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
 	
 	
 	
