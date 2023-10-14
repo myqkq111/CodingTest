@@ -778,35 +778,121 @@ public class Level_1_Method {
 	
 	
 	//20. 숫자 짝꿍
-	public String solution(String X, String Y) {
-		
-		List<String> list = new ArrayList<String>();
-		
-		StringBuffer sbX = new StringBuffer(X);
-		StringBuffer sbY = new StringBuffer(Y);
-		
-		w:for(int i = sbX.length()-1; i >= 0; i--) {
-			for(int j = sbY.length()-1; j >= 0; j--) {
-				if(sbX.length() == 0 || sbY.length() == 0) {
-					break w;
-				}
-				
-				if(sbX.charAt(i) == sbY.charAt(j)) {
-					list.add(Character.toString(sbX.charAt(i)));
-					sbX.deleteCharAt(i);
-					sbY.deleteCharAt(j);
-					continue w;
-				}
-			}
-		}	
-		if(list.size() == 0) {
-			list.add("-1");
-		} else {
-			list.sort(Comparator.reverseOrder());
-		}		
-		return list.toString();		
-	}
+//	public String solution(String X, String Y) {
+//		
+//		List<String> list = new ArrayList<String>();
+//		
+//		StringBuffer sbX = new StringBuffer(X);
+//		StringBuffer sbY = new StringBuffer(Y);
+//		
+//		w:for(int i = sbX.length()-1; i >= 0; i--) {
+//			for(int j = sbY.length()-1; j >= 0; j--) {
+//				if(sbX.length() == 0 || sbY.length() == 0) {
+//					break w;
+//				}
+//				
+//				if(sbX.charAt(i) == sbY.charAt(j)) {
+//					list.add(Character.toString(sbX.charAt(i)));
+//					sbX.deleteCharAt(i);
+//					sbY.deleteCharAt(j);
+//					continue w;
+//				}
+//			}
+//		}
+//		
+//		int zero = 0;
+//		
+//		for(int i = 0; i < list.size(); i++) {
+//			if(!list.get(i).equals("0")) {
+//				zero = 1;
+//			}
+//		}
+//		
+//		if(list.size() == 0) {
+//			list.add("-1");
+//		} else if(zero == 0){
+//			list.clear();
+//			list.add("0");
+//		} else {
+//			list.sort(Comparator.reverseOrder());
+//		}		
+//		
+//		return list.toString();		
+//	}
+
 	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//21. 성격 유형 검사하기
+//	public String solution(String[] survey, int[] choices) {
+//		
+//		String str = "RTCFJMAN";
+//		int[] in = new int[8];
+//		
+//		int idx;
+//		
+//		for(int i = 0; i < survey.length; i++) {
+//			switch(choices[i]) {
+//			case 1:
+//				idx = str.indexOf(survey[i].charAt(0));
+//				in[idx]+=3;
+//				break;
+//			case 2:
+//				idx = str.indexOf(survey[i].charAt(0));
+//				in[idx]+=2;
+//				break;
+//			case 3:
+//				idx = str.indexOf(survey[i].charAt(0));
+//				in[idx]+=1;
+//				break;
+//			case 4:
+//				break;
+//			case 5:
+//				idx = str.indexOf(survey[i].charAt(1));
+//				in[idx]+=1;
+//				break;
+//			case 6:
+//				idx = str.indexOf(survey[i].charAt(1));
+//				in[idx]+=2;
+//				break;
+//			case 7:
+//				idx = str.indexOf(survey[i].charAt(1));
+//				in[idx]+=3;
+//				break;
+//			}
+//		}
+//		String res = "";
+//		
+//		for(int i = 0; i < 8; i+=2) {
+//			if(in[i] == in[i+1]) {
+//				if(str.charAt(i) < str.charAt(i+1)) {
+//					res+=str.charAt(i);
+//				} else {
+//					res+=str.charAt(i+1);
+//				}
+//			} else if(in[i] > in[i+1]) {
+//				res+=str.charAt(i);
+//			} else {
+//				res+=str.charAt(i+1);
+//			}
+//		}
+//		return res;		
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
