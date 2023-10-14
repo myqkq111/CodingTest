@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
@@ -776,7 +777,35 @@ public class Level_1_Method {
 	
 	
 	
-	
+	//20. ¼ýÀÚ Â¦²á
+	public String solution(String X, String Y) {
+		
+		List<String> list = new ArrayList<String>();
+		
+		StringBuffer sbX = new StringBuffer(X);
+		StringBuffer sbY = new StringBuffer(Y);
+		
+		w:for(int i = sbX.length()-1; i >= 0; i--) {
+			for(int j = sbY.length()-1; j >= 0; j--) {
+				if(sbX.length() == 0 || sbY.length() == 0) {
+					break w;
+				}
+				
+				if(sbX.charAt(i) == sbY.charAt(j)) {
+					list.add(Character.toString(sbX.charAt(i)));
+					sbX.deleteCharAt(i);
+					sbY.deleteCharAt(j);
+					continue w;
+				}
+			}
+		}	
+		if(list.size() == 0) {
+			list.add("-1");
+		} else {
+			list.sort(Comparator.reverseOrder());
+		}		
+		return list.toString();		
+	}
 	
 	
 	
