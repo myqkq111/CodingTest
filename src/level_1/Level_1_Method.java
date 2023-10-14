@@ -913,7 +913,7 @@ public class Level_1_Method {
 //					sin[j]++;
 //				}
 //			} 
-//		}
+//		} 
 //		
 //		for(int i = 0; i < sin.length; i++) {
 //			if(sin[i] >= k) {
