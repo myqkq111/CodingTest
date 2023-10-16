@@ -970,6 +970,59 @@ public class Level_1_Method {
 	
 	
 	
+	//24. 최소직사각형
+//	public int solution(int[][] sizes) {
+//		
+//		for(int i = 0; i < sizes.length; i++) {
+//			if(sizes[i][0] < sizes[i][1]) {
+//				int change = sizes[i][0];
+//				sizes[i][0] = sizes[i][1];
+//				sizes[i][1] = change;
+//			}
+//		}
+//		
+//		int width = sizes[0][0];
+//		int heigh = sizes[0][1];
+//		
+//		for(int i = 1; i < sizes.length; i++) {
+//			if(sizes[i][0] > width) {
+//				width = sizes[i][0];
+//			}
+//			if(sizes[i][1] > heigh) {
+//				heigh = sizes[i][1];
+//			}
+//		}
+//		int res = width * heigh;
+//		
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+
+	
+	
+	
+ 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
