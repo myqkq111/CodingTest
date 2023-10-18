@@ -1031,7 +1031,38 @@ public class Level_1_Method {
 	
 	
 	//--------------------------------------------------------------------------
+
+
 	
+	
+	
+	
+	
+	//26. 부족한 금액 계산하기
+//	public long solution(int price, int money, int count) {
+//		
+//		int sum = 0;
+//		
+//		for(int i = 1; i <= count; i++) {
+//			sum += (price * i);
+//		}
+//		
+//		int res = money - sum;
+//		
+//		if(res >= 0) {
+//			res = 0;
+//		} else {
+//			res *= -1;
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
  
