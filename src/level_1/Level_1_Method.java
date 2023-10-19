@@ -1063,7 +1063,80 @@ public class Level_1_Method {
 	
 	
 	//--------------------------------------------------------------------------
+
+
 	
+	
+	
+	
+	
+	//27. 숫자 문자열과 영단어
+//	public int solution(String s) {
+//		
+//		String res = "";
+//		String str = "";
+//		
+//		for(int i = 0; i < s.length(); i++) {
+//			int n = Character.getNumericValue(s.charAt(i));
+//			
+//			if(n < 10) {
+//				res += n;
+//			} else {
+//				str += s.charAt(i);
+//				
+//				switch(str) {
+//				case "zero":
+//					res += "0";
+//					str = "";
+//					break;
+//				case "one":
+//					res += "1";
+//					str = "";
+//					break;
+//				case "two":
+//					res += "2";
+//					str = "";
+//					break;
+//				case "three":
+//					res += "3";
+//					str = "";
+//					break;
+//				case "four":
+//					res += "4";
+//					str = "";
+//					break;
+//				case "five":
+//					res += "5";
+//					str = "";
+//					break;
+//				case "six":
+//					res += "6";
+//					str = "";
+//					break;
+//				case "seven":
+//					res += "7";
+//					str = "";
+//					break;
+//				case "eight":
+//					res += "8";
+//					str = "";
+//					break;
+//				case "nine":
+//					res += "9";
+//					str = "";
+//					break;
+//				}
+//			}
+//		}
+//		return Integer.parseInt(res);
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
  
 	
