@@ -7,8 +7,11 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
+import java.util.function.IntFunction;
 
 public class Level_1_Method {
 	
@@ -1212,6 +1215,35 @@ public class Level_1_Method {
 	
 	
 	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	//30. 음양 더하기
+//	public int solution(int[] absolutes, boolean[] signs) {
+//		
+//		int res = 0;
+//		
+//		for(int i = 0; i < absolutes.length; i++) {
+//			if(!signs[i]) {
+//				absolutes[i] *= -1; 
+//			}
+//			res += absolutes[i];
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
 	
 	
 	
