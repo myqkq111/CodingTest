@@ -1246,6 +1246,87 @@ public class Level_1_Method {
 	
 	
 	
+	//31. 신규 아이디 추천
+//	public String solution(String new_id) {
+//
+//		new_id = new_id.toLowerCase(); //1단계
+//		StringBuffer sb = new StringBuffer(new_id);
+//		
+//		int su = 0;
+//		
+//		for(int i = sb.length()-1; i >= 0; i--) { //2단계
+//			if(sb.charAt(i) >= 'a' && sb.charAt(i) <= 'z') {
+//				continue;
+//			} else if(sb.charAt(i) >= '0' && sb.charAt(i) <= '9') {
+//				continue;
+//			} else if(sb.charAt(i) == '-' || sb.charAt(i) == '.' || sb.charAt(i) == '_') {
+//				continue;
+//			} else {
+//				sb.deleteCharAt(i);
+//			}
+//		}
+//	
+//		for(int i = sb.length()-1; i >= 0; i--) { //3단계
+//			if(sb.charAt(i) == '.') {
+//				su++;
+//			}
+//			
+//			if(sb.charAt(i) != '.' || i == 0) {
+//				if(su >= 2) {
+//					for(int j = i + su -1; j > i; j--) {
+//						sb.deleteCharAt(j);
+//					}
+//					su = 0;
+//				} else {
+//					su = 0;
+//				}
+//			}
+//		}
+//		//----------------- 4단계
+//		int first = sb.indexOf(".");
+//		int last = sb.lastIndexOf(".");
+//		
+//		if(first == 0) {
+//			sb.deleteCharAt(0);
+//		}
+//		if(last == sb.length()-1) {
+//			sb.deleteCharAt(sb.length()-1);
+//		}
+//		//------------------
+//		if(sb.length() == 0) { //5단계
+//			sb = new StringBuffer("a");
+//		}
+//		
+//		if(sb.length() > 15) { //6단계
+//			String str = sb.substring(0, 15);
+//			sb = new StringBuffer(str);
+//			if(last == sb.length()-1) {
+//				sb.deleteCharAt(sb.length()-1);
+//			}
+//		} 
+//		
+//		String res = sb.toString();
+//		
+//		if(res.length() < 3){ //7단계
+//			char ch = res.charAt(res.length()-1);
+//			for(int i = res.length(); i < 3; i++) {
+//				res += ch;
+//			}
+//		}	
+//		return res;		
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+
+	
+	
+	
+	
 	
 	
 	
