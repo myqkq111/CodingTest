@@ -1372,6 +1372,46 @@ public class Level_1_Method {
 	
 	
 	
+	//34. 두 개 뽑아서 더하기
+//	public int[] solution(int[] numbers) {
+//		
+//		Set<Integer> set = new HashSet<Integer>();
+//		
+//		for(int i = 0; i < numbers.length; i++) {
+//			for(int j = 0; j < numbers.length; j++) {
+//				if(i != j) {
+//					set.add(numbers[i] + numbers[j]);
+//				}
+//			}
+//		}
+//		int[] res = set.stream().mapToInt(Integer::intValue).toArray();
+//		
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
