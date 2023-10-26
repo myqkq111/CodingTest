@@ -1349,8 +1349,24 @@ public class Level_1_Method {
 	
 	
 	
+	//33. 3진법 뒤집기
+//	public int solution(int n) {
+//		
+//		String res = "";
+//		
+//		while(n != 0) {
+//			res += (n % 3);
+//			n /= 3;
+//		}
+//		return Integer.parseInt(res, 3);
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
