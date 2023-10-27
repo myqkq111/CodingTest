@@ -1400,8 +1400,171 @@ public class Level_1_Method {
 	
 	
 	
+	//35. 키패드 누르기
+//	public String solution(int[] numbers, String hand) {
+//		
+//		String res = "";
+//		
+//		int[] left = {3,0};
+//		int[] right = {3,2};
+//		
+//		int l,r,su;
+//		
+//		for(int i = 0; i < numbers.length; i++) {
+//			switch(numbers[i]) {
+//			case 1:
+//				left[0] = 0;
+//				left[1] = 0;
+//				res += "L";
+//				break;
+//			case 4:
+//				left[0] = 1;
+//				left[1] = 0;
+//				res += "L";
+//				break;
+//			case 7:
+//				left[0] = 2;
+//				left[1] = 0;
+//				res += "L";
+//				break;
+//			case 3:
+//				right[0] = 0;
+//				right[1] = 2;
+//				res += "R";
+//				break;
+//			case 6:
+//				right[0] = 1;
+//				right[1] = 2;
+//				res += "R";
+//				break;
+//			case 9:
+//				right[0] = 2;
+//				right[1] = 2;
+//				res += "R";
+//				break;
+//			case 2:
+//				l = (left[0] - 0) + (1 - left[1]);
+//				r = (right[0] - 0) + (right[1] - 1);
+//				if(l < r) {
+//					left[0] = 0;
+//					left[1] = 1;
+//					res += "L";
+//				} else if(l > r) {
+//					right[0] = 0;
+//					right[1] = 1;
+//					res += "R";
+//				} else {
+//					if(hand.equals("right")) {
+//						right[0] = 0;
+//						right[1] = 1;
+//						res += "R";
+//					} else {
+//						left[0] = 0;
+//						left[1] = 1;
+//						res += "L";
+//					}
+//				}
+//				break;
+//			case 5:
+//				su = left[0] - 1;
+//				if(su < 0) {
+//					su *= -1;
+//				}
+//				l = su + (1 - left[1]);
+//				
+//				su = right[0] - 1;
+//				if(su < 0) {
+//					su *= -1;
+//				}
+//				r = su + (right[1] - 1);
+//				
+//				if(l < r) {
+//					left[0] = 1;
+//					left[1] = 1;
+//					res += "L";
+//				} else if(l > r) {
+//					right[0] = 1;
+//					right[1] = 1;
+//					res += "R";
+//				} else {
+//					if(hand.equals("right")) {
+//						right[0] = 1;
+//						right[1] = 1;
+//						res += "R";
+//					} else {
+//						left[0] = 1;
+//						left[1] = 1;
+//						res += "L";
+//					}
+//				}
+//				break;
+//			case 8:
+//				su = left[0] - 2;
+//				if(su < 0) {
+//					su *= -1;
+//				}
+//				l = su + (1 - left[1]);
+//				
+//				su = right[0] - 2;
+//				if(su < 0) {
+//					su *= -1;
+//				}
+//				r = su + (right[1] - 1);
+//				
+//				if(l < r) {
+//					left[0] = 2;
+//					left[1] = 1;
+//					res += "L";
+//				} else if(l > r) {
+//					right[0] = 2;
+//					right[1] = 1;
+//					res += "R";
+//				} else {
+//					if(hand.equals("right")) {
+//						right[0] = 2;
+//						right[1] = 1;
+//						res += "R";
+//					} else {
+//						left[0] = 2;
+//						left[1] = 1;
+//						res += "L";
+//					}
+//				}
+//				break;
+//			case 0:
+//				l = (3 - left[0]) + (1 - left[1]);
+//				r = (3 - right[0]) + (right[1] - 1);
+//				if(l < r) {
+//					left[0] = 3;
+//					left[1] = 1;
+//					res += "L";
+//				} else if(l > r) {
+//					right[0] = 3;
+//					right[1] = 1;
+//					res += "R";
+//				} else {
+//					if(hand.equals("right")) {
+//						right[0] = 3;
+//						right[1] = 1;
+//						res += "R";
+//					} else {
+//						left[0] = 3;
+//						left[1] = 1;
+//						res += "L";
+//					}
+//				}
+//				break;
+//			}
+//		}
+//		return res;		
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
