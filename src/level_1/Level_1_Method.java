@@ -1611,6 +1611,82 @@ public class Level_1_Method {
 	
 	
 	
+	//37. ½ÇÆĞÀ²
+//	public int[] solution(int N, int[] stages) {
+//		
+//		int[] clear = new int[N+1];
+//		int[] challenge = new int[N+1];
+//		
+//		for(int i = 0; i < stages.length; i++) {
+//			for(int j = 0; j < stages[i]; j++) {
+//				clear[j]++;
+//			}
+//			challenge[stages[i]-1]++;
+//		}
+//		List<Integer> list = new ArrayList<Integer>();
+//		List<Integer> rank = new ArrayList<Integer>();
+//	
+//		w:for(int i = 0; i < N; i++) {
+//			if(clear[i] == 0) {
+//				list.add(0);
+//				rank.add(i+1);
+//			} else {
+//				int su = challenge[i]*100/clear[i];
+//				int idx = list.size();
+//				
+//				if(idx == 0) {
+//					list.add(su);
+//					rank.add(i+1);
+//				} else {
+//					for(int j = 0; j < idx; j++) {
+//						if(list.get(j) < su) {
+//							list.add(j,su);
+//							rank.add(j,i+1);
+//							continue w;
+//						} else if(list.get(j) == su && rank.get(j) > i+1) {
+//							list.add(j,su);
+//							rank.add(j,i+1);
+//							continue w;
+//						} 
+//					}
+//					list.add(su);
+//					rank.add(i+1);
+//				}
+//			}
+//		}
+//		int[] res = new int[N];
+//		
+//		for(int i = 0; i < N; i++) {
+//			res[i] = rank.get(i);
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
