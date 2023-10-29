@@ -1570,8 +1570,42 @@ public class Level_1_Method {
 	
 	
 	
+	//36. 크레인 인형뽑기 게임
+//	public int solution(int[][] board, int[] moves) {
+//		
+//		int res = 0;
+//		
+//		List<Integer> list = new ArrayList<Integer>();
+//		
+//		for(int i = 0; i < moves.length; i++) {
+//			int idx = moves[i] - 1;
+//			
+//			for(int j = 0; j < board.length; j++) {
+//				if(board[j][idx] != 0) {
+//					list.add(board[j][idx]);
+//					board[j][idx] = 0;
+//					break;
+//				}
+//			}
+//	
+//			if(list.size() >= 2) {
+//				int index = list.size() - 1;
+//				if(list.get(index) == list.get(index-1)) {
+//					list.remove(index);
+//					list.remove(index-1);
+//					res += 2;
+//				}
+//			}
+//		}
+//		return res;
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
