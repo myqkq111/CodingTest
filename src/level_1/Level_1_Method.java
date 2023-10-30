@@ -1673,8 +1673,54 @@ public class Level_1_Method {
 	
 	
 	
+	//38. Ã¼À°º¹
+//	public int solution(int n, int[] lost, int[] reserve) {
+//		
+//		int res = 0;
+//		int[] arr = new int[n];
+//		
+//		for(int i = 0; i < lost.length; i++) {
+//			int idx = lost[i]-1;
+//			arr[idx]--;
+//		}
+//		for(int i = 0; i < reserve.length; i++) {
+//			int idx = reserve[i]-1;
+//			arr[idx]++;
+//		} 
+//		for(int i = 0; i < arr.length; i++) {
+//			if(arr[i] == -1) {
+//				if(i == 0) {
+//					if(arr[i+1] == 1) {
+//						arr[i]++;
+//						arr[i+1]--;
+//					}
+//				} else if(i == arr.length-1) {
+//					if(arr[i-1] == 1) {
+//						arr[i]++;
+//						arr[i-1]--;
+//					}
+//				} else if(arr[i-1] == 1) {
+//					arr[i]++;
+//					arr[i-1]--;
+//				} else if(arr[i+1] == 1) {
+//					arr[i]++;
+//					arr[i+1]--;
+//				}
+//			}
+//			
+//			if(arr[i] >= 0) {
+//				res++;
+//			}
+//		}
+//		return res;
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
