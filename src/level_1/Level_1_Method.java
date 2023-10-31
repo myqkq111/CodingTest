@@ -1726,8 +1726,120 @@ public class Level_1_Method {
 	
 	
 	
+	//39. 모의고사
+//	public int[] solution(int[] answers) {
+//		
+//		int[] arr1 = new int[answers.length];
+//		int[] arr2 = new int[answers.length];
+//		int[] arr3 = new int[answers.length];
+//		
+//		int su1 = 1;
+//		int su2 = 2;
+//		int su3 = 3;
+//		int su2sub = 1;
+//		int su3sub = 0;
+//		
+//		for(int i = 0; i < answers.length; i++) {
+//			arr1[i] = su1;
+//			arr2[i] = su2;
+//			arr3[i] = su3;
+//			
+//			//su1
+//			if(su1 == 5) {
+//				su1 = 1;
+//			} else {
+//				su1++;
+//			}
+//			
+//			//su2
+//			if(su2 != 2) {
+//				su2 = 2;
+//			} else {
+//				su2 = su2sub;
+//				switch(su2sub) {
+//				case 1:
+//					su2sub = 3;
+//					break;
+//				case 3:
+//					su2sub = 4;
+//					break;
+//				case 4:
+//					su2sub = 5;
+//					break;
+//				case 5:
+//					su2sub = 1;
+//					break;
+//				}
+//			}
+//			
+//			//su3
+//			su3sub++;
+//			if(su3sub == 2) {
+//				switch(su3) {
+//				case 1:
+//					su3 = 2;
+//					break;
+//				case 2:
+//					su3 = 4;
+//					break;
+//				case 3:
+//					su3 = 1;
+//					break;
+//				case 4:
+//					su3 = 5;
+//					break;
+//				case 5:
+//					su3 = 3;
+//					break;
+//				}
+//				su3sub = 0;
+//			}		
+//		}
+//		
+//		int[] ok = {0,0,0};
+//		
+//		for(int i = 0; i < answers.length; i++) {
+//			if(arr1[i] == answers[i]) {
+//				ok[0]++;
+//			}
+//			if(arr2[i] == answers[i]) {
+//				ok[1]++;
+//			}
+//			if(arr3[i] == answers[i]) {
+//				ok[2]++;
+//			}
+//		}
+//		
+//		int best = ok[0];
+//		if(best < ok[1]) {
+//			best = ok[1];
+//		}
+//		if(best < ok[2]) {
+//			best = ok[2];
+//		}
+//		
+//		List<Integer> list = new ArrayList<Integer>();
+//		
+//		for(int i = 0; i < ok.length; i++) {
+//			if(ok[i] == best) {
+//				list.add(i+1);
+//			}
+//		}
+//		
+//		int[] res = new int[list.size()];
+//		
+//		for(int i = 0; i < list.size(); i++) {
+//			res[i] = list.get(i);
+//		}
+//		return res;
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
