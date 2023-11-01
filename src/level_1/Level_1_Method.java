@@ -1845,6 +1845,46 @@ public class Level_1_Method {
 	
 	
 	
+	//40. K¹øÂ° ¼ö
+//	public int[] solution(int[] array, int[][] commands) {
+//		
+//		int[] res = new int[commands.length];
+//		
+//		for(int e = 0; e < commands.length; e++) {
+//			int i = commands[e][0];
+//			int j = commands[e][1];
+//			int k = commands[e][2];
+//			
+//			List<Integer> list = new ArrayList<Integer>();
+//			for(int f = i-1; f <= j-1; f++) {
+//				list.add(array[f]);
+//			}
+//			list.sort(null);
+//			res[e] = list.get(k-1);
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
