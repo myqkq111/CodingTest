@@ -1876,8 +1876,34 @@ public class Level_1_Method {
 	
 	
 	
+	//41. 완주하지 못한 선수
+//	public String solution(String[] participant, String[] completion) {
+//		
+//		String res;
+//		
+//		List<String> listP = new ArrayList<String>(Arrays.asList(participant));
+//		List<String> listC = new ArrayList<String>(Arrays.asList(completion));
+//		
+//		for(int i = listP.size()-1; i >= 0; i--) {
+//			for(int j = listC.size()-1; j >= 0; j--) {
+//				if(listP.get(i).equals(listC.get(j))) {
+//					listP.remove(i);
+//					listC.remove(j);
+//					break;
+//				}
+//			}
+//		}
+//		res = listP.get(0);
+//		
+//		return res;
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
