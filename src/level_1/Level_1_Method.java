@@ -1938,6 +1938,59 @@ public class Level_1_Method {
 	
 	
 	
+	//43. 소수 만들기
+//	public int solution(int[] nums) {
+//		
+//		int res = 0;
+//		
+//		for(int i = 0; i < nums.length; i++) {
+//			for(int j = 0; j < nums.length; j++) {
+//				if(j != i && j > i) {
+//					for(int e = 0; e < nums.length; e++) {
+//						if(e != j && e > j) {
+//							int su = nums[i] + nums[j] + nums[e];
+//							int count = 0;
+//							for(int f = 2; f <= su; f++) {
+//								if(su % f == 0) {
+//									count++;
+//								}
+//							}
+//							if(count == 1) {
+//								res++;
+//							}
+//						}
+//					}
+//				}
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
