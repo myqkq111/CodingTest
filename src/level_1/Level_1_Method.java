@@ -1975,12 +1975,25 @@ public class Level_1_Method {
 	
 	
 	
+
+	
+	//44. 직사각형 별찍기
+//	public void solution(int n, int m) {
+//		
+//		for(int i = 0; i < m; i++) {
+//			for(int j = 0; j < n; j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//	}
+
 	
 	
 	
 	
 	
-	
+	//--------------------------------------------------------------------------
 	
 	
 	
