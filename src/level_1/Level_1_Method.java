@@ -1999,8 +1999,25 @@ public class Level_1_Method {
 	
 	
 	
+	//45. x만큼 간격이 있는 n개의 숫자
+//	public long[] solution(int x, int n) {
+//		
+//		long[] res = new long[n];
+//		int su = x;
+//		
+//		for(int i = 0; i < n; i++) {
+//			res[i] = su;
+//			su += x;
+//		}
+//		return res;
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
