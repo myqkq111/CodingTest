@@ -2042,6 +2042,32 @@ public class Level_1_Method {
 	
 	
 	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//47. 핸드폰 번호 가리기
+//	public String solution(String phone_number) {
+//		
+//		String res = "";
+//		
+//		for(int i = 0; i < phone_number.length(); i++) {
+//			if(i < phone_number.length()-4) {
+//				res += "*";
+//			} else {
+//				res += phone_number.charAt(i);
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
 
 	
 	
