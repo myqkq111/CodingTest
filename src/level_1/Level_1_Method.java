@@ -2067,6 +2067,29 @@ public class Level_1_Method {
 	
 	
 	
+	//-------------------------------------------------------------------------- 
+	
+	
+	
+	
+	
+	//48. ÇÏ»þµå ¼ö
+//	public boolean solution(int x) {
+//		
+//		String str = Integer.toString(x);
+//		int res = 0;
+//		
+//		for(int i = 0; i < str.length(); i++) {
+//			res += Character.getNumericValue(str.charAt(i));
+//		}
+//		return x % res == 0;
+//	}
+
+	
+	
+	
+	
+	
 	//--------------------------------------------------------------------------
 
 	
