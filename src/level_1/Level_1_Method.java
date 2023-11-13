@@ -2146,29 +2146,61 @@ public class Level_1_Method {
 	
 	
 	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//51. 최대공약수와 최소공배수
+//	public int[] solution(int n, int m) {
+//		
+//		int max = 0, min;
+//		List<Integer> list1 = new ArrayList<Integer>();
+//		List<Integer> list2 = new ArrayList<Integer>();
+//		
+//		for(int i = 1; i <= n; i++) {
+//			if(n % i == 0) {
+//				list1.add(i);
+//			}
+//		}
+//		for(int i = 1; i <= m; i++) {
+//			if(m % i == 0) {
+//				list2.add(i);
+//			}
+//		}
+//		w:for(int i = list1.size()-1; i >= 0; i--) {
+//			for(int j = list2.size()-1; j >= 0; j--) {
+//				if(list1.get(i) == list2.get(j)) {
+//					max = list1.get(i);
+//					break w;
+//				}
+//			}
+//		}
+//		
+//		int su1 = n;
+//		int su2 = m;
+//		if(su1 > su2) {
+//			su1 = m;
+//			su2 = n;
+//		}
+//		if(su2 % su1 == 0) {
+//			min = su1 * (su2 / su1);
+//		}else {
+//			min = su1 * su2;
+//		}
+//		
+//		int[] res = {max, min};
+//		
+//		return res;
+//	}
 
 	
 	
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	//--------------------------------------------------------------------------
+
 	
 	
 	
