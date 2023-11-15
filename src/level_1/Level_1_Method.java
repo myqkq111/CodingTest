@@ -2371,6 +2371,42 @@ public class Level_1_Method {
 	
 	
 	
+	//58. 이상한 문자 만들기
+//	public String solution(String s) {
+//		
+//		String[] arr = s.split(" ");
+//		String str = "";
+//		String res = "";
+//		
+//		for(int i = 0; i < arr.length; i++) {
+//			for(int j = 0; j < arr[i].length(); j++) {
+//				if(j % 2 == 0) {
+//					str += arr[i].toUpperCase().charAt(j);
+//				} else {
+//					str += arr[i].toLowerCase().charAt(j);
+//				}
+//			}
+//			res += str + " ";
+//			str = "";
+//		}
+//		return res.trim();
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
