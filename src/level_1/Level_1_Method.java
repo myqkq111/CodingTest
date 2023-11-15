@@ -2200,7 +2200,197 @@ public class Level_1_Method {
 	
 	
 	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//52. 짝수와 홀수
+//	public String solution(int num) {
+//		
+//		String res = "";
+//		if(num % 2 == 0) {
+//			res = "Even";
+//		} else {
+//			res = "Odd";
+//		}
+//		return res;
+//	}
 
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//53. 제일 작은 수 제거하기
+//	public int[] solution(int[] arr) {
+//		
+//		List<Integer> list = new ArrayList<Integer>();
+//		
+//		if(arr.length == 1) {
+//			list.add(-1);
+//		} else {
+//			int min = arr[0];
+//			for(int i = 1; i < arr.length; i++) {
+//				if(min > arr[i]) {
+//					min = arr[i];
+//				}
+//			}
+//			for(int i = 0; i < arr.length; i++) {
+//				if(min != arr[i]) {
+//					list.add(arr[i]);
+//				}
+//			}
+//		}
+//		int[] res = new int[list.size()];
+//		
+//		for(int i = 0; i < res.length; i++) {
+//			res[i] = list.get(i);
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//54. 정수 제곱근 판별
+//	public long solution(long n) {
+//		
+//		long res = 0;
+//		
+//		for(int i = 1; i <= n; i++) {
+//			if(i * i == n) {
+//				res = (i + 1) * (i + 1);
+//				break;
+//			}
+//			if(i * i > n) {
+//				res = -1;
+//				break;
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//55. 정수 내림차순으로 배치하기
+//	public long solution(long n) {
+//		
+//		String str = Long.toString(n);
+//		String res = "";
+//		
+//		for(int i = 9; i >= 0; i--) {
+//			for(int j = 0; j < str.length(); j++) {
+//				if(Character.getNumericValue(str.charAt(j)) == i) {
+//					res += str.charAt(j);
+//				}
+//			}
+//		}
+//		return Long.parseLong(res);
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//56. 자연수 뒤집어 배열로 만들기
+//	public int[] solution(long n) {
+//		
+//		String str = Long.toString(n);
+//		int[] res = new int[str.length()];
+//		int idx = 0;
+//		
+//		for(int i = str.length()-1; i >= 0; i--) {
+//			res[idx] = Character.getNumericValue(str.charAt(i));
+//			idx++;
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//57. 자연수 더하기
+//	public int solution(int n) {
+//		
+//		String str = Integer.toString(n);
+//		int res = 0;
+//		
+//		for(int i = 0; i < str.length(); i++) {
+//			res += Character.getNumericValue(str.charAt(i));
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
