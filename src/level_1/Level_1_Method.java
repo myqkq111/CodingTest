@@ -2422,6 +2422,38 @@ public class Level_1_Method {
 	
 	
 	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//60. 시저 암호
+//	public String solution(String s, int n) {
+//		
+//		StringBuffer sb = new StringBuffer(s);
+//		
+//		for(int i = 0; i < sb.length(); i++) {
+//			if(sb.charAt(i) != ' ') {
+//				for(int j = 0; j < n; j++) {
+//					if(sb.charAt(i) == 'Z') {
+//						sb.setCharAt(i, 'A');
+//					} else if(sb.charAt(i) == 'z') {
+//						sb.setCharAt(i, 'a');
+//					} else {
+//						sb.setCharAt(i, (char) (sb.charAt(i)+1));
+//					}
+//				}
+//			}
+//		}
+//		return sb.toString();
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
 
 	
 	
