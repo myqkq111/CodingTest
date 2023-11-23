@@ -2576,6 +2576,39 @@ public class Level_1_Method {
 	
 	
 	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//66. 문자열 내림차순으로 배치하기
+//	public String solution(String s) {
+//		
+//		String res = "";
+//		
+//		for(int i = 'z'; i >= 'a'; i--) {
+//			for(int j = 0; j < s.length(); j++) {
+//				if(s.charAt(j) == i) {
+//					res += (char)i;
+//				}
+//			}
+//		}
+//		for(int i = 'Z'; i >= 'A'; i--) {
+//			for(int j = 0; j < s.length(); j++) {
+//				if(s.charAt(j) == i) {
+//					res += (char)i;
+//				}
+//			}
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
 
 	
 	
