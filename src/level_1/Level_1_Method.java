@@ -2551,6 +2551,31 @@ public class Level_1_Method {
 	
 	
 	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//65. 문자열 다루기 기본
+//	public boolean solution(String s) {
+//		
+//		boolean res = true;
+//		
+//		try {
+//			int su = Integer.parseInt(s);
+//		} catch (Exception e) {
+//			res = false;
+//			return res;
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
 
 	
 	
