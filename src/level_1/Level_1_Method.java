@@ -2643,7 +2643,44 @@ public class Level_1_Method {
 	
 	
 	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//68. 문자열 내 마음대로 정렬하기
+//	public String[] solution(String[] strings, int n) {
+//		
+//		String[] res = new String[strings.length];
+//		List<String> list = new ArrayList<String>();
+//		int idx = 0;
+//		
+//		for(int i = 'a'; i <= 'z'; i++) {
+//			for(int j = 0; j < strings.length; j++) {
+//				if(strings[j].charAt(n) == i) {
+//					list.add(strings[j]);
+//				}
+//			}
+//			list.sort(null);
+//			for(int j = 0; j < list.size(); j++) {
+//				res[idx] = list.get(j);
+//				idx++;
+//			}
+//			list.clear();
+//		}
+//		return res;
+//	}
 
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+
+	
+	
+	
 	
 	
 	
