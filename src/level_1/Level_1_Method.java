@@ -2770,7 +2770,48 @@ public class Level_1_Method {
 	
 	
 	//--------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	//72. 가운데 글자 가져오기
+//	public String solution(String s) {
+//		
+//		String res = "";
+//		
+//		if(s.length() % 2 == 1) {
+//			int idx = s.length() / 2;
+//			res = s.substring(idx, idx+1);
+//		} else {
+//			int idx = s.length() / 2;
+//			res = s.substring(idx-1, idx+1);
+//		}
+//		return res;
+//	}
 
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
