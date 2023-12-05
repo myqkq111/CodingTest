@@ -2801,13 +2801,36 @@ public class Level_1_Method {
 	
 	
 
+	//73. ÆùÄÏ¸ó
+//	public int solution(int[] nums) {
+//		
+//		Set<Integer> set = new HashSet<Integer>();
+//		
+//		for(int i = 0; i < nums.length; i++) {
+//			set.add(nums[i]);
+//		}
+//		int a = set.size();
+//		int b = nums.length / 2;
+//		int res;
+//		
+//		if(a > b) {
+//			res = b;
+//		} else {
+//			res = a;
+//		}
+//		return res;
+//	}
+
 	
 	
 	
 	
 	
+	//--------------------------------------------------------------------------
 	
 	
+	
+
 	
 	
 	
