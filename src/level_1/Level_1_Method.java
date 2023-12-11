@@ -2830,9 +2830,6 @@ public class Level_1_Method {
 	
 	
 	
-
-	
-	
 	
 	
 	
