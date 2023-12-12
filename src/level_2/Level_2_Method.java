@@ -63,7 +63,16 @@ public class Level_2_Method {
 	
 	
 	
-	
+	//3. 최솟값 만들기
+	public int solution(int[] A, int[] B) {
+		
+		Arrays.sort(A);
+		Arrays.sort(B, Comparator.reverseOrder());
+		
+		List<Integer> list = new ArrayList<Integer>();
+		list.sort(c);
+		
+	}
 	
 	
 	
