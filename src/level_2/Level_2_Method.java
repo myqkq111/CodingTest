@@ -63,18 +63,32 @@ public class Level_2_Method {
 	
 	
 	
-	//3. 최솟값 만들기
-	public int solution(int[] A, int[] B) {
-		
-		Arrays.sort(A);
-		Arrays.sort(B, Comparator.reverseOrder());
-		
-		List<Integer> list = new ArrayList<Integer>();
-		list.sort(c);
-		
-	}
+	//3. 올바른 괄호
+//	boolean solution(String s) {
+//		
+//		boolean res = false;
+//		int left = 0;
+//		int right = 0;
+//		
+//		for(int i = 0; i < s.length(); i++) {
+//			if(s.charAt(i) == '(') {
+//				left++;
+//			} else {
+//				right++;
+//			}
+//		}
+//		if(left == right) {
+//			res = true;
+//		}
+//		return res;
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
