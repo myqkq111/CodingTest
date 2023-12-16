@@ -94,8 +94,38 @@ public class Level_2_Method {
 	
 	
 	
+	//4. 이진 변환 반복하기
+//	public int[] solution(String s) {
+//		
+//		int[] res = {0,0};
+//		
+//		while(true) {
+//			StringBuffer sb = new StringBuffer(s);
+//			
+//			for(int i = sb.length()-1; i >= 0; i--) {
+//				if(sb.charAt(i) == '0') {
+//					sb.deleteCharAt(i);
+//					res[1]++;
+//				}
+//			}
+//			int str = sb.toString().length();
+//			
+//			s = Integer.toBinaryString(str);
+//			res[0]++;
+//			
+//			if(s.equals("1")) {
+//				break;
+//			}
+//		}
+//		return res;
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
