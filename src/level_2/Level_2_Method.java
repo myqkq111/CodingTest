@@ -131,8 +131,35 @@ public class Level_2_Method {
 	
 	
 	
+	//5. 숫자의 표현
+//	public int solution(int n) {
+//		
+//		int res = 0;
+//		int su = 1;
+//		
+//		while(su <= n) {
+//			int sum = 0;
+//			for(int i = su; i <= n; i++) {
+//				sum += i;
+//				if(sum == n) {
+//					res++;
+//					su++;
+//					break;
+//				} else if(sum > n) {
+//					su++;
+//					break;
+//				}
+//			}
+//		}
+//		return res;
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
