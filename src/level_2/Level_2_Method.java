@@ -165,6 +165,61 @@ public class Level_2_Method {
 	
 	
 	
+	//6. 다음 큰 숫자
+//	public int solution(int n) {
+//		
+//		String str1 = Integer.toBinaryString(n);
+//		int su1 = 0;
+//		for(int i = 0; i < str1.length(); i++) {
+//			if(str1.charAt(i) == '1') {
+//				su1++;
+//			}
+//		}
+//		
+//		while(true) {
+//			n += 1;
+//			String str2 = Integer.toBinaryString(n);
+//			int su2 = 0;
+//			for(int i = 0; i < str2.length(); i++) {
+//				if(str2.charAt(i) == '1') {
+//					su2++;
+//				}
+//			}
+//			if(su1 == su2) {
+//				break;
+//			}
+//		}
+//		return n;
+//	}
+
+	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
