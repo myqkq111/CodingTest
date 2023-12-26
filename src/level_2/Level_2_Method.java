@@ -222,7 +222,60 @@ public class Level_2_Method {
 	
 	
 	
+	//-------------------------------------------------------------------------- 
+	
+	
+	
+	
+	
+	//8. 짝지어 제거하기
+//	public int solution(String s) {
+//		
+//		int res;
+//		StringBuffer sb = new StringBuffer(s);
+//		
+//		w:while(true) {
+//			for(int i = 1; i < sb.length(); i++) {
+//				if(sb.charAt(i) == sb.charAt(i-1)) {
+//					sb.deleteCharAt(i);
+//					sb.deleteCharAt(i-1);
+//					
+//					if(sb.length() == 0) {
+//						res = 1;
+//						break w;
+//					} else {
+//						continue w;
+//					}
+//				} 
+//			}
+//			res = 0;
+//			break;
+//		}
+//		return res;
+//	}
+
+	
+	
+	
+	
+	
 	//--------------------------------------------------------------------------
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
