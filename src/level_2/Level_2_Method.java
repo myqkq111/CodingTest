@@ -295,8 +295,51 @@ public class Level_2_Method {
 	
 	
 	
+	//10. 영어 끝말잇기
+//	public int[] solution(int n, String[] words) {
+//		
+//		int[] res = {0,0};
+//		int count = 1;
+//		int length = 0;
+//		
+//		w:while(true) {
+//			for(int i = 1; i <= n; i++) {
+//				if(length == 0) {
+//					length++;
+//				} else {
+//					char end = words[length-1].charAt(words[length-1].length()-1);
+//					char start = words[length].charAt(0);
+//					if(end == start) {
+//						for(int j = 0; j < length; j++) {
+//							if(words[j].equals(words[length])) {
+//								res[0] = i;
+//								res[1] = count;
+//								break w;
+//							}
+//						}
+//					} else {
+//						res[0] = i;
+//						res[1] = count;
+//						break w;
+//					}
+//					if(length < words.length-1) {
+//						length++;
+//					} else {
+//						break w;
+//					}
+//				}
+//			}
+//			count++;
+//		}
+//		return res;
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
