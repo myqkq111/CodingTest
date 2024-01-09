@@ -372,8 +372,31 @@ public class Level_2_Method {
 	
 	
 	
+	//12. 구명보트
+//	public int solution(int[] people, int limit) {
+//		
+//		int res = 0;
+//
+//	    Arrays.sort(people);
+//
+//	    int j = 0;
+//
+//	    for (int i = people.length - 1; j <= i; i--){
+//	      if (people[j] + people[i] <= limit) {
+//	    	  j++;
+//	      }
+//	      res++;
+//	    }
+//
+//	    return res;	
+//	}
+
 	
 	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
