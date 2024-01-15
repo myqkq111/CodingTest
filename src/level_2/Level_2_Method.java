@@ -439,7 +439,31 @@ public class Level_2_Method {
 	
 	
 	
+	//14. n개의 최소공배수
+//	public int solution(int[] arr) {
+//		
+//		int res;
+//		int su = 0;
+//		
+//		w:while(true) {
+//			su += arr[0];
+//			for(int i = 1; i < arr.length; i++) {
+//				if(su % arr[i] != 0) {
+//					continue w;
+//				}
+//			}
+//			res = su;
+//			break;
+//		}
+//		return res;
+//	}
+
 	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
