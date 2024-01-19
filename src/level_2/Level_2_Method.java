@@ -501,7 +501,47 @@ public class Level_2_Method {
 	
 	
 	
+	//16. ±Ö °í¸£±â
+//	public int solution(int k, int[] tangerine) {
+//		
+//		int res = 0;
+//        ArrayList<Integer> list = new ArrayList<>();
+//        
+//        Arrays.sort(tangerine);
+//        
+//        int su = 0;
+//        
+//        for (int i = 0; i < tangerine.length; i++) {
+//            su++;
+//            
+//            if ((i < tangerine.length - 1 && tangerine[i] != tangerine[i+1])
+//                || (i == tangerine.length - 1 && su > 0)) {
+//                
+//                list.add(su);
+//                su = 0;
+//            }
+//        }
+//        
+//        Collections.sort(list, Collections.reverseOrder());
+//        
+//        for (int i : list) {
+//            res++;
+//            k -= i;
+//            
+//            if (k <= 0) {
+//                break;
+//            }
+//        }
+//        
+//        return res;
+//	}
+
 	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
