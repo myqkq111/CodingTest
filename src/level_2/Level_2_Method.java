@@ -551,23 +551,36 @@ public class Level_2_Method {
 	
 	
 	//17. 연속된 부분 수열 합의 개수
-	public int solution(int[] elements) {      
-        
-        int size = 1;
-        Set<Integer> set = new HashSet<>();
-       
-        while (size <= elements.length) {
-            int sum = 0;
-        
-            for (int i = 0; i < size; i++) {
-                sum += elements[i % elements.length];
-                set.add(sum);
-            }
+//	public int solution(int[] elements) {      
+//        
+//        int size = 1;
+//        Set<Integer> set = new HashSet<>();
+//       
+//        while (size <= elements.length) {
+//            int sum = 0;
+//        
+//            for (int i = 0; i < size; i++) {
+//                sum += elements[i % elements.length];
+//                set.add(sum);
+//            }
+//         
+//            for (int i = 0; i < elements.length; i++) {
+//                sum -= elements[i % elements.length];
+//                sum += elements[(i + size) % elements.length];
+//                set.add(sum);
+//            }
+//            size++;
+//        }
+//        
+//        return set.size();
+//    }
 
-        }
-       
-    }
 	
+	
+	
+	
+	
+	//--------------------------------------------------------------------------
 	
 	
 	
